@@ -1,0 +1,59 @@
+name: TypeScript CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  preCheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Filter path
+        uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            srcPath:
+            - 'src/**'
+    outputs:
+      isExecute: ${{ steps.filter.outputs.srcPath }}
+  unitTest:
+    needs: preCheck
+    if: ${{ needs.preCheck.outputs.isExecute == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Commit records
+        run: |
+          echo "THE LAST COMMIT RECORDS"
+          git log --pretty=format:'%Cgreen%h %Creset| %Cblueauthor: %Cred%<(15,trunc)%an %Creset| %Cbluecommitter: %Cred%<(15,trunc)%cn %Creset| %Cbluedate: %Cred%ad %Creset| %Cbluemessage: %Cred%<(60,trunc)%s' --date=format:'%Y-%m-%d %H:%M:%S' -1
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 7.12.2
+
+      - name: Install dependencies
+        run: |
+          pnpm install
+
+      - name: Run tests
+        run: |
+          pnpm run coverage
+          ls -al coverage
+
+      - name: Upload coverage to  codecov
+        run: curl -s https://codecov.io/bash | bash
