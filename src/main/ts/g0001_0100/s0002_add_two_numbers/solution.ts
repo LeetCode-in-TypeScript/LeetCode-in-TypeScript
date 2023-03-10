@@ -1,3 +1,7 @@
+// #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Math #Linked_List #Recursion
+// #Data_Structure_II_Day_10_Linked_List #Programming_Skills_II_Day_15
+// #2023_03_10_Time_106_ms_(79.11%)_Space_48.6_MB_(31.94%)
+
 class ListNode {
   public val: number | null;
   public next: ListNode | null;
@@ -8,6 +12,17 @@ class ListNode {
   }
 }
 
+/*
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     val: number
+ *     next: ListNode | null
+ *     constructor(val?: number, next?: ListNode | null) {
+ *         this.val = (val===undefined ? 0 : val)
+ *         this.next = (next===undefined ? null : next)
+ *     }
+ * }
+ */
 function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
   const result = new ListNode(null);
   let next = result;
