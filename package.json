@@ -1,0 +1,45 @@
+{
+  "name": "LeetCode-in-TypeScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:ts": "tslint -c tslint.json 'src/**/*.ts'",
+    "lint:fixts": "tslint -c tslint.json 'src/**/*.ts' --fix",
+    "prettier": "prettier -c --write ./src",
+    "build": "rm -rf ./dist && tsc",
+    "precommit": "lint-staged",
+    "prepare": "husky install",
+    "execute": "ts-node",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LeetCode-in-TypeScript/LeetCode-in-TypeScript.git"
+  },
+  "author": "javadev",
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,json,md}": "prettier --write"
+  },
+  "dependencies": {
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@vitest/coverage-istanbul": "^0.23.4",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.1",
+    "prettier": "^2.6.2",
+    "ts-lint": "^4.5.1",
+    "ts-node": "^10.9.1",
+    "vitest": "^0.23.4"
+  }
+}

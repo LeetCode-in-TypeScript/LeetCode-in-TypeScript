@@ -1,0 +1,149 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {
+  },
+  "rules": {
+    "array-type": [
+      true,
+      "array"
+    ],
+    "arrow-parens": [
+      true
+    ],
+    "curly": true,
+    "comment-format": [
+      true,
+      "check-space"
+    ],
+    "default-imported": [
+      false
+    ],
+    "eofline": true,
+    "import-blacklist": [
+      true
+    ],
+    "import-spacing": [
+      true
+    ],
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "linebreak-style": [
+      true,
+      "LF"
+    ],
+    "max-classes-per-file": [
+      true,
+      1
+    ],
+    "max-line-length": [
+      true,
+      140
+    ],
+    "no-arg": [
+      true
+    ],
+    "no-conditional-assignment": [
+      true
+    ],
+    "no-bitwise": [
+      false
+    ],
+    "no-console": [
+      false
+    ],
+    "no-debugger": [
+      true
+    ],
+    "no-empty": [
+      true,
+      "allow-empty-catch"
+    ],
+    "no-eval": [
+      0
+    ],
+    "no-magic-numbers": [
+      false,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "no-return-await": [
+      true
+    ],
+    "no-string-literal": [
+      true
+    ],
+    "no-string-throw": [
+      true
+    ],
+    "no-switch-case-fall-through": [
+      true
+    ],
+    "no-var-keyword": [
+      true
+    ],
+    "no-var-requires": [
+      false
+    ],
+    "object-curly-spacing": [
+      true
+    ],
+    "object-literal-shorthand": [
+      true
+    ],
+    "prefer-const": [
+      true
+    ],
+    "prefer-for-of": [
+      false
+    ],
+    "prefer-template": [
+      true
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "radix": [
+      true
+    ],
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "space-before-function-paren": [
+      false
+    ],
+    "space-within-parens": [
+      true
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "singleline": "never",
+        "multiline": {
+          "objects": "always",
+          "arrays": "always",
+          "functions": "always",
+          "typeLiterals": "always"
+        }
+      }
+    ],
+    "typedef-whitespace": [
+      true
+    ],
+    "use-isnan": [
+      true
+    ]
+  },
+  "rulesDirectory": [
+  ]
+}
