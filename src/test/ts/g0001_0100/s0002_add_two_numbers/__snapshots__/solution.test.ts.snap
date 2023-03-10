@@ -1,0 +1,17 @@
+// Vitest Snapshot v1
+
+exports[`add_two_numbers > should be worked well 1`] = `
+ListNode {
+  "next": ListNode {
+    "next": ListNode {
+      "next": ListNode {
+        "next": null,
+        "val": 1,
+      },
+      "val": 3,
+    },
+    "val": 0,
+  },
+  "val": 2,
+}
+`;
