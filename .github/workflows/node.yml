@@ -28,8 +28,9 @@ jobs:
     if: ${{ needs.preCheck.outputs.isExecute == 'true' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Commit records
         run: |
