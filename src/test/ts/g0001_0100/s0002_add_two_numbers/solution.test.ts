@@ -1,13 +1,17 @@
 // tslint:disable:no-magic-numbers
 import { addTwoNumbers, ListNode } from 'src/main/ts/g0001_0100/s0002_add_two_numbers/solution';
-import { describe, expect, test } from 'vitest';
+import { expect, test } from 'vitest';
 
-const l11 = new ListNode(6, null);
-const l12 = new ListNode(5, l11);
-const l13 = new ListNode(1, l12);
+test('addTwoNumbers', () => {
+  expect(
+    addTwoNumbers(new ListNode(2, new ListNode(4, new ListNode(3))), new ListNode(5, new ListNode(6, new ListNode(4)))),
+  ).toEqual(new ListNode(7, new ListNode(0, new ListNode(8))));
+});
 
-describe('add_two_numbers', () => {
-  test('should be worked well', () => {
-    expect(addTwoNumbers(l13, l13)).toMatchSnapshot();
-  });
+test('addTwoNumbers2', () => {
+  expect(new ListNode(7).val).toEqual(7);
+});
+
+test('addTwoNumbers3', () => {
+  expect(addTwoNumbers(new ListNode(5), new ListNode(5))).toEqual(new ListNode(0, new ListNode(1)));
 });

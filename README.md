@@ -5,8 +5,9 @@
 [![](https://img.shields.io/github/stars/LeetCode-in-TypeScript/LeetCode-in-TypeScript?style=flat-square)](https://github.com/LeetCode-in-TypeScript/LeetCode-in-TypeScript)
 [![](https://img.shields.io/github/forks/LeetCode-in-TypeScript/LeetCode-in-TypeScript?style=flat-square)](https://github.com/LeetCode-in-TypeScript/LeetCode-in-TypeScript/fork)
 
-
 TypeScript Solution for LeetCode algorithm problems, continually updating
+
+> ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
 
 ## Contributing
 Your ideas/fixes/algorithms are more than welcome!
