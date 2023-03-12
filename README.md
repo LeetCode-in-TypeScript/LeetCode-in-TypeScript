@@ -2,6 +2,9 @@
 
 [![MIT License](http://img.shields.io/badge/license-MIT-green.svg) ](https://github.com/LeetCode-in-TypeScript/LeetCode-in-TypeScript/blob/main/LICENSE)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LeetCode-in-TypeScript&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LeetCode-in-TypeScript)
+[![](https://img.shields.io/github/stars/LeetCode-in-TypeScript/LeetCode-in-TypeScript?style=flat-square)](https://github.com/LeetCode-in-TypeScript/LeetCode-in-TypeScript)
+[![](https://img.shields.io/github/forks/LeetCode-in-TypeScript/LeetCode-in-TypeScript?style=flat-square)](https://github.com/LeetCode-in-TypeScript/LeetCode-in-TypeScript/fork)
+
 
 TypeScript Solution for LeetCode algorithm problems, continually updating
 
