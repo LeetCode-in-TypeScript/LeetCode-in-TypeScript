@@ -215,7 +215,7 @@ TypeScript Solution for LeetCode algorithm problems, continually updating
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0001 |[Two Su](src/main/ts/g0001_0100/s0001_two_sum/solution.ts)| Data_Structure_I_Day_2_Array || 66 | 93.20
+| 0001 |[Two Sum](src/main/ts/g0001_0100/s0001_two_sum/solution.ts)| Data_Structure_I_Day_2_Array || 66 | 93.20
 
 #### Day 14 Stack
 
@@ -350,7 +350,7 @@ TypeScript Solution for LeetCode algorithm problems, continually updating
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0001 |[Two Su](src/main/ts/g0001_0100/s0001_two_sum/solution.ts)| Data_Structure_I_Day_2_Array || 66 | 93.20
+| 0001 |[Two Sum](src/main/ts/g0001_0100/s0001_two_sum/solution.ts)| Data_Structure_I_Day_2_Array || 66 | 93.20
 
 #### Udemy Two Pointers
 
@@ -423,7 +423,7 @@ TypeScript Solution for LeetCode algorithm problems, continually updating
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0001 |[Two Su](src/main/ts/g0001_0100/s0001_two_sum/solution.ts)| Data_Structure_I_Day_2_Array || 66 | 93.20
+| 0001 |[Two Sum](src/main/ts/g0001_0100/s0001_two_sum/solution.ts)| Data_Structure_I_Day_2_Array || 66 | 93.20
 
 #### Day 3 Array
 
@@ -536,7 +536,7 @@ TypeScript Solution for LeetCode algorithm problems, continually updating
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0002 |[Add Two Number](src/main/ts/g0001_0100/s0002_add_two_numbers/solution.ts)| Data_Structure_II_Day_10_Linked_List || 106 | 79.11
+| 0002 |[Add Two Numbers](src/main/ts/g0001_0100/s0002_add_two_numbers/solution.ts)| Data_Structure_II_Day_10_Linked_List || 106 | 79.11
 
 #### Day 11 Linked List
 
@@ -1181,7 +1181,7 @@ TypeScript Solution for LeetCode algorithm problems, continually updating
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0002 |[Add Two Number](src/main/ts/g0001_0100/s0002_add_two_numbers/solution.ts)| Data_Structure_II_Day_10_Linked_List || 106 | 79.11
+| 0002 |[Add Two Numbers](src/main/ts/g0001_0100/s0002_add_two_numbers/solution.ts)| Data_Structure_II_Day_10_Linked_List || 106 | 79.11
 
 #### Day 16
 
@@ -1212,8 +1212,8 @@ TypeScript Solution for LeetCode algorithm problems, continually updating
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
-| 0002 |[Add Two Number](src/main/ts/g0001_0100/s0002_add_two_numbers/solution.ts)| Data_Structure_II_Day_10_Linked_List | Programming_Skills_II_Day_15 | 106 | 79.11
-| 0001 |[Two Su](src/main/ts/g0001_0100/s0001_two_sum/solution.ts)| Data_Structure_I_Day_2_Array | Level_1_Day_13_Hashmap, Udemy_Arrays | 66 | 93.20
+| 0002 |[Add Two Numbers](src/main/ts/g0001_0100/s0002_add_two_numbers/solution.ts)| Data_Structure_II_Day_10_Linked_List | Programming_Skills_II_Day_15 | 106 | 79.11
+| 0001 |[Two Sum](src/main/ts/g0001_0100/s0001_two_sum/solution.ts)| Data_Structure_I_Day_2_Array | Level_1_Day_13_Hashmap, Udemy_Arrays | 66 | 93.20
 
 ## Contributing
 Your ideas/fixes/algorithms are more than welcome!
