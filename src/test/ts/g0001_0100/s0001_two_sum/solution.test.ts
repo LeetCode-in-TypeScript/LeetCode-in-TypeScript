@@ -1,6 +1,6 @@
 // tslint:disable:no-magic-numbers
 import { twoSum } from 'src/main/ts/g0001_0100/s0001_two_sum/solution';
-import { describe, expect, test } from 'vitest';
+import { expect, test } from 'vitest';
 
 test('twoSum', () => {
   expect(twoSum([2, 7, 11, 15], 9)).toEqual([0, 1]);
