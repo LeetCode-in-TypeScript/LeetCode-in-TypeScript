@@ -1,4 +1,7 @@
 # LeetCode-in-TypeScript
+
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LeetCode-in-TypeScript&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LeetCode-in-TypeScript)
+
 TypeScript Solution for LeetCode algorithm problems, continually updating
 
 ## Contributing
