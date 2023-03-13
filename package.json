@@ -6,7 +6,7 @@
   "scripts": {
     "lint:ts": "tslint -c tslint.json 'src/**/*.ts'",
     "lint:fixts": "tslint -c tslint.json 'src/**/*.ts' --fix",
-    "prettier": "prettier -c --write ./src",
+    "prettier": "prettier -c --write ./src/**/*.ts",
     "build": "rm -rf ./dist && tsc",
     "precommit": "lint-staged",
     "prepare": "husky install",

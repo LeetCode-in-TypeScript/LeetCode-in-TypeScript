@@ -3,18 +3,18 @@
 // #2023_03_10_Time_66_ms_(93.20%)_Space_45.6_MB_(23.43%)
 
 interface ITemp {
-  [key: number]: number;
+    [key: number]: number
 }
 
 function twoSum(nums: number[], target: number): number[] {
-  const temp: ITemp = {};
-  for (let i = 0; i < nums.length; i++) {
-    const tag = target - nums[i];
-    if (temp[tag] >= 0) {
-      return [temp[tag], i];
+    const temp: ITemp = {}
+    for (let i = 0; i < nums.length; i++) {
+        const tag = target - nums[i]
+        if (temp[tag] >= 0) {
+            return [temp[tag], i]
+        }
+        temp[nums[i]] = i
     }
-    temp[nums[i]] = i;
-  }
 }
 
-export { twoSum };
+export { twoSum }
