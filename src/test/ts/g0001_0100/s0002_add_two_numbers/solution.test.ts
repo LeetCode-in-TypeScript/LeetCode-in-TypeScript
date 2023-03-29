@@ -1,5 +1,5 @@
 // tslint:disable:no-magic-numbers
-import { ListNode } from '../../../../main/ts/com_github_leetcode/listnode'
+import { ListNode } from 'src/main/ts/com_github_leetcode/listnode'
 import { addTwoNumbers } from 'src/main/ts/g0001_0100/s0002_add_two_numbers/solution'
 import { expect, test } from 'vitest'
 
