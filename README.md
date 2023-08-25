@@ -1137,6 +1137,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0007 |[Reverse Integer](src/main/ts/g0001_0100/s0007_reverse_integer/solution.ts)| Medium | Top_Interview_Questions, Math | 56 | 95.68
+| 0009 |[Palindrome Number](src/main/ts/g0001_0100/s0009_palindrome_number/solution.ts)| Easy | Math | 137 | 88.64
 
 #### Udemy Strings
 
@@ -1200,6 +1201,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0010 |[Regular Expression Matching](src/main/ts/g0001_0100/s0010_regular_expression_matching/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Recursion | 69 | 92.65
 
 #### Udemy Backtracking/Recursion
 
@@ -1220,6 +1222,8 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 0010 |[Regular Expression Matching](src/main/ts/g0001_0100/s0010_regular_expression_matching/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Recursion, Udemy_Dynamic_Programming | 69 | 92.65
+| 0009 |[Palindrome Number](src/main/ts/g0001_0100/s0009_palindrome_number/solution.ts)| Easy | Math, Udemy_Integers | 137 | 88.64
 | 0008 |[String to Integer (atoi)](src/main/ts/g0001_0100/s0008_string_to_integer_atoi/solution.ts)| Medium | Top_Interview_Questions, String | 56 | 99.01
 | 0007 |[Reverse Integer](src/main/ts/g0001_0100/s0007_reverse_integer/solution.ts)| Medium | Top_Interview_Questions, Math, Udemy_Integers | 56 | 95.68
 | 0006 |[Zigzag Conversion](src/main/ts/g0001_0100/s0006_zigzag_conversion/solution.ts)| Medium | String | 80 | 93.13
