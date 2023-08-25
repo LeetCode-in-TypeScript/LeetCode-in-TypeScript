@@ -17,7 +17,6 @@ function isMatch(s: string, p: string): boolean {
         for (let j = 1; j < result[0].length; j++) {
             const sChar = s[i - 1]
             const pChar = p[j - 1]
-
             if (sChar === pChar || pChar === '.') {
                 result[i][j] = result[i - 1][j - 1]
             } else if (pChar === '*') {
