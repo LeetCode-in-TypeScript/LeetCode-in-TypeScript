@@ -1,5 +1,5 @@
 // #Hard #Top_100_Liked_Questions #Top_Interview_Questions #Array #Binary_Search #Divide_and_Conquer
-// #2023_03_16_Time_93_ms_(97.16%)_Space_49.5_MB_(18.04%)
+// #2023_08_26_Time_86_ms_(92.15%)_Space_48.3_MB_(59.73%)
 
 function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
     const nums = nums1.concat(nums2)
