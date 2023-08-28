@@ -4,10 +4,10 @@
 
 import { ListNode } from '../../com_github_leetcode/listnode'
 
-let n: number
+let localN: number
 
 function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
-    this.n = n
+    localN = n
     const dummy = new ListNode(0)
     dummy.next = head
     removeNth(dummy)
@@ -19,9 +19,9 @@ function removeNth(node: ListNode | null): void {
         return
     }
     removeNth(node.next)
-    this.n--
+    localN--
 
-    if (this.n === 0) {
+    if (localN === 0) {
         node.next = node.next?.next || null
     }
 }
