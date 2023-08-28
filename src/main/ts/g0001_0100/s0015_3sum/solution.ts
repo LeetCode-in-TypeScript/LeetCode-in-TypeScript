@@ -2,7 +2,7 @@
 // #Data_Structure_II_Day_1_Array #Algorithm_II_Day_3_Two_Pointers #Udemy_Two_Pointers
 // #2023_08_28_Time_148_ms_(92.62%)_Space_59.1_MB_(70.24%)
 
-function threeSum(nums: number[]): number[][] {
+function threeSum(nums: number[]): number[][] { //NOSONAR
     nums.sort((a, b) => a - b)
     const len = nums.length
     const result: number[][] = []
@@ -31,7 +31,7 @@ function threeSum(nums: number[]): number[][] {
             }
         }
         while (i < len - 1 && nums[i + 1] === nums[i]) {
-            i++
+            i++ //NOSONAR
         }
     }
     return result

@@ -15,14 +15,14 @@ function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
 }
 
 function removeNth(node: ListNode | null): void {
-    if (!node || !node.next) {
+    if (!node || !node.next) { //NOSONAR
         return
     }
     removeNth(node.next)
     localN--
 
     if (localN === 0) {
-        node.next = node.next?.next || null
+        node.next = node.next?.next || null //NOSONAR
     }
 }
 
