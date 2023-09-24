@@ -33,15 +33,15 @@ function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
     let i = 0
     // Traverse the while loop for K times to reverse the nodes in K groups.
     while (i !== k) {
-        n = c!.next
-        c!.next = prev
+        n = c.next
+        c.next = prev
         prev = c
         c = n
         i++
     }
     // 'head' now points to the last node of the reversed K-group.
     // Recursion for further remaining linked list.
-    head!.next = reverseKGroup(n, k)
+    head.next = reverseKGroup(n, k)
     return prev
 }
 

@@ -53,14 +53,12 @@ function mergeTwoLists(left: ListNode | null, right: ListNode | null): ListNode 
         } else if (right === null) {
             node.next = left
             left = left.next
+        } else if (left.val <= right.val) {
+            node.next = left
+            left = left.next
         } else {
-            if (left.val <= right.val) {
-                node.next = left
-                left = left.next
-            } else {
-                node.next = right
-                right = right.next
-            }
+            node.next = right
+            right = right.next
         }
         node = node.next
     }

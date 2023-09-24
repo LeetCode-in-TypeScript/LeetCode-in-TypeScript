@@ -40,12 +40,12 @@ function reverse(head: ListNode | null, len: number): ListNode | null {
     let next: ListNode | null
     for (let i = 0; i < 2; i++) {
         // reverse linked list code
-        next = curr!.next
-        curr!.next = prev
+        next = curr.next
+        curr.next = prev
         prev = curr
         curr = next
     }
-    head!.next = reverse(curr, len - 2)
+    head.next = reverse(curr, len - 2)
     return prev
 }
 
