@@ -47,10 +47,7 @@ function mergeTwoLists(left: ListNode | null, right: ListNode | null): ListNode 
     }
     let node = res
     while (left !== null || right !== null) {
-        if (left === null) {
-            node.next = right
-            right = right.next
-        } else if (right === null || left.val <= right.val) {
+        if (right === null || left.val <= right.val) {
             node.next = left
             left = left.next
         } else {
