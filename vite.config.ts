@@ -8,7 +8,7 @@ export default defineConfig({
     maxThreads: 5,
     minThreads: 1,
     coverage: {
-      include: ['src/**/*.ts'],
+      include: ['src/main/**/*.ts'],
       reporter: ['text', 'lcov'],
     },
   },
