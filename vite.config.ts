@@ -8,6 +8,7 @@ export default defineConfig({
     maxThreads: 5,
     minThreads: 1,
     coverage: {
+      exclude: [],
       reporter: ['text', 'lcov'],
     },
   },
