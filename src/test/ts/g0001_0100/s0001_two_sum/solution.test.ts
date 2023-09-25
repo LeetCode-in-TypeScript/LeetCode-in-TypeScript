@@ -14,6 +14,6 @@ test('twoSum3', () => {
     expect(twoSum([3, 3], 6)).toEqual([0, 1])
 })
 
-test('twoSum4', () => {
+test('twoSum5', () => {
     expect(twoSum([3, 3], 7)).toEqual(undefined)
 })
