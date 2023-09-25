@@ -5,7 +5,7 @@ export default defineConfig({
   test: {
     include: ['**/*.{test,spec}.{ts,js}'],
     reporters: ['verbose'],
-    maxThreads: 1,
+    maxThreads: 5,
     minThreads: 1,
     coverage: {
       include: ['src/**/*.ts'],
