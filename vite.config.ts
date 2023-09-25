@@ -8,7 +8,6 @@ export default defineConfig({
     maxThreads: 1,
     minThreads: 1,
     coverage: {
-      provider: 'istanbul',
       include: ['src/**/*.ts'],
       reporter: ['text', 'lcov'],
     },
