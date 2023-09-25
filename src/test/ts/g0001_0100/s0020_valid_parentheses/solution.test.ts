@@ -18,6 +18,6 @@ test('isValid4', () => {
     expect(isValid('([)]')).toEqual(false)
 })
 
-test('isValid5', () => {
+test('isValid6', () => {
     expect(isValid('{[]}')).toEqual(true)
 })
