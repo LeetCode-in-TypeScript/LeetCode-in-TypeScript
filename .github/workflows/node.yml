@@ -7,40 +7,17 @@ on:
     branches: [ main ]
 
 jobs:
-  preCheck:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: Filter path
-        uses: dorny/paths-filter@v2
-        id: filter
-        with:
-          filters: |
-            srcPath:
-            - 'src/**'
-    outputs:
-      isExecute: ${{ steps.filter.outputs.srcPath }}
   unitTest:
-    needs: preCheck
-    if: ${{ needs.preCheck.outputs.isExecute == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-
-      - name: Commit records
-        run: |
-          echo "THE LAST COMMIT RECORDS"
-          git log --pretty=format:'%Cgreen%h %Creset| %Cblueauthor: %Cred%<(15,trunc)%an %Creset| %Cbluecommitter: %Cred%<(15,trunc)%cn %Creset| %Cbluedate: %Cred%ad %Creset| %Cbluemessage: %Cred%<(60,trunc)%s' --date=format:'%Y-%m-%d %H:%M:%S' -1
 
       - name: Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: '16.x'
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v2.0.1
