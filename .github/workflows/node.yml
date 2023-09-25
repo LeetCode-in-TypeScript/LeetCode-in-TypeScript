@@ -56,5 +56,11 @@ jobs:
           pnpm run coverage
           ls -al coverage
 
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets. SONARCLOUD_TOKEN }}
+
       - name: Upload coverage to  codecov
         run: curl -s https://codecov.io/bash | bash
