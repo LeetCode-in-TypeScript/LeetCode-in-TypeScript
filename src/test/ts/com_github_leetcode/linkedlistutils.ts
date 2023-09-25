@@ -1,4 +1,4 @@
-﻿import { ListNode } from 'src/main/ts/com_github_leetcode/listnode'
+﻿import { ListNode } from '../../../main/ts/com_github_leetcode/listnode'
 
 function constructLinkedList(nums: number[]): ListNode | null {
     if (!nums || nums.length === 0) {
@@ -14,4 +14,18 @@ function constructLinkedList(nums: number[]): ListNode | null {
     return pre.next
 }
 
-export { constructLinkedList }
+function createSinglyLinkedList(listValues: number[]): ListNode {
+    if (!listValues || listValues.length === 0) {
+        throw new Error("Please pass in a valid listValues to create a singly linked list.");
+    }
+    const head = new ListNode(listValues[0]);
+    let current = head;
+    for (let i = 1; i < listValues.length; i++) {
+        const next = new ListNode(listValues[i]);
+        current.next = next;
+        current = current.next;
+    }
+    return head;
+}
+
+export { constructLinkedList, createSinglyLinkedList }

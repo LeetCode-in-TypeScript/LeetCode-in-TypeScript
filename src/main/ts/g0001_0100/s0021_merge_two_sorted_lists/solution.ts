@@ -3,6 +3,8 @@
 // #Level_1_Day_3_Linked_List #Udemy_Linked_List
 // #2023_08_29_Time_59_ms_(86.77%)_Space_44_MB_(98.03%)
 
+import { ListNode } from '../../com_github_leetcode/listnode'
+
 /**
  * Definition for singly-linked list.
  * class ListNode {
