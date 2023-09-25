@@ -10,6 +10,6 @@ test('mergeTwoLists', () => {
     expect(mergeTwoLists(l1, l2).toString()).toEqual('1, 1, 2, 3, 4, 4')
 })
 
-test('mergeTwoLists3', () => {
+test('mergeTwoLists2', () => {
     expect(mergeTwoLists(new ListNode(), new ListNode()).toString()).toEqual('0, 0')
 })
