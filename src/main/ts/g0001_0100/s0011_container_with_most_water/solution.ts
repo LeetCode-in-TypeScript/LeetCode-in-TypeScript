@@ -1,5 +1,6 @@
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Greedy #Two_Pointers
-// #Algorithm_II_Day_4_Two_Pointers #2023_08_28_Time_57_ms_(98.23%)_Space_50.9_MB_(84.15%)
+// #Algorithm_II_Day_4_Two_Pointers #Big_O_Time_O(n)_Space_O(1)
+// #2023_08_28_Time_57_ms_(98.23%)_Space_50.9_MB_(84.15%)
 
 function maxArea(height: number[]): number {
     let maxArea = -1

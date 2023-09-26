@@ -1,5 +1,6 @@
 // #Hard #Top_100_Liked_Questions #Linked_List #Recursion #Data_Structure_II_Day_13_Linked_List
-// #Udemy_Linked_List #2023_08_29_Time_74_ms_(66.83%)_Space_46.1_MB_(94.47%)
+// #Udemy_Linked_List #Big_O_Time_O(n)_Space_O(k)
+// #2023_08_29_Time_74_ms_(66.83%)_Space_46.1_MB_(94.47%)
 
 /**
  * Definition for singly-linked list.
