@@ -16,16 +16,16 @@ function constructLinkedList(nums: number[]): ListNode | null {
 
 function createSinglyLinkedList(listValues: number[]): ListNode {
     if (!listValues || listValues.length === 0) {
-        throw new Error("Please pass in a valid listValues to create a singly linked list.");
+        throw new Error('Please pass in a valid listValues to create a singly linked list.')
     }
-    const head = new ListNode(listValues[0]);
-    let current = head;
+    const head = new ListNode(listValues[0])
+    let current = head
     for (let i = 1; i < listValues.length; i++) {
-        const next = new ListNode(listValues[i]);
-        current.next = next;
-        current = current.next;
+        const next = new ListNode(listValues[i])
+        current.next = next
+        current = current.next
     }
-    return head;
+    return head
 }
 
 export { constructLinkedList, createSinglyLinkedList }
