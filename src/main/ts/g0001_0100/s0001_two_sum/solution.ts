@@ -1,5 +1,5 @@
 // #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Array #Hash_Table
-// #Data_Structure_I_Day_2_Array #Level_1_Day_13_Hashmap #Udemy_Arrays
+// #Data_Structure_I_Day_2_Array #Level_1_Day_13_Hashmap #Udemy_Arrays #Big_O_Time_O(n)_Space_O(n)
 // #2023_08_26_Time_51_ms_(97.89%)_Space_44.5_MB_(70.23%)
 
 interface ITemp {

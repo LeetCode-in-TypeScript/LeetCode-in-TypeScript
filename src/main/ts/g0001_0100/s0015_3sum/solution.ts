@@ -1,6 +1,6 @@
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Sorting #Two_Pointers
 // #Data_Structure_II_Day_1_Array #Algorithm_II_Day_3_Two_Pointers #Udemy_Two_Pointers
-// #2023_08_28_Time_148_ms_(92.62%)_Space_59.1_MB_(70.24%)
+// #Big_O_Time_O(n^2)_Space_O(1) #2023_08_28_Time_148_ms_(92.62%)_Space_59.1_MB_(70.24%)
 
 function threeSum(nums: number[]): number[][] { //NOSONAR
     nums.sort((a, b) => a - b)

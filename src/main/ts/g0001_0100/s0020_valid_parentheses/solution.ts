@@ -1,5 +1,5 @@
 // #Easy #Top_100_Liked_Questions #Top_Interview_Questions #String #Stack
-// #Data_Structure_I_Day_9_Stack_Queue #Udemy_Strings
+// #Data_Structure_I_Day_9_Stack_Queue #Udemy_Strings #Big_O_Time_O(n)_Space_O(n)
 // #2023_08_28_Time_50_ms_(95.90%)_Space_43.5_MB_(83.27%)
 
 function isValid(s: string): boolean {
