@@ -3,7 +3,7 @@
 // #Udemy_Binary_Search #Big_O_Time_O(log_n)_Space_O(1)
 // #2023_09_27_Time_43_ms_(98.54%)_Space_44.3_MB_(31.85%)
 
-function search(nums: number[], target: number): number {
+function search(nums: number[], target: number): number { //NOSONAR
     let lowEnd: number = 0
     let highEnd: number = nums.length - 1
     while (lowEnd <= highEnd) {
