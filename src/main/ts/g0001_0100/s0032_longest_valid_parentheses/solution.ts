@@ -5,14 +5,12 @@ function longestValidParentheses(s: string): number {
     let open = 0
     let close = 0
     let max = 0
-
-    for (let i = 0; i < s.length; i++) {
-        if (s[i] === '(') {
+    for (let char of s) {
+        if (char === '(') {
             open++
         } else {
             close++
         }
-
         if (open === close) {
             max = Math.max(max, open + close)
         } else if (close > open) {
@@ -20,17 +18,14 @@ function longestValidParentheses(s: string): number {
             close = 0
         }
     }
-
     open = 0
     close = 0
-
     for (let i = s.length - 1; i >= 0; i--) {
         if (s[i] === '(') {
             open++
         } else {
             close++
         }
-
         if (open === close) {
             max = Math.max(max, open + close)
         } else if (open > close) {
@@ -38,7 +33,6 @@ function longestValidParentheses(s: string): number {
             close = 0
         }
     }
-
     return max
 }
 
