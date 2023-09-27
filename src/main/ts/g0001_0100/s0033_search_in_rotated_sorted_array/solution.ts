@@ -17,12 +17,10 @@ function search(nums: number[], target: number): number { //NOSONAR
             } else {
                 lowEnd = half + 1
             }
+        } else if (target >= nums[half] && target <= nums[highEnd]) {
+            lowEnd = half + 1
         } else {
-            if (target >= nums[half] && target <= nums[highEnd]) {
-                lowEnd = half + 1
-            } else {
-                highEnd = half
-            }
+            highEnd = half
         }
     }
     return -1
