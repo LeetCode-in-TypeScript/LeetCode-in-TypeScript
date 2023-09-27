@@ -2,7 +2,7 @@
 // #Algorithm_II_Day_1_Binary_Search #Binary_Search_I_Day_5 #Big_O_Time_O(log_n)_Space_O(1)
 // #2023_09_27_Time_45_ms_(98.05%)_Space_44.5_MB_(54.86%)
 
-function searchRange(nums: number[], target: number): number[] {
+function searchRange(nums: number[], target: number): number[] { //NOSONAR
     let first = -1
     let last = -1
     let left1 = 0
