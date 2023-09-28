@@ -1,6 +1,6 @@
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Math #Linked_List #Recursion
 // #Data_Structure_II_Day_10_Linked_List #Programming_Skills_II_Day_15
-// #Big_O_Time_O(max(N,M))_Space_O(max(N,M)) #2023_08_26_Time_88_ms_(93.29%)_Space_48.2_MB_(57.93%)
+// #Big_O_Time_O(max(N,M))_Space_O(max(N,M)) #2023_09_28_Time_92_ms_(77.86%)_Space_48_MB_(69.29%)
 
 import { ListNode } from '../../com_github_leetcode/listnode'
 
@@ -16,29 +16,29 @@ import { ListNode } from '../../com_github_leetcode/listnode'
  * }
  */
 function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
-    const result = new ListNode(null)
-    let next = result
-    let carryNum = 0
-    let currSum = 0
-    let num1 = 0
-    let num2 = 0
-
-    while (l1 !== null || l2 !== null) {
-        // @ts-ignore
-        num1 = l1 !== null ? l1.val : 0
-        // @ts-ignore
-        num2 = l2 !== null ? l2.val : 0
-        currSum = (num1 + num2 + carryNum) % 10
-        carryNum = Math.floor((num1 + num2 + carryNum) / 10)
-        next.next = new ListNode(currSum)
-        next = next.next
-        l1 = l1 !== null ? l1.next : null
-        l2 = l2 !== null ? l2.next : null
+    const dummyHead: ListNode = new ListNode(0)
+    let p: ListNode | null = l1
+    let q: ListNode | null = l2
+    let curr: ListNode | null = dummyHead
+    let carry: number = 0
+    while (p !== null || q !== null) {
+        const x: number = p !== null ? p.val : 0
+        const y: number = q !== null ? q.val : 0
+        const sum: number = carry + x + y
+        carry = Math.floor(sum / 10)
+        curr.next = new ListNode(sum % 10)
+        curr = curr.next
+        if (p !== null) {
+            p = p.next
+        }
+        if (q !== null) {
+            q = q.next
+        }
     }
-    if (carryNum) {
-        next.next = new ListNode(carryNum)
+    if (carry > 0) {
+        curr.next = new ListNode(carry)
     }
-    return result.next
+    return dummyHead.next
 }
 
 export { addTwoNumbers }
