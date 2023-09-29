@@ -246,6 +246,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0438 |[Find All Anagrams in a String](src/main/ts/g0401_0500/s0438_find_all_anagrams_in_a_string/solution.ts)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n+m)_Space_O(1) | 69 | 96.69
 
 #### Day 6 Breadth First Search Depth First Search
 
@@ -731,6 +732,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0438 |[Find All Anagrams in a String](src/main/ts/g0401_0500/s0438_find_all_anagrams_in_a_string/solution.ts)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n+m)_Space_O(1) | 69 | 96.69
 
 #### Day 13
 
@@ -959,6 +961,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0438 |[Find All Anagrams in a String](src/main/ts/g0401_0500/s0438_find_all_anagrams_in_a_string/solution.ts)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n+m)_Space_O(1) | 69 | 96.69
 
 #### Day 13 Hashmap
 
@@ -1013,6 +1016,8 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0543 |[Diameter of Binary Tree](src/main/ts/g0501_0600/s0543_diameter_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 61 | 80.89
+| 0437 |[Path Sum III](src/main/ts/g0401_0500/s0437_path_sum_iii/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 68 | 86.71
 
 #### Day 8 Binary Search
 
@@ -1044,6 +1049,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0416 |[Partition Equal Subset Sum](src/main/ts/g0401_0500/s0416_partition_equal_subset_sum/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Big_O_Time_O(n*sums)_Space_O(n*sums) | 91 | 74.38
 
 #### Day 14 Sliding Window/Two Pointer
 
@@ -1143,6 +1149,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0543 |[Diameter of Binary Tree](src/main/ts/g0501_0600/s0543_diameter_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 61 | 80.89
 
 #### Udemy Trie and Heap
 
@@ -1262,6 +1269,11 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0739 |[Daily Temperatures](src/main/ts/g0701_0800/s0739_daily_temperatures/solution.ts)| Medium | Top_100_Liked_Questions, Array, Stack, Monotonic_Stack, Programming_Skills_II_Day_6, Big_O_Time_O(n)_Space_O(n) | 194 | 97.36
 | 0647 |[Palindromic Substrings](src/main/ts/g0601_0700/s0647_palindromic_substrings/solution.ts)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n) | 60 | 89.76
 | 0560 |[Subarray Sum Equals K](src/main/ts/g0501_0600/s0560_subarray_sum_equals_k/solution.ts)| Medium | Top_100_Liked_Questions, Array, Hash_Table, Prefix_Sum, Data_Structure_II_Day_5_Array, Big_O_Time_O(n)_Space_O(n) | 70 | 92.45
+| 0543 |[Diameter of Binary Tree](src/main/ts/g0501_0600/s0543_diameter_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Level_2_Day_7_Tree, Udemy_Tree_Stack_Queue, Big_O_Time_O(n)_Space_O(n) | 61 | 80.89
+| 0494 |[Target Sum](src/main/ts/g0401_0500/s0494_target_sum/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Backtracking, Big_O_Time_O(n*(sum+s))_Space_O(n*(sum+s)) | 77 | 81.99
+| 0438 |[Find All Anagrams in a String](src/main/ts/g0401_0500/s0438_find_all_anagrams_in_a_string/solution.ts)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Algorithm_II_Day_5_Sliding_Window, Programming_Skills_II_Day_12, Level_1_Day_12_Sliding_Window/Two_Pointer, Big_O_Time_O(n+m)_Space_O(1) | 69 | 96.69
+| 0437 |[Path Sum III](src/main/ts/g0401_0500/s0437_path_sum_iii/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Level_2_Day_7_Tree, Big_O_Time_O(n)_Space_O(n) | 68 | 86.71
+| 0416 |[Partition Equal Subset Sum](src/main/ts/g0401_0500/s0416_partition_equal_subset_sum/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Level_2_Day_13_Dynamic_Programming, Big_O_Time_O(n*sums)_Space_O(n*sums) | 91 | 74.38
 | 0035 |[Search Insert Position](src/main/ts/g0001_0100/s0035_search_insert_position/solution.ts)| Easy | Top_100_Liked_Questions, Array, Binary_Search, Algorithm_I_Day_1_Binary_Search, Binary_Search_I_Day_2, Big_O_Time_O(log_n)_Space_O(1) | 51 | 80.95
 | 0034 |[Find First and Last Position of Element in Sorted Array](src/main/ts/g0001_0100/s0034_find_first_and_last_position_of_element_in_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Algorithm_II_Day_1_Binary_Search, Binary_Search_I_Day_5, Big_O_Time_O(log_n)_Space_O(1) | 45 | 98.05
 | 0033 |[Search in Rotated Sorted Array](src/main/ts/g0001_0100/s0033_search_in_rotated_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Algorithm_II_Day_1_Binary_Search, Binary_Search_I_Day_11, Level_2_Day_8_Binary_Search, Udemy_Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 43 | 98.54
