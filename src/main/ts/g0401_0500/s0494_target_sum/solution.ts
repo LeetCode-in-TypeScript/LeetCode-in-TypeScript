@@ -38,4 +38,5 @@ function findTargetSumWays(nums: number[], s: number): number {
 
     return dp[(sum + s) / 2][nums.length]
 }
+
 export { findTargetSumWays }
