@@ -1,8 +1,24 @@
 {
-  "name": "LeetCode-in-TypeScript",
+  "name": "@javadev/LeetCode-in-TypeScript",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "TypeScript-based LeetCode algorithm problem solutions, regularly updated",
+  "keywords": [
+    "algorithm",
+    "typescript",
+    "math",
+    "leetcode",
+    "algorithm-competitions",
+    "leetcode-solutions",
+    "interview-questions",
+    "dynamic-programming",
+    "algorithms-and-data-structures",
+    "leetcode-typescript"
+  ],
+  "homepage": "https://github.com/LeetCode-in-TypeScript",
+  "author": "Valentyn Kolesnikov",
+  "contributors": [
+    "Valentyn Kolesnikov"
+  ],
   "scripts": {
     "lint:ts": "tslint -c tslint.json 'src/**/*.ts'",
     "lint:fixts": "tslint -c tslint.json 'src/**/*.ts' --fix",
@@ -16,15 +32,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:LeetCode-in-TypeScript/LeetCode-in-TypeScript.git"
+    "url": "git+https://github.com/LeetCode-in-TypeScript/LeetCode-in-TypeScript.git"
   },
-  "author": "javadev",
+  "bugs:": "https://github.com/LeetCode-in-TypeScript/LeetCode-in-TypeScript/issues",
+  "main": "./src/main/ts/g0001_0100/s0001_two_sum/solution.ts",
   "license": "MIT",
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
   "lint-staged": {
     "*.{ts,json,md}": "prettier --write"
   },
