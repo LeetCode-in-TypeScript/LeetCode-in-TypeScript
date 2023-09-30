@@ -5,16 +5,22 @@
 function groupAnagrams(strs: string[]): string[][] {
     if (strs.length === 1) return [strs]
     const map = new Map()
+    function getKey(str: string): string {
+        const charCount = Array(26).fill(0)
+        for (const char of str) {
+            charCount[char.charCodeAt(0) - 'a'.charCodeAt(0)]++
+        }
+        return charCount.join('#')
+    }
     for (const str of strs) {
-        const sorted = str.split('').sort().join('')
-
-        if (map.has(sorted)) {
-            map.get(sorted).push(str)
+        const key = getKey(str)
+        if (map.has(key)) {
+            map.get(key).push(str)
         } else {
-            map.set(sorted, [str])
+            map.set(key, [str])
         }
     }
-    return Array.from(map.values()).sort((a, b) => a.length - b.length)
+    return Array.from(map.values())
 }
 
 export { groupAnagrams }
