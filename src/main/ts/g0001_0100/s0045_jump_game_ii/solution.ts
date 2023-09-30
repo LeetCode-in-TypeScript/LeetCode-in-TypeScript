@@ -2,7 +2,7 @@
 // #Algorithm_II_Day_13_Dynamic_Programming #Dynamic_Programming_I_Day_4
 // #Big_O_Time_O(n)_Space_O(1) #2023_09_30_Time_50_ms_(95.93%)_Space_44.9_MB_(65.88%)
 
-function jump(nums: number[]): number {
+function jump(nums: number[]): number { //NOSONAR
     let minJmp = new Array(nums.length)
     if (nums.length === 1) return 0
     let prevIndex = 0
