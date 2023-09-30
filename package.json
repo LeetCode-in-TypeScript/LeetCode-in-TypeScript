@@ -1,5 +1,5 @@
 {
-  "name": "@javadev/LeetCode-in-TypeScript",
+  "name": "@javadev/leetcode-in-typescript",
   "version": "1.0.0",
   "description": "TypeScript-based LeetCode algorithm problem solutions, regularly updated",
   "keywords": [
@@ -39,6 +39,9 @@
   "license": "MIT",
   "lint-staged": {
     "*.{ts,json,md}": "prettier --write"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "typescript": "^4.8.3"
