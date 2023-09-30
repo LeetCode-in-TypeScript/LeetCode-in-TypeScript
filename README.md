@@ -1,7 +1,7 @@
 # LeetCode-in-TypeScript
 
 [![npm version](https://img.shields.io/npm/v/@javadev/leetcode-in-typescript.svg?style=flat)](https://www.npmjs.com/package/@javadev/leetcode-in-typescript)
-[![MIT License](http://img.shields.io/badge/license-MIT-green.svg) ](https://github.com/LeetCode-in-TypeScript/LeetCode-in-TypeScript/blob/main/LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/LeetCode-in-TypeScript/LeetCode-in-TypeScript/blob/main/LICENSE)
 [![TypeScript CI](https://github.com/LeetCode-in-TypeScript/LeetCode-in-TypeScript/actions/workflows/node.yml/badge.svg)](https://github.com/LeetCode-in-TypeScript/LeetCode-in-TypeScript/actions/workflows/node.yml)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LeetCode-in-TypeScript&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LeetCode-in-TypeScript)
 [![](https://img.shields.io/github/stars/LeetCode-in-TypeScript/LeetCode-in-TypeScript?style=flat-square)](https://github.com/LeetCode-in-TypeScript/LeetCode-in-TypeScript)
