@@ -5,7 +5,7 @@
 function merge(intervals: number[][]): number[][] {
     let result = []
     intervals.sort((a, b) => a[0] - b[0])
-    for (let i = 0; i < intervals.length; i++) {
+    for (let i = 0; i < intervals.length; i++) { //NOSONAR
         let len = result.length
         if (len > 0 && intervals[i][0] <= result[len - 1][1]) {
             if (result[len - 1][0] >= intervals[i][0]) {
