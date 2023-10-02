@@ -16,9 +16,9 @@ function setZeroes(matrix: number[][]): void { //NOSONAR
             }
         }
     }
-    for (let i = 0; i < matrix.length; i++) {
-        for (let j = 0; j < cols.length; j++) {
-            matrix[i][cols[j]] = 0
+    for (const row of matrix) {
+        for (const col of cols) {
+            row[col] = 0
         }
     }
     for (let j = 0; j < rows.length; j++) {
