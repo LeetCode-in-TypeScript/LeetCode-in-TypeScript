@@ -4,8 +4,7 @@
 
 function minWindow(s: string, t: string): string { //NOSONAR
     const map: Map<string, number> = new Map()
-    for (let i = 0; i < t.length; i++) {
-        const char = t[i]
+    for (const char of t) {
         if (map.has(char)) {
             map.set(char, map.get(char) + 1)
         } else {
