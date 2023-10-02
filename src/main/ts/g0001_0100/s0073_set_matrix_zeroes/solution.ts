@@ -5,7 +5,7 @@
 /*
  Do not return anything, modify matrix in-place instead.
  */
-function setZeroes(matrix: number[][]): void {
+function setZeroes(matrix: number[][]): void { //NOSONAR
     const cols: number[] = []
     const rows: number[] = []
     for (let i = 0; i < matrix.length; i++) {
