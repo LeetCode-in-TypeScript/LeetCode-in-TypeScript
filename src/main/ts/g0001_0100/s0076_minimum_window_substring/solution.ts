@@ -2,7 +2,7 @@
 // #Level_2_Day_14_Sliding_Window/Two_Pointer #Big_O_Time_O(s.length())_Space_O(1)
 // #2023_10_02_Time_82_ms_(82.17%)_Space_46.2_MB_(81.89%)
 
-function minWindow(s: string, t: string): string {
+function minWindow(s: string, t: string): string { //NOSONAR
     const map: Map<string, number> = new Map()
     for (let i = 0; i < t.length; i++) {
         const char = t[i]
