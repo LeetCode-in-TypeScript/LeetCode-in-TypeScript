@@ -2,6 +2,8 @@
 // #Stack #Data_Structure_I_Day_10_Tree #Udemy_Tree_Stack_Queue #Big_O_Time_O(n)_Space_O(n)
 // #2023_10_03_Time_45_ms_(97.30%)_Space_42.9_MB_(96.73%)
 
+import { TreeNode } from '../../com_github_leetcode/treenode'
+
 /*
  * Definition for a binary tree node.
  * class TreeNode {
@@ -15,9 +17,6 @@
  *     }
  * }
  */
-
-import { TreeNode } from '../../com_github_leetcode/treenode'
-
 function inorderTraversal(root: TreeNode | null): number[] {
     if (!root) return []
     if (!root.val) return []
