@@ -10,7 +10,6 @@ function largestRectangleArea(heights: number[]): number {
             nextSmall[stack[stack.length - 1]] = i
             stack.pop()
         }
-
         if (stack.length !== 0) {
             prevSmall[i] = stack[stack.length - 1]
         }
@@ -21,7 +20,6 @@ function largestRectangleArea(heights: number[]): number {
         let currentArea = heights[i] * (nextSmall[i] - prevSmall[i] - 1)
         maxArea = Math.max(maxArea, currentArea)
     }
-
     return maxArea
 }
 
