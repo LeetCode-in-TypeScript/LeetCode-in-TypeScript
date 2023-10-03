@@ -1,9 +1,9 @@
-import { TreeNode } from '../../com_github_leetcode/treenode'
-
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Depth_First_Search #Tree #Binary_Tree
 // #Binary_Search_Tree #Data_Structure_I_Day_14_Tree #Level_1_Day_8_Binary_Search_Tree
 // #Udemy_Tree_Stack_Queue #Big_O_Time_O(N)_Space_O(log(N))
 // #2023_10_03_Time_51_ms_(98.35%)_Space_47.3_MB_(61.68%)
+
+import { TreeNode } from '../../com_github_leetcode/treenode'
 
 function dfs(node: TreeNode | null, lowerBound: number, upperBound: number): boolean {
     if (!node) return true
