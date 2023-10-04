@@ -15,7 +15,7 @@ function topKFrequent(nums: number[], k: number): number[] {
         if (elementCount[value] === undefined) elementCount[value] = [key]
         else elementCount[value].push(key)
     })
-    for (let i = elementCount.length - 1; i !== 0; i--) {
+    for (let i = elementCount.length - 1; i >= 0; i--) {
         if (elementCount[i] !== undefined) res.push(...elementCount[i].values())
         if (res.length === k) {
             return res
