@@ -1,8 +1,8 @@
-import { TreeNode } from '../../com_github_leetcode/treenode'
-
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Breadth_First_Search #Tree
 // #Binary_Tree #Data_Structure_I_Day_11_Tree #Level_1_Day_6_Tree #Udemy_Tree_Stack_Queue
 // #Big_O_Time_O(N)_Space_O(N) #2023_10_04_Time_60_ms_(97.47%)_Space_47_MB_(77.89%)
+
+import { TreeNode } from '../../com_github_leetcode/treenode'
 
 /*
  * Definition for a binary tree node.
@@ -17,7 +17,6 @@ import { TreeNode } from '../../com_github_leetcode/treenode'
  *     }
  * }
  */
-
 function levelOrder(root: TreeNode | null): number[][] {
     if (root == null) return []
     let queue = [root]
@@ -30,7 +29,6 @@ function levelOrder(root: TreeNode | null): number[][] {
             subResult.push(node.val)
             if (node.left != null) queue.push(node.left)
             if (node.right != null) queue.push(node.right)
-
             length--
         }
         result.push(subResult)
