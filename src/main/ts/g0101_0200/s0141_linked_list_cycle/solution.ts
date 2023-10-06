@@ -18,7 +18,7 @@ import { ListNode } from '../../com_github_leetcode/listnode'
 
 function hasCycle(head: ListNode | null): boolean {
     let fast = head
-    while (fast && fast.next) {
+    while (fast?.next) {
         head = head.next
         fast = fast.next.next
         if (head === fast) return true

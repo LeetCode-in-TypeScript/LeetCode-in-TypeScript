@@ -28,7 +28,7 @@ const copyRandomList = (head: Node | null): Node | null => {
     let cursor: Node | null = head
     let newCursor: Node | null = newSentinel
     while (cursor !== null) {
-        const newNode: Node = map.get(cursor) || new Node(cursor.val)
+        const newNode: Node = map.get(cursor) ?? new Node(cursor.val)
         map.set(cursor, newNode)
         newCursor.next = newNode
 

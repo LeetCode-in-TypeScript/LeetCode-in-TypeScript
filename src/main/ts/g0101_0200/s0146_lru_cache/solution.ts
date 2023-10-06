@@ -18,8 +18,8 @@ class CacheNode implements ICacheNode {
     constructor(key: number, value: number, prev?: ICacheNode, next?: ICacheNode) {
         this.key = key
         this.value = value
-        this.prev = prev || null
-        this.next = next || null
+        this.prev = prev ?? null
+        this.next = next ?? null
     }
 }
 

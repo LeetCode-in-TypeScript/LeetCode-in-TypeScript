@@ -3,9 +3,9 @@ class Node {
     next: Node | null
     random: Node | null
     constructor(val?: number, next?: Node, random?: Node) {
-        this.val = val === undefined ? 0 : val
-        this.next = next === undefined ? null : next
-        this.random = random === undefined ? null : random
+        this.val = val ?? 0
+        this.next = next ?? null
+        this.random = random ?? null
     }
 
     toString(): string {
