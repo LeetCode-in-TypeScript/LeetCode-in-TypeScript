@@ -45,13 +45,10 @@ class LRUCache {
 
     private remove(node: CacheNode) {
         const { prev, next } = node
-
         prev.next = next
         next.prev = prev
-
         node.next = null
         node.prev = null
-
         return node
     }
 
@@ -64,16 +61,13 @@ class LRUCache {
         if (!this.cache.has(key)) {
             return -1
         }
-
         const node = this.cache.get(key)
         this.promote(node)
-
         return node.value
     }
 
     put(key: number, value: number): void {
         let node
-
         if (this.cache.has(key)) {
             node = this.cache.get(key)
             node.value = value
