@@ -17,13 +17,11 @@ import { Node } from '../../com_github_leetcode/node'
  *     }
  * }
  */
-
 const copyRandomList = (head: Node | null): Node | null => {
     const sentinel = new Node(-1)
     sentinel.next = head
     const newSentinel = new Node(-1)
     const map = new Map<Node, Node>()
-
     // create new nodes with relations map to old nodes
     let cursor: Node | null = head
     let newCursor: Node | null = newSentinel
@@ -31,27 +29,22 @@ const copyRandomList = (head: Node | null): Node | null => {
         const newNode: Node = map.get(cursor) ?? new Node(cursor.val)
         map.set(cursor, newNode)
         newCursor.next = newNode
-
         newCursor = newCursor.next
         cursor = cursor.next
     }
-
     // using map connect random pointers
     cursor = head
     newCursor = newSentinel.next
     while (cursor !== null && newCursor !== null) {
         if (cursor.random !== null) {
             const targetNode = map.get(cursor.random)
-
             if (typeof targetNode !== 'undefined') {
                 newCursor.random = targetNode
             }
         }
-
         newCursor = newCursor.next
         cursor = cursor.next
     }
-
     return newSentinel.next
 }
 
