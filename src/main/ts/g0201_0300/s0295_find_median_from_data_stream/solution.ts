@@ -201,7 +201,7 @@ class MinHeap<T> {
         return index * 2 + 2
     }
 
-    private swap(index1: number, index2: number): void {
+    private swap(index1: number, index2: number): void { //NOSONAR
         const temp = this.heap[index1]
         this.heap[index1] = this.heap[index2]
         this.heap[index2] = temp
