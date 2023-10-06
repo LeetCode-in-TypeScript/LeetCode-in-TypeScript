@@ -1,8 +1,8 @@
-import { ListNode } from '../../com_github_leetcode/listnode'
-
 // #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Hash_Table #Two_Pointers #Linked_List
 // #Data_Structure_I_Day_7_Linked_List #Udemy_Linked_List #Big_O_Time_O(N)_Space_O(1)
 // #2023_10_06_Time_59_ms_(93.37%)_Space_45.2_MB_(76.28%)
+
+import { ListNode } from '../../com_github_leetcode/listnode'
 
 /*
  * Definition for singly-linked list.
@@ -15,7 +15,6 @@ import { ListNode } from '../../com_github_leetcode/listnode'
  *     }
  * }
  */
-
 function hasCycle(head: ListNode | null): boolean {
     let fast = head
     while (fast?.next) {
