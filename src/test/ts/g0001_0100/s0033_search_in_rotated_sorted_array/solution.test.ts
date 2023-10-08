@@ -13,3 +13,7 @@ test('search2', () => {
 test('search3', () => {
     expect(search([1], 0)).toEqual(-1)
 })
+
+test('search4', () => {
+    expect(search([5, 1, 3], 0)).toEqual(-1)
+})
