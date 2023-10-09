@@ -1,8 +1,6 @@
 // #Hard #Top_100_Liked_Questions #Top_Interview_Questions #Heap_Priority_Queue #Linked_List
 // #Divide_and_Conquer #Merge_Sort #Big_O_Time_O(k*n*log(k))_Space_O(log(k))
-// #2023_10_09_Time_76_ms_(94.52%)_Space_47.9_MB_(84.35%)
-
-import { ListNode } from '../../com_github_leetcode/listnode'
+// #2023_08_29_Time_75_ms_(97.06%)_Space_47.3_MB_(98.42%)
 
 /**
  * Definition for singly-linked list.
@@ -15,53 +13,51 @@ import { ListNode } from '../../com_github_leetcode/listnode'
  *     }
  * }
  */
-const merge2Lists = (list1: ListNode | null, list2: ListNode | null): ListNode | null => {
-    if (!list1 || !list2) {
-        return list1 || list2
+function mergeKLists(lists: Array<ListNode | null>): ListNode | null {
+    if (lists.length === 0) {
+        return null
     }
-
-    const tempHead = new ListNode()
-    let current = tempHead
-
-    let l1 = list1
-    let l2 = list2
-
-    while (l1 || l2) {
-        if (!l1) {
-            current.next = l2
-            break
-        }
-        if (!l2) {
-            current.next = l1
-            break
-        }
-        if (l1.val < l2.val) {
-            current.next = l1
-            l1 = l1.next
-        } else {
-            current.next = l2
-            l2 = l2.next
-        }
-        current = current.next
-    }
-
-    return tempHead.next
+    return mergeKListsRecursive(lists, 0, lists.length)
 }
 
-const mergeKLists = (lists: Array<ListNode | null>): ListNode | null => {
-    while (lists.length > 1) {
-        const mergedLists = []
-
-        for (let i = 0; i < lists.length; i += 2) {
-            const list1 = lists[i]
-            const list2 = lists[i + 1] ?? null
-            mergedLists.push(merge2Lists(list1, list2))
-        }
-
-        lists = mergedLists
+function mergeKListsRecursive(lists: Array<ListNode | null>, leftIndex: number, rightIndex: number): ListNode | null {
+    if (rightIndex > leftIndex + 1) {
+        const mid = Math.floor((leftIndex + rightIndex) / 2)
+        const left = mergeKListsRecursive(lists, leftIndex, mid)
+        const right = mergeKListsRecursive(lists, mid, rightIndex)
+        return mergeTwoLists(left, right)
+    } else {
+        return lists[leftIndex]
     }
+}
 
-    return lists[0] ?? null
+function mergeTwoLists(left: ListNode | null, right: ListNode | null): ListNode | null {
+    if (left === null) {
+        return right
+    }
+    if (right === null) {
+        return left
+    }
+    let res: ListNode | null
+    if (left.val <= right.val) {
+        res = left
+        left = left.next
+    } else {
+        res = right
+        right = right.next
+    }
+    let node = res
+    while (left !== null || right !== null) {
+        if (right === null || left.val <= right.val) {
+            node.next = left
+            left = left.next
+        } else {
+            node.next = right
+            right = right.next
+        }
+        node = node.next
+    }
+    return res
 }
 
 export { mergeKLists }
