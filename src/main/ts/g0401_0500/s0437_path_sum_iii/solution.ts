@@ -6,20 +6,22 @@ function pathSum(root: TreeNode | null, targetSum: number): number {
     let map = new Map<number, number>()
 
     function dfs(node: TreeNode | null, currentSum: number): void {
-        if (!node) return
-
+        if (!node) {
+            return
+        }
         currentSum += node.val
-        if (currentSum === targetSum) count++
-
+        if (currentSum === targetSum) {
+            count++
+        }
         count += map.get(currentSum - targetSum) ?? 0
-
         map.set(currentSum, map.get(currentSum) + 1 || 1)
         dfs(node?.left, currentSum)
         dfs(node?.right, currentSum)
-
         //remove from hashmap
         map.set(currentSum, map.get(currentSum) - 1)
-        if (map.get(currentSum) === 0) map.delete(currentSum)
+        if (map.get(currentSum) === 0) {
+            map.delete(currentSum)
+        }
     }
 
     dfs(root, 0)
