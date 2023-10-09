@@ -1,5 +1,4 @@
 // tslint:disable:no-magic-numbers
-import { ListNode } from 'src/main/ts/com_github_leetcode/listnode'
 import { mergeKLists } from 'src/main/ts/g0001_0100/s0023_merge_k_sorted_lists/solution'
 import { expect, test } from 'vitest'
 import { createSinglyLinkedList } from '../../com_github_leetcode/linkedlistutils'
