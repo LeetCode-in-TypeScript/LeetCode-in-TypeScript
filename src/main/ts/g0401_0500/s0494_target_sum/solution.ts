@@ -5,19 +5,15 @@
 function findTargetSumWays(nums: number[], s: number): number {
     let sum: number = 0
     s = Math.abs(s)
-
     for (const num of nums) {
         sum += num
     }
-
     // Invalid s, just return 0
     if (s > sum || (sum + s) % 2 !== 0) {
         return 0
     }
-
     const dp: number[][] = new Array((sum + s) / 2 + 1).fill(null).map(() => new Array(nums.length + 1).fill(0))
     dp[0][0] = 1
-
     // Empty knapsack must be processed specially
     for (let i = 0; i < nums.length; i++) {
         if (nums[i] === 0) {
@@ -26,7 +22,6 @@ function findTargetSumWays(nums: number[], s: number): number {
             dp[0][i + 1] = dp[0][i]
         }
     }
-
     for (let i = 1; i < dp.length; i++) {
         for (let j = 0; j < nums.length; j++) {
             dp[i][j + 1] += dp[i][j]
@@ -35,7 +30,6 @@ function findTargetSumWays(nums: number[], s: number): number {
             }
         }
     }
-
     return dp[(sum + s) / 2][nums.length]
 }
 
