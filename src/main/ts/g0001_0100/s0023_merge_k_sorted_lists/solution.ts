@@ -17,7 +17,7 @@ import { ListNode } from '../../com_github_leetcode/listnode'
  */
 const merge2Lists = (list1: ListNode | null, list2: ListNode | null): ListNode | null => {
     if (!list1 || !list2) {
-        return list1 || list2
+        return list1 ?? list2
     }
     const tempHead = new ListNode()
     let current = tempHead
