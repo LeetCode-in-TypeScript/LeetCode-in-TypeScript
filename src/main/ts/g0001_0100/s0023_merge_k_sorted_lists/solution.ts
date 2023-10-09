@@ -2,8 +2,6 @@
 // #Divide_and_Conquer #Merge_Sort #Big_O_Time_O(k*n*log(k))_Space_O(log(k))
 // #2023_10_09_Time_76_ms_(94.52%)_Space_47.9_MB_(84.35%)
 
-import { ListNode } from '../../com_github_leetcode/listnode'
-
 /*
  * Definition for singly-linked list.
  * class ListNode {
@@ -17,7 +15,7 @@ import { ListNode } from '../../com_github_leetcode/listnode'
  */
 const merge2Lists = (list1: ListNode | null, list2: ListNode | null): ListNode | null => {
     if (!list1 || !list2) {
-        return list1 || list2
+        return list1 ?? list2
     }
     const tempHead = new ListNode()
     let current = tempHead
