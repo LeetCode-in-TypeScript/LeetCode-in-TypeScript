@@ -9,10 +9,8 @@ function partitionLabels(s: string): number[] {
         if (!map.has(c)) map.set(c, [i, i])
         else map.get(c)[1] = i
     }
-
     const arr = Array.from(map.values())
     arr.sort((v1, v2) => v1[0] - v2[0])
-
     let start = 0,
         end = arr[0][1],
         result: number[] = []
