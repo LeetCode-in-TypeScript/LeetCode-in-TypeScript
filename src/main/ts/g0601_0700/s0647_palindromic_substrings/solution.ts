@@ -16,12 +16,10 @@ function expand(a: string[], l: number, r: number, res: number[]): void {
 function countSubstrings(s: string): number {
     const a: string[] = s.split('')
     const res: number[] = [0]
-
     for (let i = 0; i < a.length; i++) {
         expand(a, i, i, res)
         expand(a, i, i + 1, res)
     }
-
     return res[0]
 }
 
