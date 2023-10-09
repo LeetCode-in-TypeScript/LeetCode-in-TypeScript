@@ -6,21 +6,17 @@ function subarraySum(nums: number[], k: number): number {
     let ret: number = 0
     const sumCount: Map<number, number> = new Map()
     sumCount.set(0, 1)
-
     for (const num of nums) {
         tempSum += num
-
         if (sumCount.has(tempSum - k)) {
             ret += sumCount.get(tempSum - k)!
         }
-
         if (sumCount.has(tempSum)) {
             sumCount.set(tempSum, sumCount.get(tempSum)! + 1)
         } else {
             sumCount.set(tempSum, 1)
         }
     }
-
     return ret
 }
 
