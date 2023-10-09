@@ -11,3 +11,15 @@ test('rob2', () => {
     const nums2: number[] = [2, 7, 9, 3, 1]
     expect(rob(nums2)).toBe(12)
 })
+
+test('rob3', () => {
+    expect(rob([])).toBe(0)
+})
+
+test('rob4', () => {
+    expect(rob([1])).toBe(1)
+})
+
+test('rob5', () => {
+    expect(rob([1, 2])).toBe(2)
+})

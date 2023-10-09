@@ -26,9 +26,8 @@ function majorityElement(arr: number[]): number {
     }
     if (count >= Math.floor(arr.length / 2) + 1) {
         return majority
-    } else {
-        return -1
     }
+    return -1
 }
 
 export { majorityElement }
