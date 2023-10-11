@@ -8,7 +8,7 @@ test('moveZeroes', () => {
     expect(arr).toEqual([1, 3, 12, 0, 0])
 })
 
-test('moveZeroes', () => {
+test('moveZeroes2', () => {
     const arr = [0]
     moveZeroes(arr)
     expect(arr).toEqual([0])
