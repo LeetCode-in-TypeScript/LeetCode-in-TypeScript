@@ -10,3 +10,11 @@ test('medianFinder', () => {
     medianFinder.addNum(3)
     expect(medianFinder.findMedian()).toEqual(2.0)
 })
+
+test('medianFinder2', () => {
+    const medianFinder = new MedianFinder()
+    medianFinder.addNum(1)
+    medianFinder.addNum(3)
+    medianFinder.addNum(-1)
+    expect(medianFinder.findMedian()).toEqual(1.0)
+})
