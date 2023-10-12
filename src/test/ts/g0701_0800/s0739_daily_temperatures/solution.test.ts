@@ -10,6 +10,6 @@ test('dailyTemperatures2', () => {
     expect(dailyTemperatures([30, 40, 50, 60])).toEqual([1, 1, 1, 0])
 })
 
-test('dailyTemperatures2', () => {
+test('dailyTemperatures3', () => {
     expect(dailyTemperatures([30, 60, 900])).toEqual([1, 1, 0])
 })
