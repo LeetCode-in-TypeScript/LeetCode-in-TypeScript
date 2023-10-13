@@ -1,242 +1,94 @@
 // #Hard #Top_100_Liked_Questions #Top_Interview_Questions #Sorting #Two_Pointers #Design
 // #Heap_Priority_Queue #Data_Stream #Big_O_Time_O(n*log_n)_Space_O(n)
-// #2023_10_06_Time_426_ms_(85.33%)_Space_98.1_MB_(48.67%)
+// #2023_10_13_Time_335_ms_(99.44%)_Space_96.8_MB_(69.49%)
 
-class MaxHeap<T> {
-    private heap: T[]
-
-    constructor() {
-        this.heap = []
-    }
-
-    size(): number {
-        return this.heap.length
-    }
-
-    isEmpty(): boolean {
-        return this.heap.length === 0
-    }
-
-    peek(): T {
-        return this.heap[0]
-    }
-
-    add(value: T): void {
-        this.heap.push(value)
-        this.heapifyUp()
-    }
-
-    poll(): T {
-        const max = this.heap[0]
-        const last = this.heap.pop()
-        if (this.heap.length > 0) {
-            this.heap[0] = last
-            this.heapifyDown()
-        }
-        return max
-    }
-
-    private heapifyUp(): void {
-        let currentIndex = this.heap.length - 1
-        while (this.hasParent(currentIndex) && this.parent(currentIndex) < this.heap[currentIndex]) {
-            const parentIndex = this.getParentIndex(currentIndex)
-            this.swap(parentIndex, currentIndex)
-            currentIndex = parentIndex
-        }
-    }
-
-    private heapifyDown(): void {
-        let currentIndex = 0
-        while (this.hasLeftChild(currentIndex)) {
-            let biggerChildIndex = this.getLeftChildIndex(currentIndex)
-            if (this.hasRightChild(currentIndex) && this.rightChild(currentIndex) > this.leftChild(currentIndex)) {
-                biggerChildIndex = this.getRightChildIndex(currentIndex)
-            }
-
-            if (this.heap[currentIndex] > this.heap[biggerChildIndex]) {
-                break
-            }
-
-            this.swap(currentIndex, biggerChildIndex)
-            currentIndex = biggerChildIndex
-        }
-    }
-
-    private hasParent(index: number): boolean {
-        return this.getParentIndex(index) >= 0
-    }
-
-    private hasLeftChild(index: number): boolean {
-        return this.getLeftChildIndex(index) < this.heap.length
-    }
-
-    private hasRightChild(index: number): boolean {
-        return this.getRightChildIndex(index) < this.heap.length
-    }
-
-    private parent(index: number): T {
-        return this.heap[this.getParentIndex(index)]
-    }
-
-    private leftChild(index: number): T {
-        return this.heap[this.getLeftChildIndex(index)]
-    }
-
-    private rightChild(index: number): T {
-        return this.heap[this.getRightChildIndex(index)]
-    }
-
-    private getParentIndex(index: number): number {
-        return Math.floor((index - 1) / 2)
-    }
-
-    private getLeftChildIndex(index: number): number {
-        return index * 2 + 1
-    }
-
-    private getRightChildIndex(index: number): number {
-        return index * 2 + 2
-    }
-
-    private swap(index1: number, index2: number): void {
-        const temp = this.heap[index1]
-        this.heap[index1] = this.heap[index2]
-        this.heap[index2] = temp
-    }
-}
-
-class MinHeap<T> {
-    private heap: T[]
+class Heap {
+    private heap: number[]
 
     constructor() {
-        this.heap = []
+        this.heap = [0]
     }
 
-    size(): number {
-        return this.heap.length
+    peek(): number | null {
+        return this.heap[1] ?? null
     }
 
-    isEmpty(): boolean {
-        return this.heap.length === 0
-    }
-
-    peek(): T {
-        return this.heap[0]
-    }
-
-    add(value: T): void {
-        this.heap.push(value)
-        this.heapifyUp()
-    }
-
-    poll(): T {
-        const min = this.heap[0]
-        const last = this.heap.pop()
-        if (this.heap.length > 0) {
-            this.heap[0] = last
-            this.heapifyDown()
-        }
-        return min
-    }
-
-    private heapifyUp(): void {
-        let currentIndex = this.heap.length - 1
-        while (this.hasParent(currentIndex) && this.parent(currentIndex) > this.heap[currentIndex]) {
-            const parentIndex = this.getParentIndex(currentIndex)
-            this.swap(parentIndex, currentIndex)
-            currentIndex = parentIndex
+    push(val: number): void {
+        this.heap.push(val)
+        let i = this.heap.length - 1
+        let parI = Math.floor(i / 2)
+        while (i > 1 && this.heap[i] < this.heap[parI]) {
+            const tmp = this.heap[i]
+            this.heap[i] = this.heap[parI]
+            this.heap[parI] = tmp
+            i = parI
+            parI = Math.floor(i / 2)
         }
     }
 
-    private heapifyDown(): void {
-        let currentIndex = 0
-        while (this.hasLeftChild(currentIndex)) {
-            let smallerChildIndex = this.getLeftChildIndex(currentIndex)
-            if (this.hasRightChild(currentIndex) && this.rightChild(currentIndex) < this.leftChild(currentIndex)) {
-                smallerChildIndex = this.getRightChildIndex(currentIndex)
-            }
-
-            if (this.heap[currentIndex] < this.heap[smallerChildIndex]) {
+    pop(): number | null {
+        if (this.heap.length == 1) {
+            return null
+        }
+        if (this.heap.length == 2) {
+            return this.heap.pop()
+        }
+        const res = this.heap[1]
+        this.heap[1] = this.heap.pop()
+        let i = 1
+        while (2 * i < this.heap.length) {
+            const leftChildIdx = 2 * i
+            const rightChildIdx = 2 * i + 1
+            if (
+                rightChildIdx < this.heap.length &&
+                this.heap[rightChildIdx] < this.heap[leftChildIdx] &&
+                this.heap[i] > this.heap[rightChildIdx]
+            ) {
+                const tmp = this.heap[i]
+                this.heap[i] = this.heap[rightChildIdx]
+                this.heap[rightChildIdx] = tmp
+                i = rightChildIdx
+            } else if (this.heap[i] > this.heap[leftChildIdx]) {
+                const tmp = this.heap[i]
+                this.heap[i] = this.heap[leftChildIdx]
+                this.heap[leftChildIdx] = tmp
+                i = leftChildIdx
+            } else {
                 break
             }
-
-            this.swap(currentIndex, smallerChildIndex)
-            currentIndex = smallerChildIndex
         }
+        return res
     }
 
-    private hasParent(index: number): boolean {
-        return this.getParentIndex(index) >= 0
-    }
-
-    private hasLeftChild(index: number): boolean {
-        return this.getLeftChildIndex(index) < this.heap.length
-    }
-
-    private hasRightChild(index: number): boolean {
-        return this.getRightChildIndex(index) < this.heap.length
-    }
-
-    private parent(index: number): T {
-        return this.heap[this.getParentIndex(index)]
-    }
-
-    private leftChild(index: number): T {
-        return this.heap[this.getLeftChildIndex(index)]
-    }
-
-    private rightChild(index: number): T {
-        return this.heap[this.getRightChildIndex(index)]
-    }
-
-    private getParentIndex(index: number): number {
-        return Math.floor((index - 1) / 2)
-    }
-
-    private getLeftChildIndex(index: number): number {
-        return index * 2 + 1
-    }
-
-    private getRightChildIndex(index: number): number {
-        return index * 2 + 2
-    }
-
-    private swap(index1: number, index2: number): void { //NOSONAR
-        const temp = this.heap[index1]
-        this.heap[index1] = this.heap[index2]
-        this.heap[index2] = temp
+    length(): number {
+        return this.heap.length - 1
     }
 }
 
 class MedianFinder {
-    private maxHeap: MaxHeap<number>
-    private minHeap: MinHeap<number>
+    large: Heap
+    small: Heap
 
     constructor() {
-        this.maxHeap = new MaxHeap<number>()
-        this.minHeap = new MinHeap<number>()
+        this.large = new Heap()
+        this.small = new Heap()
     }
 
     addNum(num: number): void {
-        if (this.maxHeap.isEmpty() || num <= this.maxHeap.peek()) {
-            this.maxHeap.add(num)
+        if (this.small.length() === this.large.length()) {
+            this.small.push(-num)
+            this.large.push(-this.small.pop())
         } else {
-            this.minHeap.add(num)
-        }
-
-        if (this.maxHeap.size() - this.minHeap.size() > 1) {
-            this.minHeap.add(this.maxHeap.poll())
-        } else if (this.minHeap.size() > this.maxHeap.size()) {
-            this.maxHeap.add(this.minHeap.poll())
+            this.large.push(num)
+            this.small.push(-this.large.pop())
         }
     }
 
     findMedian(): number {
-        if (this.maxHeap.size() === this.minHeap.size()) {
-            return (this.maxHeap.peek() + this.minHeap.peek()) / 2
-        } else {
-            return this.maxHeap.size() > this.minHeap.size() ? this.maxHeap.peek() : this.minHeap.peek()
+        if (this.small.length() === this.large.length()) {
+            return (this.large.peek() - this.small.peek()) / 2
         }
+        return this.large.peek()
     }
 }
 
