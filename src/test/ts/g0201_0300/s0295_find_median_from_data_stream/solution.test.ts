@@ -18,3 +18,28 @@ test('medianFinder2', () => {
     medianFinder.addNum(-1)
     expect(medianFinder.findMedian()).toEqual(1.0)
 })
+
+test('medianFinder3', () => {
+    const medianFinder = new MedianFinder()
+    medianFinder.addNum(-1)
+    medianFinder.addNum(-2)
+    medianFinder.addNum(-3)
+    medianFinder.addNum(-4)
+    medianFinder.addNum(-5)
+    expect(medianFinder.findMedian()).toEqual(-3.0)
+})
+
+test('medianFinder4', () => {
+    const medianFinder = new MedianFinder()
+    medianFinder.addNum(1)
+    medianFinder.addNum(2)
+    medianFinder.addNum(3)
+    medianFinder.addNum(4)
+    medianFinder.addNum(5)
+    medianFinder.addNum(6)
+    medianFinder.addNum(7)
+    medianFinder.addNum(8)
+    medianFinder.addNum(9)
+    medianFinder.addNum(10)
+    expect(medianFinder.findMedian()).toEqual(5.5)
+})
