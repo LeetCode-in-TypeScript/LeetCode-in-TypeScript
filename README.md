@@ -12,7 +12,6 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 > ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
 
 ##
-* [Algorithm I](#algorithm-i)
 * [Algorithm II](#algorithm-ii)
 * [Binary Search I](#binary-search-i)
 * [Binary Search II](#binary-search-ii)
@@ -26,89 +25,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 * [Udemy](#udemy)
 * [Data Structure I](#data-structure-i)
 * [Data Structure II](#data-structure-ii)
-
-### Algorithm I
-
-#### Day 1 Binary Search
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0035 |[Search Insert Position](src/main/ts/g0001_0100/s0035_search_insert_position/solution.ts)| Easy | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 51 | 80.95
-
-#### Day 2 Two Pointers
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0189 |[Rotate Array](src/main/ts/g0101_0200/s0189_rotate_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 75 | 97.25
-
-#### Day 3 Two Pointers
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0283 |[Move Zeroes](src/main/ts/g0201_0300/s0283_move_zeroes/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 71 | 91.63
-
-#### Day 4 Two Pointers
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 5 Two Pointers
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0019 |[Remove Nth Node From End of List](src/main/ts/g0001_0100/s0019_remove_nth_node_from_end_of_list/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Two_Pointers, Linked_List, Big_O_Time_O(L)_Space_O(L) | 54 | 87.87
-
-#### Day 6 Sliding Window
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0003 |[Longest Substring Without Repeating Characters](src/main/ts/g0001_0100/s0003_longest_substring_without_repeating_characters/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1) | 65 | 90.77
-
-#### Day 7 Breadth First Search Depth First Search
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 8 Breadth First Search Depth First Search
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 9 Breadth First Search Depth First Search
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 10 Recursion Backtracking
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0021 |[Merge Two Sorted Lists](src/main/ts/g0001_0100/s0021_merge_two_sorted_lists/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 59 | 86.77
-| 0206 |[Reverse Linked List](src/main/ts/g0201_0300/s0206_reverse_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(N)_Space_O(1) | 51 | 92.87
-
-#### Day 11 Recursion Backtracking
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0046 |[Permutations](src/main/ts/g0001_0100/s0046_permutations/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Backtracking, Big_O_Time_O(n\*n!)_Space_O(n+n!) | 56 | 96.26
-
-#### Day 12 Dynamic Programming
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0070 |[Climbing Stairs](src/main/ts/g0001_0100/s0070_climbing_stairs/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Big_O_Time_O(n)_Space_O(n) | 44 | 94.58
-| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 51 | 77.29
-
-#### Day 13 Bit Manipulation
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 14 Bit Manipulation
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 56 | 85.48
+* [Algorithm I](#algorithm-i)
 
 ### Algorithm II
 
@@ -1407,6 +1324,89 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+
+### Algorithm I
+
+#### Day 1 Binary Search
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0035 |[Search Insert Position](src/main/ts/g0001_0100/s0035_search_insert_position/solution.ts)| Easy | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 51 | 80.95
+
+#### Day 2 Two Pointers
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0189 |[Rotate Array](src/main/ts/g0101_0200/s0189_rotate_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 75 | 97.25
+
+#### Day 3 Two Pointers
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0283 |[Move Zeroes](src/main/ts/g0201_0300/s0283_move_zeroes/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 71 | 91.63
+
+#### Day 4 Two Pointers
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 5 Two Pointers
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0019 |[Remove Nth Node From End of List](src/main/ts/g0001_0100/s0019_remove_nth_node_from_end_of_list/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Two_Pointers, Linked_List, Big_O_Time_O(L)_Space_O(L) | 54 | 87.87
+
+#### Day 6 Sliding Window
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0003 |[Longest Substring Without Repeating Characters](src/main/ts/g0001_0100/s0003_longest_substring_without_repeating_characters/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1) | 65 | 90.77
+
+#### Day 7 Breadth First Search Depth First Search
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 8 Breadth First Search Depth First Search
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 9 Breadth First Search Depth First Search
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 10 Recursion Backtracking
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0021 |[Merge Two Sorted Lists](src/main/ts/g0001_0100/s0021_merge_two_sorted_lists/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 59 | 86.77
+| 0206 |[Reverse Linked List](src/main/ts/g0201_0300/s0206_reverse_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(N)_Space_O(1) | 51 | 92.87
+
+#### Day 11 Recursion Backtracking
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0046 |[Permutations](src/main/ts/g0001_0100/s0046_permutations/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Backtracking, Big_O_Time_O(n\*n!)_Space_O(n+n!) | 56 | 96.26
+
+#### Day 12 Dynamic Programming
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0070 |[Climbing Stairs](src/main/ts/g0001_0100/s0070_climbing_stairs/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Big_O_Time_O(n)_Space_O(n) | 44 | 94.58
+| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 51 | 77.29
+
+#### Day 13 Bit Manipulation
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 14 Bit Manipulation
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 56 | 85.48
 
 ## Algorithms
 
