@@ -1,4 +1,4 @@
-// #Medium #Top_100_Liked_Questions #String #Dynamic_Programming #Big_O_Time_O(n^2)_Space_O(n)
+// #Medium #String #Dynamic_Programming #Big_O_Time_O(n^2)_Space_O(n)
 // #2023_09_30_Time_60_ms_(89.76%)_Space_43_MB_(93.98%)
 
 function expand(a: string[], l: number, r: number, res: number[]): void {

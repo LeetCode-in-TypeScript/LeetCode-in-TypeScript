@@ -1,6 +1,6 @@
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Depth_First_Search
-// #Breadth_First_Search #Graph #Topological_Sort #Big_O_Time_O(N)_Space_O(N)
-// #2023_10_09_Time_68_ms_(70.14%)_Space_47.7_MB_(73.55%)
+// #Breadth_First_Search #Graph #Topological_Sort #Top_Interview_150_Graph_General
+// #Big_O_Time_O(N)_Space_O(N) #2023_10_09_Time_68_ms_(70.14%)_Space_47.7_MB_(73.55%)
 
 const WHITE = 0
 const GRAY = 1

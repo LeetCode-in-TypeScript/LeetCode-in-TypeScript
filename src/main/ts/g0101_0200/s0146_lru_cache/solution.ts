@@ -1,6 +1,6 @@
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Hash_Table #Design #Linked_List
-// #Doubly_Linked_List #Udemy_Linked_List #Big_O_Time_O(1)_Space_O(capacity)
-// #2023_10_06_Time_473_ms_(94.72%)_Space_125.1_MB_(69.62%)
+// #Doubly_Linked_List #Udemy_Linked_List #Top_Interview_150_Linked_List
+// #Big_O_Time_O(1)_Space_O(capacity) #2023_10_06_Time_473_ms_(94.72%)_Space_125.1_MB_(69.62%)
 
 interface ICacheNode {
     key: number

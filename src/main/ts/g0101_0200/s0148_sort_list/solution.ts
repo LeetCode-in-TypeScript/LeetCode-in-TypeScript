@@ -1,6 +1,6 @@
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Sorting #Two_Pointers #Linked_List
-// #Divide_and_Conquer #Merge_Sort #Level_2_Day_4_Linked_List #Big_O_Time_O(log(N))_Space_O(log(N))
-// #2023_10_08_Time_141_ms_(97.14%)_Space_71.9_MB_(47.35%)
+// #Divide_and_Conquer #Merge_Sort #Level_2_Day_4_Linked_List #Top_Interview_150_Divide_and_Conquer
+// #Big_O_Time_O(log(N))_Space_O(log(N)) #2023_10_08_Time_141_ms_(97.14%)_Space_71.9_MB_(47.35%)
 
 import { ListNode } from '../../com_github_leetcode/listnode'
 

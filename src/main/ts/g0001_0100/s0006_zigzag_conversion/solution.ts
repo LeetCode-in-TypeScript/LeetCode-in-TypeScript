@@ -1,4 +1,5 @@
-// #Medium #String #2023_08_26_Time_64_ms_(95.38%)_Space_47.3_MB_(64.49%)
+// #Medium #String #Top_Interview_150_Array/String
+// #2023_08_26_Time_64_ms_(95.38%)_Space_47.3_MB_(64.49%)
 
 function convert(s: string, numRows: number): string {
     if (numRows < 2) {

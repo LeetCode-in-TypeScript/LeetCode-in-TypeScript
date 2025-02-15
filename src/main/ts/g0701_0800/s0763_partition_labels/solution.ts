@@ -1,6 +1,5 @@
-// #Medium #Top_100_Liked_Questions #String #Hash_Table #Greedy #Two_Pointers
-// #Data_Structure_II_Day_7_String #Big_O_Time_O(n)_Space_O(1)
-// #2023_09_30_Time_54_ms_(94.74%)_Space_45.2_MB_(56.58%)
+// #Medium #String #Hash_Table #Greedy #Two_Pointers #Data_Structure_II_Day_7_String
+// #Big_O_Time_O(n)_Space_O(1) #2025_02_15_Time_3_ms_(97.96%)_Space_52.21_MB_(88.78%)
 
 function partitionLabels(s: string): number[] {
     const map = new Map<string, [number, number]>()
