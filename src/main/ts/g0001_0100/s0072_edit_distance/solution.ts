@@ -1,6 +1,6 @@
-// #Hard #Top_100_Liked_Questions #String #Dynamic_Programming
+// #Medium #Top_100_Liked_Questions #String #Dynamic_Programming
 // #Algorithm_II_Day_18_Dynamic_Programming #Dynamic_Programming_I_Day_19
-// #Udemy_Dynamic_Programming #Big_O_Time_O(n^2)_Space_O(n2)
+// #Udemy_Dynamic_Programming #Top_Interview_150_Multidimensional_DP #Big_O_Time_O(n^2)_Space_O(n2)
 // #2023_10_01_Time_68_ms_(95.20%)_Space_47.3_MB_(78.40%)
 
 function minDistance(word1: string, word2: string): number {

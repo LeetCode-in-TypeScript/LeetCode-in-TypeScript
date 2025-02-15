@@ -1,6 +1,7 @@
 // #Medium #Top_100_Liked_Questions #Array #Dynamic_Programming #Greedy
 // #Algorithm_II_Day_13_Dynamic_Programming #Dynamic_Programming_I_Day_4
-// #Big_O_Time_O(n)_Space_O(1) #2023_09_30_Time_50_ms_(95.93%)_Space_44.9_MB_(65.88%)
+// #Top_Interview_150_Array/String #Big_O_Time_O(n)_Space_O(1)
+// #2023_09_30_Time_50_ms_(95.93%)_Space_44.9_MB_(65.88%)
 
 function jump(nums: number[]): number { //NOSONAR
     let minJmp = new Array(nums.length)

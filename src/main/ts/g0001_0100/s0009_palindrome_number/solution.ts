@@ -1,4 +1,5 @@
-// #Easy #Math #Udemy_Integers #2023_08_25_Time_137_ms_(88.64%)_Space_50.5_MB_(99.43%)
+// #Easy #Math #Udemy_Integers #Top_Interview_150_Math
+// #2023_08_25_Time_137_ms_(88.64%)_Space_50.5_MB_(99.43%)
 
 function isPalindrome(x: number): boolean {
     if (x < 0) {

@@ -1,5 +1,5 @@
-// #Medium #Top_100_Liked_Questions #Array #Dynamic_Programming #Matrix
-// #Dynamic_Programming_I_Day_16 #Big_O_Time_O(m*n)_Space_O(m*n)
+// #Medium #Array #Dynamic_Programming #Matrix #Dynamic_Programming_I_Day_16
+// #Top_Interview_150_Multidimensional_DP #Big_O_Time_O(m*n)_Space_O(m*n)
 // #2023_10_09_Time_83_ms_(79.70%)_Space_50.2_MB_(56.39%)
 
 function maximalSquare(matrix: string[][]): number {

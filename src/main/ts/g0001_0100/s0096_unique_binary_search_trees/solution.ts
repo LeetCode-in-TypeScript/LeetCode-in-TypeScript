@@ -1,5 +1,5 @@
-// #Medium #Top_100_Liked_Questions #Dynamic_Programming #Math #Tree #Binary_Tree
-// #Binary_Search_Tree #Dynamic_Programming_I_Day_11 #Big_O_Time_O(n)_Space_O(1)
+// #Medium #Dynamic_Programming #Math #Tree #Binary_Tree #Binary_Search_Tree
+// #Dynamic_Programming_I_Day_11 #Big_O_Time_O(n)_Space_O(1)
 // #2023_10_03_Time_45_ms_(96.00%)_Space_42.9_MB_(25.33%)
 
 function numTrees(n: number): number {

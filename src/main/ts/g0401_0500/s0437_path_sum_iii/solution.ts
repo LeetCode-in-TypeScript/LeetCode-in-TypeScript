@@ -1,5 +1,5 @@
-// #Medium #Top_100_Liked_Questions #Depth_First_Search #Tree #Binary_Tree #Level_2_Day_7_Tree
-// #Big_O_Time_O(n)_Space_O(n) #2023_09_30_Time_68_ms_(86.71%)_Space_47.3_MB_(98.10%)
+// #Medium #Depth_First_Search #Tree #Binary_Tree #Level_2_Day_7_Tree #Big_O_Time_O(n)_Space_O(n)
+// #2023_09_30_Time_68_ms_(86.71%)_Space_47.3_MB_(98.10%)
 
 function pathSum(root: TreeNode | null, targetSum: number): number {
     let count = 0
