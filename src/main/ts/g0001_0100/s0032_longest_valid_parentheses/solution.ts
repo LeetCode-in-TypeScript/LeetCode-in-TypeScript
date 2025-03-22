@@ -1,5 +1,5 @@
 // #Hard #Top_100_Liked_Questions #String #Dynamic_Programming #Stack #Big_O_Time_O(n)_Space_O(1)
-// #2023_09_26_Time_56_ms_(89.31%)_Space_43.9_MB_(100.00%)
+// #2025_03_22_Time_3_ms_(71.05%)_Space_58.66_MB_(24.21%)
 
 function longestValidParentheses(s: string): number {
     let open = 0

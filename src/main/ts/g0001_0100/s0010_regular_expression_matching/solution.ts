@@ -1,5 +1,5 @@
 // #Hard #Top_Interview_Questions #String #Dynamic_Programming #Recursion #Udemy_Dynamic_Programming
-// #Big_O_Time_O(m*n)_Space_O(m*n) #2023_08_25_Time_69_ms_(92.65%)_Space_45.9_MB_(50.61%)
+// #Big_O_Time_O(m*n)_Space_O(m*n) #2025_03_22_Time_5_ms_(90.44%)_Space_59.10_MB_(22.68%)
 
 function isMatch(s: string, p: string): boolean { // NOSONAR
     const result = new Array(s.length + 1)

@@ -1,4 +1,4 @@
-// #Medium #Top_Interview_Questions #String #2023_08_25_Time_56_ms_(99.01%)_Space_44_MB_(98.27%)
+// #Medium #Top_Interview_Questions #String #2025_03_22_Time_1_ms_(90.14%)_Space_58.06_MB_(42.36%)
 
 function myAtoi(s: string): number {
     s = s.trim()
