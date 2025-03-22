@@ -1,6 +1,6 @@
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Binary_Search
 // #Algorithm_II_Day_1_Binary_Search #Binary_Search_I_Day_5 #Top_Interview_150_Binary_Search
-// #Big_O_Time_O(log_n)_Space_O(1) #2023_09_27_Time_45_ms_(98.05%)_Space_44.5_MB_(54.86%)
+// #Big_O_Time_O(log_n)_Space_O(1) #2025_03_22_Time_0_ms_(100.00%)_Space_57.18_MB_(12.18%)
 
 function searchRange(nums: number[], target: number): number[] { //NOSONAR
     let first = -1
