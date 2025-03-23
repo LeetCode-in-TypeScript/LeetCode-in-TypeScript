@@ -1,5 +1,5 @@
 // #Hard #Top_100_Liked_Questions #Top_Interview_Questions #Array #Stack #Monotonic_Stack
-// #Big_O_Time_O(n_log_n)_Space_O(log_n) #2023_10_03_Time_78_ms_(92.44%)_Space_56.8_MB_(85.29%)
+// #Big_O_Time_O(n_log_n)_Space_O(log_n) #2025_03_23_Time_15_ms_(72.81%)_Space_72.66_MB_(37.28%)
 
 function largestRectangleArea(heights: number[]): number {
     let stack = []
