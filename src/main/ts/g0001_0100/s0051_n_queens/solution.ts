@@ -1,5 +1,5 @@
 // #Hard #Top_100_Liked_Questions #Array #Backtracking #Big_O_Time_O(N!)_Space_O(N)
-// #2023_09_30_Time_57_ms_(93.84%)_Space_45_MB_(83.56%)
+// #2025_03_23_Time_6_ms_(95.85%)_Space_59.90_MB_(33.61%)
 
 function solveNQueens(n: number): string[][] {
     const result: string[][] = []

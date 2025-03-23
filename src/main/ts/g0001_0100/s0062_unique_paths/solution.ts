@@ -1,19 +1,18 @@
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Dynamic_Programming #Math
 // #Combinatorics #Algorithm_II_Day_13_Dynamic_Programming #Dynamic_Programming_I_Day_15
 // #Level_1_Day_11_Dynamic_Programming #Big_O_Time_O(m*n)_Space_O(m*n)
-// #2023_10_01_Time_40_ms_(98.97%)_Space_42.8_MB_(72.52%)
+// #2025_03_23_Time_0_ms_(100.00%)_Space_55.15_MB_(43.54%)
 
 function uniquePaths(m: number, n: number): number {
-    const factorialize = (x: number) => {
-        if (x <= 1) return 1
-        let res = x
-        while (x > 1) {
-            x--
-            res *= x
+    let aboveRow = Array(n).fill(1)
+    for (let row = 1; row < m; row++) {
+        let currentRow = Array(n).fill(1)
+        for (let col = 1; col < n; col++) {
+            currentRow[col] = currentRow[col - 1] + aboveRow[col]
         }
-        return res
+        aboveRow = currentRow
     }
-    return factorialize(m + n - 2) / factorialize(m - 1) / factorialize(n - 1)
+    return aboveRow[n - 1]
 }
 
 export { uniquePaths }
