@@ -42,7 +42,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0153 |[Find Minimum in Rotated Sorted Array](src/main/ts/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 42 | 98.87
+| 0153 |[Find Minimum in Rotated Sorted Array](src/main/ts/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 0 | 100.00
 
 #### Day 3 Two Pointers
 
@@ -66,7 +66,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 61 | 96.71
+| 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 57 | 93.94
 
 #### Day 7 Breadth First Search Depth First Search
 
@@ -121,7 +121,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0139 |[Word Break](src/main/ts/g0101_0200/s0139_word_break/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 56 | 88.44
+| 0139 |[Word Break](src/main/ts/g0101_0200/s0139_word_break/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 4 | 76.41
 
 #### Day 16 Dynamic Programming
 
@@ -222,7 +222,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0153 |[Find Minimum in Rotated Sorted Array](src/main/ts/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 42 | 98.87
+| 0153 |[Find Minimum in Rotated Sorted Array](src/main/ts/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 0 | 100.00
 
 ### Binary Search II
 
@@ -346,7 +346,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 51 | 77.29
+| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 
 #### Day 4
 
@@ -365,13 +365,13 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0152 |[Maximum Product Subarray](src/main/ts/g0101_0200/s0152_maximum_product_subarray/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 53 | 87.50
+| 0152 |[Maximum Product Subarray](src/main/ts/g0101_0200/s0152_maximum_product_subarray/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
 
 #### Day 7
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0121 |[Best Time to Buy and Sell Stock](src/main/ts/g0101_0200/s0121_best_time_to_buy_and_sell_stock/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 56 | 99.56
+| 0121 |[Best Time to Buy and Sell Stock](src/main/ts/g0101_0200/s0121_best_time_to_buy_and_sell_stock/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 96.44
 
 #### Day 8
 
@@ -382,7 +382,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0139 |[Word Break](src/main/ts/g0101_0200/s0139_word_break/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 56 | 88.44
+| 0139 |[Word Break](src/main/ts/g0101_0200/s0139_word_break/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 4 | 76.41
 | 0042 |[Trapping Rain Water](src/main/ts/g0001_0100/s0042_trapping_rain_water/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Two_Pointers, Stack, Monotonic_Stack, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
 
 #### Day 10
@@ -506,7 +506,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0104 |[Maximum Depth of Binary Tree](src/main/ts/g0101_0200/s0104_maximum_depth_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(H) | 51 | 97.14
+| 0104 |[Maximum Depth of Binary Tree](src/main/ts/g0101_0200/s0104_maximum_depth_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(H) | 0 | 100.00
 
 #### Day 11 Containers and Libraries
 
@@ -593,7 +593,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0138 |[Copy List with Random Pointer](src/main/ts/g0101_0200/s0138_copy_list_with_random_pointer/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Big_O_Time_O(N)_Space_O(N) | 52 | 88.27
+| 0138 |[Copy List with Random Pointer](src/main/ts/g0101_0200/s0138_copy_list_with_random_pointer/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Big_O_Time_O(N)_Space_O(N) | 49 | 72.42
 
 #### Day 15
 
@@ -615,7 +615,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0155 |[Min Stack](src/main/ts/g0101_0200/s0155_min_stack/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 84 | 92.72
+| 0155 |[Min Stack](src/main/ts/g0101_0200/s0155_min_stack/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 5 | 99.10
 
 #### Day 19
 
@@ -633,7 +633,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 61 | 96.71
+| 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 57 | 93.94
 
 #### Day 2 Matrix Related Problems
 
@@ -769,19 +769,19 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0021 |[Merge Two Sorted Lists](src/main/ts/g0001_0100/s0021_merge_two_sorted_lists/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 1 | 51.21
-| 0206 |[Reverse Linked List](src/main/ts/g0201_0300/s0206_reverse_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(N)_Space_O(1) | 51 | 92.87
+| 0206 |[Reverse Linked List](src/main/ts/g0201_0300/s0206_reverse_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
 
 #### Day 4 Linked List
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0142 |[Linked List Cycle II](src/main/ts/g0101_0200/s0142_linked_list_cycle_ii/solution.ts)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 59 | 94.39
+| 0142 |[Linked List Cycle II](src/main/ts/g0101_0200/s0142_linked_list_cycle_ii/solution.ts)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 51 | 76.99
 
 #### Day 5 Greedy
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0121 |[Best Time to Buy and Sell Stock](src/main/ts/g0101_0200/s0121_best_time_to_buy_and_sell_stock/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 56 | 99.56
+| 0121 |[Best Time to Buy and Sell Stock](src/main/ts/g0101_0200/s0121_best_time_to_buy_and_sell_stock/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 96.44
 
 #### Day 6 Tree
 
@@ -804,7 +804,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 61 | 96.71
+| 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 57 | 93.94
 
 #### Day 10 Dynamic Programming
 
@@ -864,7 +864,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0148 |[Sort List](src/main/ts/g0101_0200/s0148_sort_list/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(log(N))_Space_O(log(N)) | 141 | 97.14
+| 0148 |[Sort List](src/main/ts/g0101_0200/s0148_sort_list/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(log(N))_Space_O(log(N)) | 36 | 44.94
 
 #### Day 5 Greedy
 
@@ -911,7 +911,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 51 | 77.29
+| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0322 |[Coin Change](src/main/ts/g0301_0400/s0322_coin_change/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Breadth_First_Search, Big_O_Time_O(m\*n)_Space_O(amount) | 85 | 86.14
 
 #### Day 13 Dynamic Programming
@@ -919,7 +919,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0416 |[Partition Equal Subset Sum](src/main/ts/g0401_0500/s0416_partition_equal_subset_sum/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Big_O_Time_O(n\*sums)_Space_O(n\*sums) | 91 | 74.38
-| 0152 |[Maximum Product Subarray](src/main/ts/g0101_0200/s0152_maximum_product_subarray/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 53 | 87.50
+| 0152 |[Maximum Product Subarray](src/main/ts/g0101_0200/s0152_maximum_product_subarray/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
 
 #### Day 14 Sliding Window/Two Pointer
 
@@ -938,8 +938,8 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0155 |[Min Stack](src/main/ts/g0101_0200/s0155_min_stack/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 84 | 92.72
-| 0208 |[Implement Trie (Prefix Tree)](src/main/ts/g0201_0300/s0208_implement_trie_prefix_tree/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Design, Trie, Big_O_Time_O(word.length())_or_O(prefix.length())_Space_O(N) | 168 | 80.99
+| 0155 |[Min Stack](src/main/ts/g0101_0200/s0155_min_stack/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 5 | 99.10
+| 0208 |[Implement Trie (Prefix Tree)](src/main/ts/g0201_0300/s0208_implement_trie_prefix_tree/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Design, Trie, Big_O_Time_O(word.length())_or_O(prefix.length())_Space_O(N) | 48 | 63.95
 
 #### Day 17 Interval
 
@@ -970,7 +970,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 56 | 85.48
+| 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 1 | 78.27
 | 0007 |[Reverse Integer](src/main/ts/g0001_0100/s0007_reverse_integer/solution.ts)| Medium | Top_Interview_Questions, Math | 53 | 83.14
 | 0009 |[Palindrome Number](src/main/ts/g0001_0100/s0009_palindrome_number/solution.ts)| Easy | Math | 3 | 99.14
 
@@ -989,16 +989,16 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0033 |[Search in Rotated Sorted Array](src/main/ts/g0001_0100/s0033_search_in_rotated_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 0 | 100.00
-| 0153 |[Find Minimum in Rotated Sorted Array](src/main/ts/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 42 | 98.87
+| 0153 |[Find Minimum in Rotated Sorted Array](src/main/ts/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 0 | 100.00
 
 #### Udemy Arrays
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0121 |[Best Time to Buy and Sell Stock](src/main/ts/g0101_0200/s0121_best_time_to_buy_and_sell_stock/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 56 | 99.56
+| 0121 |[Best Time to Buy and Sell Stock](src/main/ts/g0101_0200/s0121_best_time_to_buy_and_sell_stock/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 96.44
 | 0283 |[Move Zeroes](src/main/ts/g0201_0300/s0283_move_zeroes/solution.ts)| Easy | Top_100_Liked_Questions, Array, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 71 | 91.63
 | 0001 |[Two Sum](src/main/ts/g0001_0100/s0001_two_sum/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n), AI_can_be_used_to_solve_the_task | 1 | 89.70
-| 0189 |[Rotate Array](src/main/ts/g0101_0200/s0189_rotate_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 75 | 97.25
+| 0189 |[Rotate Array](src/main/ts/g0101_0200/s0189_rotate_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 1 | 86.17
 | 0055 |[Jump Game](src/main/ts/g0001_0100/s0055_jump_game/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
 | 0075 |[Sort Colors](src/main/ts/g0001_0100/s0075_sort_colors/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
 | 0238 |[Product of Array Except Self](src/main/ts/g0201_0300/s0238_product_of_array_except_self/solution.ts)| Medium | Top_100_Liked_Questions, Array, Prefix_Sum, Big_O_Time_O(n^2)_Space_O(n) | 89 | 64.48
@@ -1017,7 +1017,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0053 |[Maximum Subarray](src/main/ts/g0001_0100/s0053_maximum_subarray/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
-| 0169 |[Majority Element](src/main/ts/g0101_0200/s0169_majority_element/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 50 | 96.16
+| 0169 |[Majority Element](src/main/ts/g0101_0200/s0169_majority_element/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
 
 #### Udemy Sorting Algorithms
 
@@ -1037,17 +1037,17 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0114 |[Flatten Binary Tree to Linked List](src/main/ts/g0101_0200/s0114_flatten_binary_tree_to_linked_list/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Linked_List, Big_O_Time_O(N)_Space_O(N) | 55 | 90.66
+| 0114 |[Flatten Binary Tree to Linked List](src/main/ts/g0101_0200/s0114_flatten_binary_tree_to_linked_list/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Linked_List, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
 | 0024 |[Swap Nodes in Pairs](src/main/ts/g0001_0100/s0024_swap_nodes_in_pairs/solution.ts)| Medium | Top_100_Liked_Questions, Linked_List, Recursion, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
-| 0142 |[Linked List Cycle II](src/main/ts/g0101_0200/s0142_linked_list_cycle_ii/solution.ts)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 59 | 94.39
-| 0141 |[Linked List Cycle](src/main/ts/g0101_0200/s0141_linked_list_cycle/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 59 | 93.37
-| 0206 |[Reverse Linked List](src/main/ts/g0201_0300/s0206_reverse_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(N)_Space_O(1) | 51 | 92.87
+| 0142 |[Linked List Cycle II](src/main/ts/g0101_0200/s0142_linked_list_cycle_ii/solution.ts)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 51 | 76.99
+| 0141 |[Linked List Cycle](src/main/ts/g0101_0200/s0141_linked_list_cycle/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 47 | 89.37
+| 0206 |[Reverse Linked List](src/main/ts/g0201_0300/s0206_reverse_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
 | 0021 |[Merge Two Sorted Lists](src/main/ts/g0001_0100/s0021_merge_two_sorted_lists/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 1 | 51.21
-| 0160 |[Intersection of Two Linked Lists](src/main/ts/g0101_0200/s0160_intersection_of_two_linked_lists/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(M+N)_Space_O(1) | 67 | 93.58
+| 0160 |[Intersection of Two Linked Lists](src/main/ts/g0101_0200/s0160_intersection_of_two_linked_lists/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(M+N)_Space_O(1) | 65 | 72.36
 | 0234 |[Palindrome Linked List](src/main/ts/g0201_0300/s0234_palindrome_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Two_Pointers, Stack, Linked_List, Recursion, Big_O_Time_O(n)_Space_O(1) | 96 | 95.67
-| 0138 |[Copy List with Random Pointer](src/main/ts/g0101_0200/s0138_copy_list_with_random_pointer/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Big_O_Time_O(N)_Space_O(N) | 52 | 88.27
+| 0138 |[Copy List with Random Pointer](src/main/ts/g0101_0200/s0138_copy_list_with_random_pointer/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Big_O_Time_O(N)_Space_O(N) | 49 | 72.42
 | 0025 |[Reverse Nodes in k-Group](src/main/ts/g0001_0100/s0025_reverse_nodes_in_k_group/solution.ts)| Hard | Top_100_Liked_Questions, Linked_List, Recursion, Big_O_Time_O(n)_Space_O(k) | 0 | 100.00
-| 0146 |[LRU Cache](src/main/ts/g0101_0200/s0146_lru_cache/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Design, Linked_List, Doubly_Linked_List, Big_O_Time_O(1)_Space_O(capacity) | 473 | 94.72
+| 0146 |[LRU Cache](src/main/ts/g0101_0200/s0146_lru_cache/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Design, Linked_List, Doubly_Linked_List, Big_O_Time_O(1)_Space_O(capacity) | 97 | 81.52
 
 #### Udemy Tree Stack Queue
 
@@ -1057,8 +1057,8 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0102 |[Binary Tree Level Order Traversal](src/main/ts/g0101_0200/s0102_binary_tree_level_order_traversal/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
 | 0543 |[Diameter of Binary Tree](src/main/ts/g0501_0600/s0543_diameter_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 61 | 80.89
 | 0226 |[Invert Binary Tree](src/main/ts/g0201_0300/s0226_invert_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 52 | 81.65
-| 0104 |[Maximum Depth of Binary Tree](src/main/ts/g0101_0200/s0104_maximum_depth_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(H) | 51 | 97.14
-| 0124 |[Binary Tree Maximum Path Sum](src/main/ts/g0101_0200/s0124_binary_tree_maximum_path_sum/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 61 | 96.73
+| 0104 |[Maximum Depth of Binary Tree](src/main/ts/g0101_0200/s0104_maximum_depth_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(H) | 0 | 100.00
+| 0124 |[Binary Tree Maximum Path Sum](src/main/ts/g0101_0200/s0124_binary_tree_maximum_path_sum/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 2 | 71.11
 | 0098 |[Validate Binary Search Tree](src/main/ts/g0001_0100/s0098_validate_binary_search_tree/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Big_O_Time_O(N)_Space_O(log(N)) | 0 | 100.00
 | 0236 |[Lowest Common Ancestor of a Binary Tree](src/main/ts/g0201_0300/s0236_lowest_common_ancestor_of_a_binary_tree/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 59 | 96.11
 
@@ -1066,21 +1066,21 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0208 |[Implement Trie (Prefix Tree)](src/main/ts/g0201_0300/s0208_implement_trie_prefix_tree/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Design, Trie, Big_O_Time_O(word.length())_or_O(prefix.length())_Space_O(N) | 168 | 80.99
+| 0208 |[Implement Trie (Prefix Tree)](src/main/ts/g0201_0300/s0208_implement_trie_prefix_tree/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Design, Trie, Big_O_Time_O(word.length())_or_O(prefix.length())_Space_O(N) | 48 | 63.95
 
 #### Udemy Graph
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 61 | 96.71
+| 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 57 | 93.94
 
 #### Udemy Dynamic Programming
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0139 |[Word Break](src/main/ts/g0101_0200/s0139_word_break/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 56 | 88.44
-| 0152 |[Maximum Product Subarray](src/main/ts/g0101_0200/s0152_maximum_product_subarray/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 53 | 87.50
-| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 51 | 77.29
+| 0139 |[Word Break](src/main/ts/g0101_0200/s0139_word_break/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 4 | 76.41
+| 0152 |[Maximum Product Subarray](src/main/ts/g0101_0200/s0152_maximum_product_subarray/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
+| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0070 |[Climbing Stairs](src/main/ts/g0001_0100/s0070_climbing_stairs/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0064 |[Minimum Path Sum](src/main/ts/g0001_0100/s0064_minimum_path_sum/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Big_O_Time_O(m\*n)_Space_O(m\*n) | 4 | 70.73
 | 0300 |[Longest Increasing Subsequence](src/main/ts/g0201_0300/s0300_longest_increasing_subsequence/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Binary_Search, Big_O_Time_O(n\*log_n)_Space_O(n) | 57 | 93.75
@@ -1108,7 +1108,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0155 |[Min Stack](src/main/ts/g0101_0200/s0155_min_stack/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 84 | 92.72
+| 0155 |[Min Stack](src/main/ts/g0101_0200/s0155_min_stack/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 5 | 99.10
 
 ### Top Interview 150
 
@@ -1116,9 +1116,9 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0169 |[Majority Element](src/main/ts/g0101_0200/s0169_majority_element/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 50 | 96.16
-| 0189 |[Rotate Array](src/main/ts/g0101_0200/s0189_rotate_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 75 | 97.25
-| 0121 |[Best Time to Buy and Sell Stock](src/main/ts/g0101_0200/s0121_best_time_to_buy_and_sell_stock/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 56 | 99.56
+| 0169 |[Majority Element](src/main/ts/g0101_0200/s0169_majority_element/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
+| 0189 |[Rotate Array](src/main/ts/g0101_0200/s0189_rotate_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 1 | 86.17
+| 0121 |[Best Time to Buy and Sell Stock](src/main/ts/g0101_0200/s0121_best_time_to_buy_and_sell_stock/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 96.44
 | 0055 |[Jump Game](src/main/ts/g0001_0100/s0055_jump_game/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
 | 0045 |[Jump Game II](src/main/ts/g0001_0100/s0045_jump_game_ii/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Greedy, Big_O_Time_O(n)_Space_O(1) | 1 | 84.27
 | 0238 |[Product of Array Except Self](src/main/ts/g0201_0300/s0238_product_of_array_except_self/solution.ts)| Medium | Top_100_Liked_Questions, Array, Prefix_Sum, Big_O_Time_O(n^2)_Space_O(n) | 89 | 64.48
@@ -1152,7 +1152,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0049 |[Group Anagrams](src/main/ts/g0001_0100/s0049_group_anagrams/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, String, Hash_Table, Sorting, Big_O_Time_O(n\*k_log_k)_Space_O(n) | 27 | 78.99
 | 0001 |[Two Sum](src/main/ts/g0001_0100/s0001_two_sum/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n), AI_can_be_used_to_solve_the_task | 1 | 89.70
-| 0128 |[Longest Consecutive Sequence](src/main/ts/g0101_0200/s0128_longest_consecutive_sequence/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Union_Find, Big_O_Time_O(N_log_N)_Space_O(1) | 92 | 93.69
+| 0128 |[Longest Consecutive Sequence](src/main/ts/g0101_0200/s0128_longest_consecutive_sequence/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Union_Find, Big_O_Time_O(N_log_N)_Space_O(1) | 34 | 90.07
 
 #### Top Interview 150 Intervals
 
@@ -1165,30 +1165,30 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0020 |[Valid Parentheses](src/main/ts/g0001_0100/s0020_valid_parentheses/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String, Stack, Big_O_Time_O(n)_Space_O(n) | 1 | 86.85
-| 0155 |[Min Stack](src/main/ts/g0101_0200/s0155_min_stack/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 84 | 92.72
+| 0155 |[Min Stack](src/main/ts/g0101_0200/s0155_min_stack/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 5 | 99.10
 
 #### Top Interview 150 Linked List
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0141 |[Linked List Cycle](src/main/ts/g0101_0200/s0141_linked_list_cycle/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 59 | 93.37
+| 0141 |[Linked List Cycle](src/main/ts/g0101_0200/s0141_linked_list_cycle/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 47 | 89.37
 | 0002 |[Add Two Numbers](src/main/ts/g0001_0100/s0002_add_two_numbers/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Big_O_Time_O(max(N,M))_Space_O(max(N,M)), AI_can_be_used_to_solve_the_task | 2 | 95.82
 | 0021 |[Merge Two Sorted Lists](src/main/ts/g0001_0100/s0021_merge_two_sorted_lists/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 1 | 51.21
-| 0138 |[Copy List with Random Pointer](src/main/ts/g0101_0200/s0138_copy_list_with_random_pointer/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Big_O_Time_O(N)_Space_O(N) | 52 | 88.27
+| 0138 |[Copy List with Random Pointer](src/main/ts/g0101_0200/s0138_copy_list_with_random_pointer/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Big_O_Time_O(N)_Space_O(N) | 49 | 72.42
 | 0025 |[Reverse Nodes in k-Group](src/main/ts/g0001_0100/s0025_reverse_nodes_in_k_group/solution.ts)| Hard | Top_100_Liked_Questions, Linked_List, Recursion, Big_O_Time_O(n)_Space_O(k) | 0 | 100.00
 | 0019 |[Remove Nth Node From End of List](src/main/ts/g0001_0100/s0019_remove_nth_node_from_end_of_list/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Two_Pointers, Linked_List, Big_O_Time_O(L)_Space_O(L) | 0 | 100.00
-| 0146 |[LRU Cache](src/main/ts/g0101_0200/s0146_lru_cache/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Design, Linked_List, Doubly_Linked_List, Big_O_Time_O(1)_Space_O(capacity) | 473 | 94.72
+| 0146 |[LRU Cache](src/main/ts/g0101_0200/s0146_lru_cache/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Design, Linked_List, Doubly_Linked_List, Big_O_Time_O(1)_Space_O(capacity) | 97 | 81.52
 
 #### Top Interview 150 Binary Tree General
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0104 |[Maximum Depth of Binary Tree](src/main/ts/g0101_0200/s0104_maximum_depth_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(H) | 51 | 97.14
+| 0104 |[Maximum Depth of Binary Tree](src/main/ts/g0101_0200/s0104_maximum_depth_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(H) | 0 | 100.00
 | 0226 |[Invert Binary Tree](src/main/ts/g0201_0300/s0226_invert_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 52 | 81.65
 | 0101 |[Symmetric Tree](src/main/ts/g0101_0200/s0101_symmetric_tree/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(log(N)) | 0 | 100.00
-| 0105 |[Construct Binary Tree from Preorder and Inorder Traversal](src/main/ts/g0101_0200/s0105_construct_binary_tree_from_preorder_and_inorder_traversal/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer, Big_O_Time_O(N)_Space_O(N) | 65 | 96.47
-| 0114 |[Flatten Binary Tree to Linked List](src/main/ts/g0101_0200/s0114_flatten_binary_tree_to_linked_list/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Linked_List, Big_O_Time_O(N)_Space_O(N) | 55 | 90.66
-| 0124 |[Binary Tree Maximum Path Sum](src/main/ts/g0101_0200/s0124_binary_tree_maximum_path_sum/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 61 | 96.73
+| 0105 |[Construct Binary Tree from Preorder and Inorder Traversal](src/main/ts/g0101_0200/s0105_construct_binary_tree_from_preorder_and_inorder_traversal/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer, Big_O_Time_O(N)_Space_O(N) | 2 | 93.38
+| 0114 |[Flatten Binary Tree to Linked List](src/main/ts/g0101_0200/s0114_flatten_binary_tree_to_linked_list/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Linked_List, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
+| 0124 |[Binary Tree Maximum Path Sum](src/main/ts/g0101_0200/s0124_binary_tree_maximum_path_sum/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 2 | 71.11
 | 0236 |[Lowest Common Ancestor of a Binary Tree](src/main/ts/g0201_0300/s0236_lowest_common_ancestor_of_a_binary_tree/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 59 | 96.11
 
 #### Top Interview 150 Binary Tree BFS
@@ -1208,8 +1208,8 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 61 | 96.71
-| 0207 |[Course Schedule](src/main/ts/g0201_0300/s0207_course_schedule/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Big_O_Time_O(N)_Space_O(N) | 68 | 70.14
+| 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 57 | 93.94
+| 0207 |[Course Schedule](src/main/ts/g0201_0300/s0207_course_schedule/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Big_O_Time_O(N)_Space_O(N) | 11 | 81.08
 
 #### Top Interview 150 Graph BFS
 
@@ -1220,7 +1220,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0208 |[Implement Trie (Prefix Tree)](src/main/ts/g0201_0300/s0208_implement_trie_prefix_tree/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Design, Trie, Big_O_Time_O(word.length())_or_O(prefix.length())_Space_O(N) | 168 | 80.99
+| 0208 |[Implement Trie (Prefix Tree)](src/main/ts/g0201_0300/s0208_implement_trie_prefix_tree/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Design, Trie, Big_O_Time_O(word.length())_or_O(prefix.length())_Space_O(N) | 48 | 63.95
 
 #### Top Interview 150 Backtracking
 
@@ -1236,7 +1236,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0148 |[Sort List](src/main/ts/g0101_0200/s0148_sort_list/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(log(N))_Space_O(log(N)) | 141 | 97.14
+| 0148 |[Sort List](src/main/ts/g0101_0200/s0148_sort_list/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(log(N))_Space_O(log(N)) | 36 | 44.94
 | 0023 |[Merge k Sorted Lists](src/main/ts/g0001_0100/s0023_merge_k_sorted_lists/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Heap_Priority_Queue, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(k\*n\*log(k))_Space_O(log(k)) | 4 | 97.65
 
 #### Top Interview 150 Kadane's Algorithm
@@ -1253,21 +1253,21 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0074 |[Search a 2D Matrix](src/main/ts/g0001_0100/s0074_search_a_2d_matrix/solution.ts)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Big_O_Time_O(endRow+endCol)_Space_O(1) | 0 | 100.00
 | 0033 |[Search in Rotated Sorted Array](src/main/ts/g0001_0100/s0033_search_in_rotated_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 0 | 100.00
 | 0034 |[Find First and Last Position of Element in Sorted Array](src/main/ts/g0001_0100/s0034_find_first_and_last_position_of_element_in_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 0 | 100.00
-| 0153 |[Find Minimum in Rotated Sorted Array](src/main/ts/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 42 | 98.87
+| 0153 |[Find Minimum in Rotated Sorted Array](src/main/ts/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 0 | 100.00
 | 0004 |[Median of Two Sorted Arrays](src/main/ts/g0001_0100/s0004_median_of_two_sorted_arrays/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Divide_and_Conquer, Big_O_Time_O(log(min(N,M)))_Space_O(1), AI_can_be_used_to_solve_the_task | 3 | 82.74
 
 #### Top Interview 150 Heap
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0215 |[Kth Largest Element in an Array](src/main/ts/g0201_0300/s0215_kth_largest_element_in_an_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Quickselect, Big_O_Time_O(n\*log(n))_Space_O(log(n)) | 148 | 54.45
+| 0215 |[Kth Largest Element in an Array](src/main/ts/g0201_0300/s0215_kth_largest_element_in_an_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Quickselect, Big_O_Time_O(n\*log(n))_Space_O(log(n)) | 4 | 99.64
 | 0295 |[Find Median from Data Stream](src/main/ts/g0201_0300/s0295_find_median_from_data_stream/solution.ts)| Hard | Top_100_Liked_Questions, Sorting, Two_Pointers, Design, Heap_Priority_Queue, Data_Stream, Big_O_Time_O(n\*log_n)_Space_O(n) | 335 | 99.44
 
 #### Top Interview 150 Bit Manipulation
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 56 | 85.48
+| 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 1 | 78.27
 
 #### Top Interview 150 Math
 
@@ -1280,8 +1280,8 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0070 |[Climbing Stairs](src/main/ts/g0001_0100/s0070_climbing_stairs/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
-| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 51 | 77.29
-| 0139 |[Word Break](src/main/ts/g0101_0200/s0139_word_break/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 56 | 88.44
+| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0139 |[Word Break](src/main/ts/g0101_0200/s0139_word_break/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 4 | 76.41
 | 0322 |[Coin Change](src/main/ts/g0301_0400/s0322_coin_change/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Breadth_First_Search, Big_O_Time_O(m\*n)_Space_O(amount) | 85 | 86.14
 | 0300 |[Longest Increasing Subsequence](src/main/ts/g0201_0300/s0300_longest_increasing_subsequence/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Binary_Search, Big_O_Time_O(n\*log_n)_Space_O(n) | 57 | 93.75
 
@@ -1312,7 +1312,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0121 |[Best Time to Buy and Sell Stock](src/main/ts/g0101_0200/s0121_best_time_to_buy_and_sell_stock/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 56 | 99.56
+| 0121 |[Best Time to Buy and Sell Stock](src/main/ts/g0101_0200/s0121_best_time_to_buy_and_sell_stock/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 1 | 96.44
 
 #### Day 4 Array
 
@@ -1334,14 +1334,14 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0141 |[Linked List Cycle](src/main/ts/g0101_0200/s0141_linked_list_cycle/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 59 | 93.37
+| 0141 |[Linked List Cycle](src/main/ts/g0101_0200/s0141_linked_list_cycle/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 47 | 89.37
 | 0021 |[Merge Two Sorted Lists](src/main/ts/g0001_0100/s0021_merge_two_sorted_lists/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 1 | 51.21
 
 #### Day 8 Linked List
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0206 |[Reverse Linked List](src/main/ts/g0201_0300/s0206_reverse_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(N)_Space_O(1) | 51 | 92.87
+| 0206 |[Reverse Linked List](src/main/ts/g0201_0300/s0206_reverse_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
 
 #### Day 9 Stack Queue
 
@@ -1360,7 +1360,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0102 |[Binary Tree Level Order Traversal](src/main/ts/g0101_0200/s0102_binary_tree_level_order_traversal/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
-| 0104 |[Maximum Depth of Binary Tree](src/main/ts/g0101_0200/s0104_maximum_depth_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(H) | 51 | 97.14
+| 0104 |[Maximum Depth of Binary Tree](src/main/ts/g0101_0200/s0104_maximum_depth_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(H) | 0 | 100.00
 | 0101 |[Symmetric Tree](src/main/ts/g0101_0200/s0101_symmetric_tree/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(log(N)) | 0 | 100.00
 
 #### Day 12 Tree
@@ -1386,8 +1386,8 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 56 | 85.48
-| 0169 |[Majority Element](src/main/ts/g0101_0200/s0169_majority_element/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 50 | 96.16
+| 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 1 | 78.27
+| 0169 |[Majority Element](src/main/ts/g0101_0200/s0169_majority_element/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
 | 0015 |[3Sum](src/main/ts/g0001_0100/s0015_3sum/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 30 | 91.56
 
 #### Day 2 Array
@@ -1444,13 +1444,13 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0002 |[Add Two Numbers](src/main/ts/g0001_0100/s0002_add_two_numbers/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Big_O_Time_O(max(N,M))_Space_O(max(N,M)), AI_can_be_used_to_solve_the_task | 2 | 95.82
-| 0142 |[Linked List Cycle II](src/main/ts/g0101_0200/s0142_linked_list_cycle_ii/solution.ts)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 59 | 94.39
+| 0142 |[Linked List Cycle II](src/main/ts/g0101_0200/s0142_linked_list_cycle_ii/solution.ts)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 51 | 76.99
 
 #### Day 11 Linked List
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0160 |[Intersection of Two Linked Lists](src/main/ts/g0101_0200/s0160_intersection_of_two_linked_lists/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(M+N)_Space_O(1) | 67 | 93.58
+| 0160 |[Intersection of Two Linked Lists](src/main/ts/g0101_0200/s0160_intersection_of_two_linked_lists/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(M+N)_Space_O(1) | 65 | 72.36
 
 #### Day 12 Linked List
 
@@ -1468,13 +1468,13 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0155 |[Min Stack](src/main/ts/g0101_0200/s0155_min_stack/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 84 | 92.72
+| 0155 |[Min Stack](src/main/ts/g0101_0200/s0155_min_stack/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 5 | 99.10
 
 #### Day 15 Tree
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0105 |[Construct Binary Tree from Preorder and Inorder Traversal](src/main/ts/g0101_0200/s0105_construct_binary_tree_from_preorder_and_inorder_traversal/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer, Big_O_Time_O(N)_Space_O(N) | 65 | 96.47
+| 0105 |[Construct Binary Tree from Preorder and Inorder Traversal](src/main/ts/g0101_0200/s0105_construct_binary_tree_from_preorder_and_inorder_traversal/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer, Big_O_Time_O(N)_Space_O(N) | 2 | 93.38
 
 #### Day 16 Tree
 
@@ -1502,7 +1502,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0215 |[Kth Largest Element in an Array](src/main/ts/g0201_0300/s0215_kth_largest_element_in_an_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Quickselect, Big_O_Time_O(n\*log(n))_Space_O(log(n)) | 148 | 54.45
+| 0215 |[Kth Largest Element in an Array](src/main/ts/g0201_0300/s0215_kth_largest_element_in_an_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Quickselect, Big_O_Time_O(n\*log(n))_Space_O(log(n)) | 4 | 99.64
 | 0347 |[Top K Frequent Elements](src/main/ts/g0301_0400/s0347_top_k_frequent_elements/solution.ts)| Medium | Top_100_Liked_Questions, Array, Hash_Table, Sorting, Heap_Priority_Queue, Counting, Divide_and_Conquer, Quickselect, Bucket_Sort, Big_O_Time_O(n\*log(n))_Space_O(k) | 62 | 87.48
 
 #### Day 21 Heap Priority Queue
@@ -1522,7 +1522,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0189 |[Rotate Array](src/main/ts/g0101_0200/s0189_rotate_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 75 | 97.25
+| 0189 |[Rotate Array](src/main/ts/g0101_0200/s0189_rotate_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 1 | 86.17
 
 #### Day 3 Two Pointers
 
@@ -1567,7 +1567,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0021 |[Merge Two Sorted Lists](src/main/ts/g0001_0100/s0021_merge_two_sorted_lists/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 1 | 51.21
-| 0206 |[Reverse Linked List](src/main/ts/g0201_0300/s0206_reverse_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(N)_Space_O(1) | 51 | 92.87
+| 0206 |[Reverse Linked List](src/main/ts/g0201_0300/s0206_reverse_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
 
 #### Day 11 Recursion Backtracking
 
@@ -1580,7 +1580,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0070 |[Climbing Stairs](src/main/ts/g0001_0100/s0070_climbing_stairs/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
-| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 51 | 77.29
+| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 
 #### Day 13 Bit Manipulation
 
@@ -1591,7 +1591,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 56 | 85.48
+| 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 1 | 78.27
 
 ## Algorithms
 
@@ -1623,32 +1623,32 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0230 |[Kth Smallest Element in a BST](src/main/ts/g0201_0300/s0230_kth_smallest_element_in_a_bst/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Data_Structure_II_Day_17_Tree, Level_2_Day_9_Binary_Search_Tree, Top_Interview_150_Binary_Search_Tree, Big_O_Time_O(n)_Space_O(n) | 54 | 97.22
 | 0226 |[Invert Binary Tree](src/main/ts/g0201_0300/s0226_invert_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_12_Tree, Level_2_Day_6_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(n)_Space_O(n) | 52 | 81.65
 | 0221 |[Maximal Square](src/main/ts/g0201_0300/s0221_maximal_square/solution.ts)| Medium | Array, Dynamic_Programming, Matrix, Dynamic_Programming_I_Day_16, Top_Interview_150_Multidimensional_DP, Big_O_Time_O(m\*n)_Space_O(m\*n) | 83 | 79.70
-| 0215 |[Kth Largest Element in an Array](src/main/ts/g0201_0300/s0215_kth_largest_element_in_an_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Quickselect, Data_Structure_II_Day_20_Heap_Priority_Queue, Top_Interview_150_Heap, Big_O_Time_O(n\*log(n))_Space_O(log(n)) | 148 | 54.45
-| 0208 |[Implement Trie (Prefix Tree)](src/main/ts/g0201_0300/s0208_implement_trie_prefix_tree/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Design, Trie, Level_2_Day_16_Design, Udemy_Trie_and_Heap, Top_Interview_150_Trie, Big_O_Time_O(word.length())_or_O(prefix.length())_Space_O(N) | 168 | 80.99
-| 0207 |[Course Schedule](src/main/ts/g0201_0300/s0207_course_schedule/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Top_Interview_150_Graph_General, Big_O_Time_O(N)_Space_O(N) | 68 | 70.14
-| 0206 |[Reverse Linked List](src/main/ts/g0201_0300/s0206_reverse_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Data_Structure_I_Day_8_Linked_List, Algorithm_I_Day_10_Recursion_Backtracking, Level_1_Day_3_Linked_List, Udemy_Linked_List, Big_O_Time_O(N)_Space_O(1) | 51 | 92.87
-| 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Algorithm_II_Day_6_Breadth_First_Search_Depth_First_Search, Graph_Theory_I_Day_1_Matrix_Related_Problems, Level_1_Day_9_Graph/BFS/DFS, Udemy_Graph, Top_Interview_150_Graph_General, Big_O_Time_O(M\*N)_Space_O(M\*N) | 61 | 96.71
-| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Algorithm_I_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_3, Level_2_Day_12_Dynamic_Programming, Udemy_Dynamic_Programming, Top_Interview_150_1D_DP, Big_O_Time_O(n)_Space_O(n) | 51 | 77.29
-| 0189 |[Rotate Array](src/main/ts/g0101_0200/s0189_rotate_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Algorithm_I_Day_2_Two_Pointers, Udemy_Arrays, Top_Interview_150_Array/String, Big_O_Time_O(n)_Space_O(1) | 75 | 97.25
-| 0169 |[Majority Element](src/main/ts/g0101_0200/s0169_majority_element/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Data_Structure_II_Day_1_Array, Udemy_Famous_Algorithm, Top_Interview_150_Array/String, Big_O_Time_O(n)_Space_O(1) | 50 | 96.16
-| 0160 |[Intersection of Two Linked Lists](src/main/ts/g0101_0200/s0160_intersection_of_two_linked_lists/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_II_Day_11_Linked_List, Udemy_Linked_List, Big_O_Time_O(M+N)_Space_O(1) | 67 | 93.58
-| 0155 |[Min Stack](src/main/ts/g0101_0200/s0155_min_stack/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Data_Structure_II_Day_14_Stack_Queue, Programming_Skills_II_Day_18, Level_2_Day_16_Design, Udemy_Design, Top_Interview_150_Stack, Big_O_Time_O(1)_Space_O(N) | 84 | 92.72
-| 0153 |[Find Minimum in Rotated Sorted Array](src/main/ts/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Algorithm_II_Day_2_Binary_Search, Binary_Search_I_Day_12, Udemy_Binary_Search, Top_Interview_150_Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 42 | 98.87
-| 0152 |[Maximum Product Subarray](src/main/ts/g0101_0200/s0152_maximum_product_subarray/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Dynamic_Programming_I_Day_6, Level_2_Day_13_Dynamic_Programming, Udemy_Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 53 | 87.50
-| 0148 |[Sort List](src/main/ts/g0101_0200/s0148_sort_list/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Level_2_Day_4_Linked_List, Top_Interview_150_Divide_and_Conquer, Big_O_Time_O(log(N))_Space_O(log(N)) | 141 | 97.14
-| 0146 |[LRU Cache](src/main/ts/g0101_0200/s0146_lru_cache/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Design, Linked_List, Doubly_Linked_List, Udemy_Linked_List, Top_Interview_150_Linked_List, Big_O_Time_O(1)_Space_O(capacity) | 473 | 94.72
-| 0142 |[Linked List Cycle II](src/main/ts/g0101_0200/s0142_linked_list_cycle_ii/solution.ts)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_II_Day_10_Linked_List, Level_1_Day_4_Linked_List, Udemy_Linked_List, Big_O_Time_O(N)_Space_O(1) | 59 | 94.39
-| 0141 |[Linked List Cycle](src/main/ts/g0101_0200/s0141_linked_list_cycle/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_I_Day_7_Linked_List, Udemy_Linked_List, Top_Interview_150_Linked_List, Big_O_Time_O(N)_Space_O(1) | 59 | 93.37
-| 0139 |[Word Break](src/main/ts/g0101_0200/s0139_word_break/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Algorithm_II_Day_15_Dynamic_Programming, Dynamic_Programming_I_Day_9, Udemy_Dynamic_Programming, Top_Interview_150_1D_DP, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 56 | 88.44
-| 0138 |[Copy List with Random Pointer](src/main/ts/g0101_0200/s0138_copy_list_with_random_pointer/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Programming_Skills_II_Day_14, Udemy_Linked_List, Top_Interview_150_Linked_List, Big_O_Time_O(N)_Space_O(N) | 52 | 88.27
-| 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Data_Structure_II_Day_1_Array, Algorithm_I_Day_14_Bit_Manipulation, Udemy_Integers, Top_Interview_150_Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 56 | 85.48
-| 0131 |[Palindrome Partitioning](src/main/ts/g0101_0200/s0131_palindrome_partitioning/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Backtracking, Big_O_Time_O(N\*2^N)_Space_O(2^N\*N) | 203 | 99.22
-| 0128 |[Longest Consecutive Sequence](src/main/ts/g0101_0200/s0128_longest_consecutive_sequence/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Union_Find, Top_Interview_150_Hashmap, Big_O_Time_O(N_log_N)_Space_O(1) | 92 | 93.69
-| 0124 |[Binary Tree Maximum Path Sum](src/main/ts/g0101_0200/s0124_binary_tree_maximum_path_sum/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(N) | 61 | 96.73
-| 0121 |[Best Time to Buy and Sell Stock](src/main/ts/g0101_0200/s0121_best_time_to_buy_and_sell_stock/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Data_Structure_I_Day_3_Array, Dynamic_Programming_I_Day_7, Level_1_Day_5_Greedy, Udemy_Arrays, Top_Interview_150_Array/String, Big_O_Time_O(N)_Space_O(1) | 56 | 99.56
-| 0114 |[Flatten Binary Tree to Linked List](src/main/ts/g0101_0200/s0114_flatten_binary_tree_to_linked_list/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Linked_List, Udemy_Linked_List, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(N) | 55 | 90.66
-| 0105 |[Construct Binary Tree from Preorder and Inorder Traversal](src/main/ts/g0101_0200/s0105_construct_binary_tree_from_preorder_and_inorder_traversal/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer, Data_Structure_II_Day_15_Tree, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(N) | 65 | 96.47
-| 0104 |[Maximum Depth of Binary Tree](src/main/ts/g0101_0200/s0104_maximum_depth_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree, Programming_Skills_I_Day_10_Linked_List_and_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(H) | 51 | 97.14
+| 0215 |[Kth Largest Element in an Array](src/main/ts/g0201_0300/s0215_kth_largest_element_in_an_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Quickselect, Data_Structure_II_Day_20_Heap_Priority_Queue, Top_Interview_150_Heap, Big_O_Time_O(n\*log(n))_Space_O(log(n)) | 4 | 99.64
+| 0208 |[Implement Trie (Prefix Tree)](src/main/ts/g0201_0300/s0208_implement_trie_prefix_tree/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Design, Trie, Level_2_Day_16_Design, Udemy_Trie_and_Heap, Top_Interview_150_Trie, Big_O_Time_O(word.length())_or_O(prefix.length())_Space_O(N) | 48 | 63.95
+| 0207 |[Course Schedule](src/main/ts/g0201_0300/s0207_course_schedule/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Top_Interview_150_Graph_General, Big_O_Time_O(N)_Space_O(N) | 11 | 81.08
+| 0206 |[Reverse Linked List](src/main/ts/g0201_0300/s0206_reverse_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Data_Structure_I_Day_8_Linked_List, Algorithm_I_Day_10_Recursion_Backtracking, Level_1_Day_3_Linked_List, Udemy_Linked_List, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
+| 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Algorithm_II_Day_6_Breadth_First_Search_Depth_First_Search, Graph_Theory_I_Day_1_Matrix_Related_Problems, Level_1_Day_9_Graph/BFS/DFS, Udemy_Graph, Top_Interview_150_Graph_General, Big_O_Time_O(M\*N)_Space_O(M\*N) | 57 | 93.94
+| 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Algorithm_I_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_3, Level_2_Day_12_Dynamic_Programming, Udemy_Dynamic_Programming, Top_Interview_150_1D_DP, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0189 |[Rotate Array](src/main/ts/g0101_0200/s0189_rotate_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Algorithm_I_Day_2_Two_Pointers, Udemy_Arrays, Top_Interview_150_Array/String, Big_O_Time_O(n)_Space_O(1) | 1 | 86.17
+| 0169 |[Majority Element](src/main/ts/g0101_0200/s0169_majority_element/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Data_Structure_II_Day_1_Array, Udemy_Famous_Algorithm, Top_Interview_150_Array/String, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
+| 0160 |[Intersection of Two Linked Lists](src/main/ts/g0101_0200/s0160_intersection_of_two_linked_lists/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_II_Day_11_Linked_List, Udemy_Linked_List, Big_O_Time_O(M+N)_Space_O(1) | 65 | 72.36
+| 0155 |[Min Stack](src/main/ts/g0101_0200/s0155_min_stack/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Data_Structure_II_Day_14_Stack_Queue, Programming_Skills_II_Day_18, Level_2_Day_16_Design, Udemy_Design, Top_Interview_150_Stack, Big_O_Time_O(1)_Space_O(N) | 5 | 99.10
+| 0153 |[Find Minimum in Rotated Sorted Array](src/main/ts/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/solution.ts)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Algorithm_II_Day_2_Binary_Search, Binary_Search_I_Day_12, Udemy_Binary_Search, Top_Interview_150_Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 0 | 100.00
+| 0152 |[Maximum Product Subarray](src/main/ts/g0101_0200/s0152_maximum_product_subarray/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Dynamic_Programming_I_Day_6, Level_2_Day_13_Dynamic_Programming, Udemy_Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
+| 0148 |[Sort List](src/main/ts/g0101_0200/s0148_sort_list/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Level_2_Day_4_Linked_List, Top_Interview_150_Divide_and_Conquer, Big_O_Time_O(log(N))_Space_O(log(N)) | 36 | 44.94
+| 0146 |[LRU Cache](src/main/ts/g0101_0200/s0146_lru_cache/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Design, Linked_List, Doubly_Linked_List, Udemy_Linked_List, Top_Interview_150_Linked_List, Big_O_Time_O(1)_Space_O(capacity) | 97 | 81.52
+| 0142 |[Linked List Cycle II](src/main/ts/g0101_0200/s0142_linked_list_cycle_ii/solution.ts)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_II_Day_10_Linked_List, Level_1_Day_4_Linked_List, Udemy_Linked_List, Big_O_Time_O(N)_Space_O(1) | 51 | 76.99
+| 0141 |[Linked List Cycle](src/main/ts/g0101_0200/s0141_linked_list_cycle/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_I_Day_7_Linked_List, Udemy_Linked_List, Top_Interview_150_Linked_List, Big_O_Time_O(N)_Space_O(1) | 47 | 89.37
+| 0139 |[Word Break](src/main/ts/g0101_0200/s0139_word_break/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Algorithm_II_Day_15_Dynamic_Programming, Dynamic_Programming_I_Day_9, Udemy_Dynamic_Programming, Top_Interview_150_1D_DP, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 4 | 76.41
+| 0138 |[Copy List with Random Pointer](src/main/ts/g0101_0200/s0138_copy_list_with_random_pointer/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Programming_Skills_II_Day_14, Udemy_Linked_List, Top_Interview_150_Linked_List, Big_O_Time_O(N)_Space_O(N) | 49 | 72.42
+| 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Data_Structure_II_Day_1_Array, Algorithm_I_Day_14_Bit_Manipulation, Udemy_Integers, Top_Interview_150_Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 1 | 78.27
+| 0131 |[Palindrome Partitioning](src/main/ts/g0101_0200/s0131_palindrome_partitioning/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Backtracking, Big_O_Time_O(N\*2^N)_Space_O(2^N\*N) | 13 | 94.96
+| 0128 |[Longest Consecutive Sequence](src/main/ts/g0101_0200/s0128_longest_consecutive_sequence/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Union_Find, Top_Interview_150_Hashmap, Big_O_Time_O(N_log_N)_Space_O(1) | 34 | 90.07
+| 0124 |[Binary Tree Maximum Path Sum](src/main/ts/g0101_0200/s0124_binary_tree_maximum_path_sum/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(N) | 2 | 71.11
+| 0121 |[Best Time to Buy and Sell Stock](src/main/ts/g0101_0200/s0121_best_time_to_buy_and_sell_stock/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Data_Structure_I_Day_3_Array, Dynamic_Programming_I_Day_7, Level_1_Day_5_Greedy, Udemy_Arrays, Top_Interview_150_Array/String, Big_O_Time_O(N)_Space_O(1) | 1 | 96.44
+| 0114 |[Flatten Binary Tree to Linked List](src/main/ts/g0101_0200/s0114_flatten_binary_tree_to_linked_list/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Linked_List, Udemy_Linked_List, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
+| 0105 |[Construct Binary Tree from Preorder and Inorder Traversal](src/main/ts/g0101_0200/s0105_construct_binary_tree_from_preorder_and_inorder_traversal/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer, Data_Structure_II_Day_15_Tree, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(N) | 2 | 93.38
+| 0104 |[Maximum Depth of Binary Tree](src/main/ts/g0101_0200/s0104_maximum_depth_of_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree, Programming_Skills_I_Day_10_Linked_List_and_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(H) | 0 | 100.00
 | 0102 |[Binary Tree Level Order Traversal](src/main/ts/g0101_0200/s0102_binary_tree_level_order_traversal/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree, Level_1_Day_6_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Binary_Tree_BFS, Big_O_Time_O(N)_Space_O(N) | 0 | 100.00
 | 0101 |[Symmetric Tree](src/main/ts/g0101_0200/s0101_symmetric_tree/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree, Level_2_Day_15_Tree, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(N)_Space_O(log(N)) | 0 | 100.00
 | 0098 |[Validate Binary Search Tree](src/main/ts/g0001_0100/s0098_validate_binary_search_tree/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Data_Structure_I_Day_14_Tree, Level_1_Day_8_Binary_Search_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Binary_Search_Tree, Big_O_Time_O(N)_Space_O(log(N)) | 0 | 100.00

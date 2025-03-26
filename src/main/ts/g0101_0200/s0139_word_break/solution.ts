@@ -1,7 +1,7 @@
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #String #Hash_Table
 // #Dynamic_Programming #Trie #Memoization #Algorithm_II_Day_15_Dynamic_Programming
 // #Dynamic_Programming_I_Day_9 #Udemy_Dynamic_Programming #Top_Interview_150_1D_DP
-// #Big_O_Time_O(M+max*N)_Space_O(M+N+max) #2023_10_06_Time_56_ms_(88.44%)_Space_44.1_MB_(93.39%)
+// #Big_O_Time_O(M+max*N)_Space_O(M+N+max) #2025_03_26_Time_4_ms_(76.41%)_Space_58.68_MB_(22.70%)
 
 function wordBreak(s: string, wordDict: string[]): boolean {
     const dp: boolean[] = []
