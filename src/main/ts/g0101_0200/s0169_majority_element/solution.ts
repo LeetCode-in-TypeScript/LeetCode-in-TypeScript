@@ -1,7 +1,7 @@
 // #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Array #Hash_Table #Sorting #Counting
 // #Divide_and_Conquer #Data_Structure_II_Day_1_Array #Udemy_Famous_Algorithm
 // #Top_Interview_150_Array/String #Big_O_Time_O(n)_Space_O(1)
-// #2023_10_09_Time_50_ms_(96.16%)_Space_46.1_MB_(46.90%)
+// #2025_03_26_Time_0_ms_(100.00%)_Space_60.31_MB_(17.26%)
 
 function majorityElement(arr: number[]): number {
     let count = 1
