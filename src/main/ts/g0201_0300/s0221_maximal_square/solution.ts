@@ -1,6 +1,6 @@
 // #Medium #Array #Dynamic_Programming #Matrix #Dynamic_Programming_I_Day_16
 // #Top_Interview_150_Multidimensional_DP #Big_O_Time_O(m*n)_Space_O(m*n)
-// #2023_10_09_Time_83_ms_(79.70%)_Space_50.2_MB_(56.39%)
+// #2025_03_28_Time_18_ms_(59.02%)_Space_66.03_MB_(29.27%)
 
 function maximalSquare(matrix: string[][]): number {
     const m = matrix.length
