@@ -1,5 +1,5 @@
 // #Medium #Top_100_Liked_Questions #String #Stack #Recursion #Level_1_Day_14_Stack #Udemy_Strings
-// #Big_O_Time_O(n)_Space_O(n) #2023_10_04_Time_51_ms_(81.02%)_Space_43_MB_(55.52%)
+// #Big_O_Time_O(n)_Space_O(n) #2025_03_28_Time_0_ms_(100.00%)_Space_55.70_MB_(34.63%)
 
 function decodeString(s: string): string {
     let stack: string[] = []

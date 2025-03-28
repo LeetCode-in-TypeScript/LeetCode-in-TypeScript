@@ -1,7 +1,7 @@
 // #Medium #Top_100_Liked_Questions #String #Hash_Table #Sliding_Window
 // #Algorithm_II_Day_5_Sliding_Window #Programming_Skills_II_Day_12
 // #Level_1_Day_12_Sliding_Window/Two_Pointer #Big_O_Time_O(n+m)_Space_O(1)
-// #2023_09_30_Time_69_ms_(96.69%)_Space_46.1_MB_(80.99%)
+// #2025_03_28_Time_8_ms_(97.80%)_Space_59.42_MB_(72.16%)
 
 function findAnagrams(s: string, p: string): number[] {
     const map: number[] = new Array(26).fill(0)

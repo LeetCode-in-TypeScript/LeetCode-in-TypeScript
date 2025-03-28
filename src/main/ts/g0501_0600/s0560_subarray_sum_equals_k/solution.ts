@@ -1,5 +1,5 @@
 // #Medium #Top_100_Liked_Questions #Array #Hash_Table #Prefix_Sum #Data_Structure_II_Day_5_Array
-// #Big_O_Time_O(n)_Space_O(n) #2023_09_30_Time_70_ms_(92.45%)_Space_52.7_MB_(27.70%)
+// #Big_O_Time_O(n)_Space_O(n) #2025_03_28_Time_14_ms_(87.34%)_Space_67.32_MB_(18.02%)
 
 function subarraySum(nums: number[], k: number): number {
     let tempSum: number = 0

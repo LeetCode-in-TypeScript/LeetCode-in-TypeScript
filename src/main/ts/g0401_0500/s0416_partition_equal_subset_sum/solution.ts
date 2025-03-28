@@ -1,5 +1,5 @@
 // #Medium #Top_100_Liked_Questions #Array #Dynamic_Programming #Level_2_Day_13_Dynamic_Programming
-// #Big_O_Time_O(n*sums)_Space_O(n*sums) #2023_09_30_Time_91_ms_(74.38%)_Space_44.7_MB_(83.25%)
+// #Big_O_Time_O(n*sums)_Space_O(n*sums) #2025_03_28_Time_33_ms_(93.24%)_Space_59.12_MB_(71.50%)
 
 function canPartition(nums: number[]): boolean {
     let sums: number = 0
