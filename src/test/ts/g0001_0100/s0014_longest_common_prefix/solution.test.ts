@@ -9,3 +9,11 @@ test('longestCommonPrefix', () => {
 test('longestCommonPrefix2', () => {
     expect(longestCommonPrefix(['dog','racecar','car'])).toEqual('')
 })
+
+test('longestCommonPrefix3', () => {
+    expect(longestCommonPrefix([])).toEqual('')
+})
+
+test('longestCommonPrefix4', () => {
+    expect(longestCommonPrefix(['dog'])).toEqual('dog')
+})

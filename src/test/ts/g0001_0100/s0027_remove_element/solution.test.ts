@@ -9,3 +9,22 @@ test('removeElement', () => {
 test('removeElement2', () => {
     expect(removeElement([0,1,2,2,3,0,4,2], 2)).toEqual(5)
 })
+
+test('removeElement3', () => {
+    const nums: number[] = []
+    const val = 1
+    expect(removeElement(nums, val)).toEqual(0)
+})
+
+test('removeElement4', () => {
+    const nums = [1, 1, 1, 1]
+    const val = 1
+    expect(removeElement(nums, val)).toEqual(0)
+})
+
+test('removeElement5', () => {
+    const nums = [4, 5]
+    const val = 4
+    expect(removeElement(nums, val)).toEqual(1)
+    expect(nums[0]).toEqual(5)
+})
