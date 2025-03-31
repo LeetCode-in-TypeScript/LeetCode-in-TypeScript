@@ -4,7 +4,6 @@
 function romanToInt(s: string): number {
     let x = 0
     let y: string
-
     for (let i = 0; i < s.length; i++) {
         y = s.charAt(i)
         switch (y) {
