@@ -4,16 +4,16 @@
 
 function strStr(haystack: string, needle: string): number {
     if (needle.length === 0) {
-        return 0;
+        return 0
     }
-    let m = haystack.length;
-    let n = needle.length;
+    let m = haystack.length
+    let n = needle.length
     for (let start = 0; start <= m - n; start++) {
         if (haystack.substring(start, start + n) === needle) {
-            return start;
+            return start
         }
     }
-    return -1;
+    return -1
 }
 
 export { strStr }

@@ -3,32 +3,32 @@
 
 function removeElement(nums: number[], val: number): number {
     if (!nums || nums.length === 0) {
-        return 0;
+        return 0
     }
-    let len = nums.length;
-    let j = len - 1;
-    let occurTimes = 0;
+    let len = nums.length
+    let j = len - 1
+    let occurTimes = 0
     for (let i = 0; i < len; i++) {
         if (nums[i] === val) {
-            occurTimes++;
+            occurTimes++
             if (j === i) {
-                return len - occurTimes;
+                return len - occurTimes
             }
             while (nums[j] === val) {
-                j--;
-                occurTimes++;
+                j--
+                occurTimes++
                 if (j === i) {
-                    return len - occurTimes;
+                    return len - occurTimes
                 }
             }
-            nums[i] = nums[j];
-            j--;
+            nums[i] = nums[j]
+            j--
         }
         if (i === j) {
-            return len - occurTimes;
+            return len - occurTimes
         }
     }
-    return len - occurTimes;
+    return len - occurTimes
 }
 
 export { removeElement }

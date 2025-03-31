@@ -4,26 +4,26 @@
 
 function longestCommonPrefix(strs: string[]): string {
     if (strs.length < 1) {
-        return "";
+        return ''
     }
     if (strs.length === 1) {
-        return strs[0];
+        return strs[0]
     }
-    let temp = strs[0];
-    let i = 1;
-    let cur: string;
+    let temp = strs[0]
+    let i = 1
+    let cur: string
     while (temp.length > 0 && i < strs.length) {
         if (temp.length > strs[i].length) {
-            temp = temp.substring(0, strs[i].length);
+            temp = temp.substring(0, strs[i].length)
         }
-        cur = strs[i].substring(0, temp.length);
+        cur = strs[i].substring(0, temp.length)
         if (cur !== temp) {
-            temp = temp.substring(0, temp.length - 1);
+            temp = temp.substring(0, temp.length - 1)
         } else {
-            i++;
+            i++
         }
     }
-    return temp;
+    return temp
 }
 
 export { longestCommonPrefix }
