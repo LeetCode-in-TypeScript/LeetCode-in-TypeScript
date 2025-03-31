@@ -34,7 +34,7 @@ jobs:
           ls -al coverage
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
+        uses: sonarsource/sonarqube-scan-action@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: 1ebdc4b127391a8acbc3420eb585961e4e0846de
