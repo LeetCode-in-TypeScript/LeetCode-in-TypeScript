@@ -3,9 +3,13 @@ import { strStr } from 'src/main/ts/g0001_0100/s0028_find_the_index_of_the_first
 import { expect, test } from 'vitest'
 
 test('strStr', () => {
-    expect(strStr("sadbutsad", "sad")).toEqual(0)
+    expect(strStr('sadbutsad', 'sad')).toEqual(0)
 })
 
 test('strStr2', () => {
-    expect(strStr("leetcode", "leeto")).toEqual(-1)
+    expect(strStr('leetcode', 'leeto')).toEqual(-1)
+})
+
+test('strStr3', () => {
+    expect(strStr('leetcode', '')).toEqual(0)
 })
