@@ -5,7 +5,6 @@ function plusOne(digits: number[]): number[] {
     let num = 1
     let carry = 0
     let sum
-
     for (let i = digits.length - 1; i >= 0; i--) {
         if (i === digits.length - 1) {
             sum = digits[i] + carry + num
@@ -15,11 +14,9 @@ function plusOne(digits: number[]): number[] {
         carry = Math.floor(sum / 10)
         digits[i] = sum % 10
     }
-
     if (carry !== 0) {
         return [carry, ...digits]
     }
-
     return digits
 }
 
