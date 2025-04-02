@@ -7,7 +7,7 @@ function findKthLargest(nums: number[], k: number): number {
     const countingLen = 2e4 + 1
     const counting = new Int32Array(countingLen)
     for (const num of nums) {
-        counting[num + 1e4]++;
+        counting[num + 1e4]++
     }
     for (let i = countingLen - 1; i >= 0; i--) {
         k -= counting[i]
