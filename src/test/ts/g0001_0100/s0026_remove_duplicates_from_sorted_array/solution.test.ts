@@ -3,9 +3,9 @@ import { removeDuplicates } from 'src/main/ts/g0001_0100/s0026_remove_duplicates
 import { expect, test } from 'vitest'
 
 test('removeDuplicates', () => {
-    expect(removeDuplicates([1,1,2])).toEqual(2)
+    expect(removeDuplicates([1, 1, 2])).toEqual(2)
 })
 
 test('removeDuplicates2', () => {
-    expect(removeDuplicates([0,0,1,1,1,2,2,3,3,4])).toEqual(5)
+    expect(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4])).toEqual(5)
 })

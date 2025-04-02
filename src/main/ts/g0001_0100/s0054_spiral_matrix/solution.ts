@@ -3,34 +3,35 @@
 // #Top_Interview_150_Matrix #2025_04_01_Time_0_ms_(100.00%)_Space_55.71_MB_(30.13%)
 
 function spiralOrder(matrix: number[][]): number[] {
-    const result: number[] = [];
-    let r = 0, c = 0;
-    let bigR = matrix.length - 1;
-    let bigC = matrix[0].length - 1;
+    const result: number[] = []
+    let r = 0,
+        c = 0
+    let bigR = matrix.length - 1
+    let bigC = matrix[0].length - 1
 
     while (r <= bigR && c <= bigC) {
         for (let i = c; i <= bigC; i++) {
-            result.push(matrix[r][i]);
+            result.push(matrix[r][i])
         }
-        r++;
+        r++
 
         for (let i = r; i <= bigR; i++) {
-            result.push(matrix[i][bigC]);
+            result.push(matrix[i][bigC])
         }
-        bigC--;
+        bigC--
 
         for (let i = bigC; i >= c && r <= bigR; i--) {
-            result.push(matrix[bigR][i]);
+            result.push(matrix[bigR][i])
         }
-        bigR--;
+        bigR--
 
         for (let i = bigR; i >= r && c <= bigC; i--) {
-            result.push(matrix[i][c]);
+            result.push(matrix[i][c])
         }
-        c++;
+        c++
     }
 
-    return result;
+    return result
 }
 
 export { spiralOrder }
