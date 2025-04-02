@@ -8,7 +8,6 @@ function uniquePathsWithObstacles(obstacleGrid: number[][]): number {
     obstacleGrid[0][0] = 1
     const m = obstacleGrid.length
     const n = obstacleGrid[0].length
-
     for (let i = 1; i < m; i++) {
         if (obstacleGrid[i][0] === 1) {
             obstacleGrid[i][0] = 0
@@ -16,7 +15,6 @@ function uniquePathsWithObstacles(obstacleGrid: number[][]): number {
             obstacleGrid[i][0] = obstacleGrid[i - 1][0]
         }
     }
-
     for (let j = 1; j < n; j++) {
         if (obstacleGrid[0][j] === 1) {
             obstacleGrid[0][j] = 0
@@ -24,7 +22,6 @@ function uniquePathsWithObstacles(obstacleGrid: number[][]): number {
             obstacleGrid[0][j] = obstacleGrid[0][j - 1]
         }
     }
-
     for (let i = 1; i < m; i++) {
         for (let j = 1; j < n; j++) {
             if (obstacleGrid[i][j] === 1) {
@@ -34,7 +31,6 @@ function uniquePathsWithObstacles(obstacleGrid: number[][]): number {
             }
         }
     }
-
     return obstacleGrid[m - 1][n - 1]
 }
 
