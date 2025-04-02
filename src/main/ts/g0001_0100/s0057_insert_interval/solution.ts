@@ -17,7 +17,7 @@ function insert(intervals: number[][], newInterval: number[]): number[][] {
     }
     res[l] = [
         Math.min(newInterval[0], l === n ? newInterval[0] : intervals[l][0]),
-        Math.max(newInterval[1], r === -1 ? newInterval[1] : intervals[r][1])
+        Math.max(newInterval[1], r === -1 ? newInterval[1] : intervals[r][1]),
     ]
     for (let i = l + 1, j = r + 1; j < n; i++, j++) {
         res[i] = intervals[j]
