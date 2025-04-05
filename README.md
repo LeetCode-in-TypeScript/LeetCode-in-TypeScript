@@ -50,6 +50,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0069 |[Sqrt(x)](src/main/ts/g0001_0100/s0069_sqrtx/solution.ts)| Hard | Array, String, Simulation | 0 | 100.00
 
 #### Day 5
 
@@ -418,6 +419,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0067 |[Add Binary](src/main/ts/g0001_0100/s0067_add_binary/solution.ts)| Easy | String, Math, Bit_Manipulation, Simulation | 0 | 100.00
 
 #### Day 6
 
@@ -1018,6 +1020,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0014 |[Longest Common Prefix](src/main/ts/g0001_0100/s0014_longest_common_prefix/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String | 0 | 100.00
 | 0006 |[Zigzag Conversion](src/main/ts/g0001_0100/s0006_zigzag_conversion/solution.ts)| Medium | String | 2 | 99.08
 | 0028 |[Implement strStr()](src/main/ts/g0001_0100/s0028_find_the_index_of_the_first_occurrence_in_a_string/solution.ts)| Easy | Top_Interview_Questions, String, Two_Pointers, String_Matching | 0 | 100.00
+| 0068 |[Text Justification](src/main/ts/g0001_0100/s0068_text_justification/solution.ts)| Hard | Array, String, Simulation | 0 | 100.00
 
 #### Top Interview 150 Two Pointers
 
@@ -1063,6 +1066,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0020 |[Valid Parentheses](src/main/ts/g0001_0100/s0020_valid_parentheses/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String, Stack, Big_O_Time_O(n)_Space_O(n) | 1 | 86.85
+| 0071 |[Simplify Path](src/main/ts/g0001_0100/s0071_simplify_path/solution.ts)| Medium | String, Stack | 0 | 100.00
 | 0155 |[Min Stack](src/main/ts/g0101_0200/s0155_min_stack/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 5 | 99.10
 
 #### Top Interview 150 Linked List
@@ -1126,6 +1130,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0017 |[Letter Combinations of a Phone Number](src/main/ts/g0001_0100/s0017_letter_combinations_of_a_phone_number/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Backtracking, Big_O_Time_O(4^n)_Space_O(n) | 0 | 100.00
+| 0077 |[Combinations](src/main/ts/g0001_0100/s0077_combinations/solution.ts)| Medium | Backtracking | 46 | 96.14
 | 0046 |[Permutations](src/main/ts/g0001_0100/s0046_permutations/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Backtracking, Big_O_Time_O(n\*n!)_Space_O(n+n!) | 1 | 84.44
 | 0039 |[Combination Sum](src/main/ts/g0001_0100/s0039_combination_sum/solution.ts)| Medium | Top_100_Liked_Questions, Array, Backtracking, Big_O_Time_O(2^n)_Space_O(n+2^n) | 1 | 98.17
 | 0052 |[N-Queens II](src/main/ts/g0001_0100/s0052_n_queens_ii/solution.ts)| Hard | Backtracking | 1 | 96.89
@@ -1167,6 +1172,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0067 |[Add Binary](src/main/ts/g0001_0100/s0067_add_binary/solution.ts)| Easy | String, Math, Bit_Manipulation, Simulation | 0 | 100.00
 | 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 1 | 78.27
 
 #### Top Interview 150 Math
@@ -1175,6 +1181,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0009 |[Palindrome Number](src/main/ts/g0001_0100/s0009_palindrome_number/solution.ts)| Easy | Math | 3 | 99.14
 | 0066 |[Plus One](src/main/ts/g0001_0100/s0066_plus_one/solution.ts)| Easy | Top_Interview_Questions, Array, Math | 0 | 100.00
+| 0069 |[Sqrt(x)](src/main/ts/g0001_0100/s0069_sqrtx/solution.ts)| Hard | Array, String, Simulation | 0 | 100.00
 | 0050 |[Pow(x, n)](src/main/ts/g0001_0100/s0050_powx_n/solution.ts)| Medium | Top_Interview_Questions, Math, Recursion | 0 | 100.00
 
 #### Top Interview 150 1D DP
@@ -1477,6 +1484,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0077 |[Combinations](src/main/ts/g0001_0100/s0077_combinations/solution.ts)| Medium | Backtracking | 46 | 96.14
 | 0046 |[Permutations](src/main/ts/g0001_0100/s0046_permutations/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Backtracking, Big_O_Time_O(n\*n!)_Space_O(n+n!) | 1 | 84.44
 
 #### Day 12 Dynamic Programming
@@ -1690,12 +1698,17 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0084 |[Largest Rectangle in Histogram](src/main/ts/g0001_0100/s0084_largest_rectangle_in_histogram/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Stack, Monotonic_Stack, Big_O_Time_O(n_log_n)_Space_O(log_n) | 15 | 72.81
 | 0079 |[Word Search](src/main/ts/g0001_0100/s0079_word_search/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Matrix, Backtracking, Algorithm_II_Day_11_Recursion_Backtracking, Top_Interview_150_Backtracking, Big_O_Time_O(4^(m\*n))_Space_O(m\*n) | 243 | 85.30
 | 0078 |[Subsets](src/main/ts/g0001_0100/s0078_subsets/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking, Algorithm_II_Day_9_Recursion_Backtracking, Udemy_Backtracking/Recursion, Big_O_Time_O(2^n)_Space_O(n\*2^n) | 0 | 100.00
+| 0077 |[Combinations](src/main/ts/g0001_0100/s0077_combinations/solution.ts)| Medium | Backtracking, Algorithm_I_Day_11_Recursion_Backtracking, Top_Interview_150_Backtracking | 46 | 96.14
 | 0076 |[Minimum Window Substring](src/main/ts/g0001_0100/s0076_minimum_window_substring/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Level_2_Day_14_Sliding_Window/Two_Pointer, Top_Interview_150_Sliding_Window, Big_O_Time_O(s.length())_Space_O(1) | 20 | 90.35
 | 0075 |[Sort Colors](src/main/ts/g0001_0100/s0075_sort_colors/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Data_Structure_II_Day_2_Array, Udemy_Arrays, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
 | 0074 |[Search a 2D Matrix](src/main/ts/g0001_0100/s0074_search_a_2d_matrix/solution.ts)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Data_Structure_I_Day_5_Array, Algorithm_II_Day_1_Binary_Search, Binary_Search_I_Day_8, Level_2_Day_8_Binary_Search, Udemy_2D_Arrays/Matrix, Top_Interview_150_Binary_Search, Big_O_Time_O(endRow+endCol)_Space_O(1) | 0 | 100.00
 | 0073 |[Set Matrix Zeroes](src/main/ts/g0001_0100/s0073_set_matrix_zeroes/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Matrix, Udemy_2D_Arrays/Matrix, Top_Interview_150_Matrix, Big_O_Time_O(m\*n)_Space_O(1) | 4 | 50.63
 | 0072 |[Edit Distance](src/main/ts/g0001_0100/s0072_edit_distance/solution.ts)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Algorithm_II_Day_18_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming, Top_Interview_150_Multidimensional_DP, Big_O_Time_O(n^2)_Space_O(n2) | 6 | 93.83
+| 0071 |[Simplify Path](src/main/ts/g0001_0100/s0071_simplify_path/solution.ts)| Medium | String, Stack, Top_Interview_150_Stack | 0 | 100.00
 | 0070 |[Climbing Stairs](src/main/ts/g0001_0100/s0070_climbing_stairs/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Algorithm_I_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_2, Level_1_Day_10_Dynamic_Programming, Udemy_Dynamic_Programming, Top_Interview_150_1D_DP, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0069 |[Sqrt(x)](src/main/ts/g0001_0100/s0069_sqrtx/solution.ts)| Hard | Array, String, Simulation, Top_Interview_150_Array/String | 0 | 100.00
+| 0068 |[Text Justification](src/main/ts/g0001_0100/s0068_text_justification/solution.ts)| Hard | Array, String, Simulation, Top_Interview_150_Array/String | 0 | 100.00
+| 0067 |[Add Binary](src/main/ts/g0001_0100/s0067_add_binary/solution.ts)| Easy | String, Math, Bit_Manipulation, Simulation, Programming_Skills_II_Day_5, Top_Interview_150_Bit_Manipulation | 0 | 100.00
 | 0066 |[Plus One](src/main/ts/g0001_0100/s0066_plus_one/solution.ts)| Easy | Top_Interview_Questions, Array, Math, Programming_Skills_II_Day_3, Udemy_Arrays, Top_Interview_150_Math | 0 | 100.00
 | 0064 |[Minimum Path Sum](src/main/ts/g0001_0100/s0064_minimum_path_sum/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Dynamic_Programming_I_Day_16, Udemy_Dynamic_Programming, Top_Interview_150_Multidimensional_DP, Big_O_Time_O(m\*n)_Space_O(m\*n) | 4 | 70.73
 | 0063 |[Unique Paths II](src/main/ts/g0001_0100/s0063_unique_paths_ii/solution.ts)| Medium | Array, Dynamic_Programming, Matrix, Dynamic_Programming_I_Day_15, Top_Interview_150_Multidimensional_DP | 0 | 100.00
