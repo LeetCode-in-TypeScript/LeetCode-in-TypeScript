@@ -4,27 +4,51 @@ import { expect, test } from 'vitest'
 
 test('fullJustify', () => {
     expect(fullJustify(['This', 'is', 'an', 'example', 'of', 'text', 'justification.'], 16)).toEqual([
-                                                                                                        'This    is    an',
-                                                                                                        'example  of text',
-                                                                                                        'justification.  '
-                                                                                                     ])
+        'This    is    an',
+        'example  of text',
+        'justification.  ',
+    ])
 })
 
 test('fullJustify2', () => {
-    expect(fullJustify(['What','must','be','acknowledgment','shall','be'], 16)).toEqual([
-                                                                                          'What   must   be',
-                                                                                          'acknowledgment  ',
-                                                                                          'shall be        '
-                                                                                        ])
+    expect(fullJustify(['What', 'must', 'be', 'acknowledgment', 'shall', 'be'], 16)).toEqual([
+        'What   must   be',
+        'acknowledgment  ',
+        'shall be        ',
+    ])
 })
 
 test('fullJustify3', () => {
-    expect(fullJustify(['Science','is','what','we','understand','well','enough','to','explain','to','a','computer.','Art','is','everything','else','we','do'], 20)).toEqual([
-                                                                                                                                                                              'Science  is  what we',
-                                                                                                                                                                              'understand      well',
-                                                                                                                                                                              'enough to explain to',
-                                                                                                                                                                              'a  computer.  Art is',
-                                                                                                                                                                              'everything  else  we',
-                                                                                                                                                                              'do                  '
-                                                                                                                                                                            ])
+    expect(
+        fullJustify(
+            [
+                'Science',
+                'is',
+                'what',
+                'we',
+                'understand',
+                'well',
+                'enough',
+                'to',
+                'explain',
+                'to',
+                'a',
+                'computer.',
+                'Art',
+                'is',
+                'everything',
+                'else',
+                'we',
+                'do',
+            ],
+            20,
+        ),
+    ).toEqual([
+        'Science  is  what we',
+        'understand      well',
+        'enough to explain to',
+        'a  computer.  Art is',
+        'everything  else  we',
+        'do                  ',
+    ])
 })

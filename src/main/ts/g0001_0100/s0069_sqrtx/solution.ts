@@ -8,9 +8,9 @@ function mySqrt(x: number): number {
     while (low <= high) {
         const mid = Math.floor((low + high) / 2)
         const pow = mid * mid
-        if(pow > x) {
+        if (pow > x) {
             high = mid - 1
-        } else if(pow < x) {
+        } else if (pow < x) {
             low = mid + 1
             lowest = mid
         } else {
