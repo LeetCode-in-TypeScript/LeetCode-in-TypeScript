@@ -14,7 +14,6 @@ import { ListNode } from '../../com_github_leetcode/listnode'
  *     }
  * }
  */
-
 function reverseBetween(head: ListNode | null, left: number, right: number): ListNode | null {
     if (left === right || head === null) {
         return head
