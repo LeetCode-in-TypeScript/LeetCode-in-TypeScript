@@ -15,7 +15,6 @@ import { ListNode } from '../../com_github_leetcode/listnode'
  *     }
  * }
  */
-
 function deleteDuplicates(head: ListNode | null): ListNode | null {
     if (!head || !head.next) {
         return head
