@@ -14,7 +14,6 @@ import { ListNode } from '../../com_github_leetcode/listnode'
  *     }
  * }
  */
-
 function partition(head: ListNode | null, x: number): ListNode | null {
     let beforeHead = new ListNode(0)
     let afterHead = new ListNode(0)
