@@ -4,7 +4,7 @@ import { expect, test } from 'vitest'
 import { constructLinkedList } from '../../com_github_leetcode/linkedlistutils'
 
 test('reverseBetween', () => {
-    expect(reverseBetween(constructLinkedList([1,2,3,4,5]), 2, 4).toString()).toEqual('1, 4, 3, 2, 5')
+    expect(reverseBetween(constructLinkedList([1, 2, 3, 4, 5]), 2, 4).toString()).toEqual('1, 4, 3, 2, 5')
 })
 
 test('reverseBetween2', () => {
