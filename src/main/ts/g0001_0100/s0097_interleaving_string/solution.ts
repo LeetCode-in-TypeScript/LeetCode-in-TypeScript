@@ -5,7 +5,7 @@ function isInterleave(s1: string, s2: string, s3: string): boolean {
     if (s3.length !== (s1.length + s2.length)) {
         return false
     }
-    const cache: Boolean[][] = Array.from({ length: s1.length + 1 }, () => Array(s2.length + 1).fill(null))
+    const cache: boolean[][] = Array.from({ length: s1.length + 1 }, () => Array(s2.length + 1).fill(null))
     return isInterleaveHelper(s1, s2, s3, 0, 0, 0, cache)
 }
 
@@ -16,7 +16,7 @@ function isInterleaveHelper(
     i1: number,
     i2: number,
     i3: number,
-    cache: Boolean[][]
+    cache: boolean[][]
 ): boolean {
     if (cache[i1][i2] !== null) {
         return cache[i1][i2] as boolean
