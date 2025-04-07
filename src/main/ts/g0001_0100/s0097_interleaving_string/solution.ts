@@ -2,7 +2,7 @@
 // #2025_04_05_Time_43_ms_(97.65%)_Space_58.17_MB_(61.77%)
 
 function isInterleave(s1: string, s2: string, s3: string): boolean {
-    if (s3.length !== (s1.length + s2.length)) {
+    if (s3.length !== s1.length + s2.length) {
         return false
     }
     const cache: boolean[][] = Array.from({ length: s1.length + 1 }, () => Array(s2.length + 1).fill(null))
@@ -16,7 +16,7 @@ function isInterleaveHelper(
     i1: number,
     i2: number,
     i3: number,
-    cache: boolean[][]
+    cache: boolean[][],
 ): boolean {
     if (cache[i1][i2] !== null) {
         return cache[i1][i2]
