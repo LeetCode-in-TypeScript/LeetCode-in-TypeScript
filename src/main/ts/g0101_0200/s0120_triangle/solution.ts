@@ -16,10 +16,7 @@ function minimumTotal(triangle: number[][]): number {
         if (dp[row][col] !== -10001) {
             return dp[row][col]
         }
-        const sum = triangle[row][col] + Math.min(
-            dfs(row + 1, col),
-            dfs(row + 1, col + 1)
-        )
+        const sum = triangle[row][col] + Math.min(dfs(row + 1, col), dfs(row + 1, col + 1))
         dp[row][col] = sum
         return sum
     }

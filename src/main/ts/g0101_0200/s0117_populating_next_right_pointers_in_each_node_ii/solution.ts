@@ -2,7 +2,7 @@
 // #Algorithm_II_Day_7_Breadth_First_Search_Depth_First_Search
 // #Top_Interview_150_Binary_Tree_General #2025_04_07_Time_47_ms_(97.74%)_Space_61.19_MB_(53.38%)
 
-import { _Node } from "../../com_github_leetcode/_node"
+import { _Node } from '../../com_github_leetcode/_node'
 
 /**
  * Definition for _Node.
@@ -11,7 +11,7 @@ import { _Node } from "../../com_github_leetcode/_node"
  *     left: _Node | null
  *     right: _Node | null
  *     next: _Node | null
- * 
+ *
  *     constructor(val?: number, left?: _Node, right?: _Node, next?: _Node) {
  *         this.val = (val===undefined ? 0 : val)
  *         this.left = (left===undefined ? null : left)
