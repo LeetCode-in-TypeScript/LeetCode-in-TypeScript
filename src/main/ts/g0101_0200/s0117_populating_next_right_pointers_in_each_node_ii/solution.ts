@@ -20,7 +20,6 @@ import { _Node } from "../../com_github_leetcode/_node"
  *     }
  * }
  */
-
 function connect(root: _Node | null): _Node | null {
     if (!root) {
         return null
