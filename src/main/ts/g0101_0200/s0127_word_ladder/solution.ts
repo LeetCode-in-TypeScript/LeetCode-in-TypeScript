@@ -14,7 +14,7 @@ function ladderLength(beginWord: string, endWord: string, wordList: string[]): n
     const wordLen = beginWord.length
     while (beginSet.size > 0 && endSet.size > 0) {
         if (beginSet.size > endSet.size) {
-            [beginSet, endSet] = [endSet, beginSet]
+            ;[beginSet, endSet] = [endSet, beginSet]
         }
         const tempSet: Set<string> = new Set()
         for (const word of beginSet) {

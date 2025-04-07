@@ -1,7 +1,7 @@
 // #Medium #Depth_First_Search #Tree #Binary_Tree #Top_Interview_150_Binary_Tree_General
 // #2025_04_07_Time_0_ms_(100.00%)_Space_57.72_MB_(19.07%)
 
-import { TreeNode } from "../../com_github_leetcode/treenode"
+import { TreeNode } from '../../com_github_leetcode/treenode'
 
 /**
  * Definition for a binary tree node.
