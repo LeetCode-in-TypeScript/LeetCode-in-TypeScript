@@ -1,7 +1,7 @@
 // #Medium #Array #Hash_Table #Tree #Binary_Tree #Divide_and_Conquer
 // #Top_Interview_150_Binary_Tree_General #2025_04_05_Time_1_ms_(98.78%)_Space_59.57_MB_(88.16%)
 
-import { TreeNode } from 'src/main/ts/com_github_leetcode/treenode'
+import { TreeNode } from '../../com_github_leetcode/treenode'
 
 /**
  * Definition for a binary tree node.
@@ -16,7 +16,6 @@ import { TreeNode } from 'src/main/ts/com_github_leetcode/treenode'
  *     }
  * }
  */
-
 function buildTree(inorder: number[], postorder: number[]): TreeNode | null {
     const inIndex: number[] = [inorder.length - 1]
     const postIndex: number[] = [postorder.length - 1]
