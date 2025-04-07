@@ -22,7 +22,13 @@ function buildTree(inorder: number[], postorder: number[]): TreeNode | null {
     return helper(inorder, postorder, inIndex, postIndex, Number.MAX_VALUE)
 }
 
-function helper(inorder: number[], postorder: number[], inIndex: number[], postIndex: number[], target: number): TreeNode | null {
+function helper(
+    inorder: number[],
+    postorder: number[],
+    inIndex: number[],
+    postIndex: number[],
+    target: number,
+): TreeNode | null {
     if (inIndex[0] < 0 || inorder[inIndex[0]] === target) {
         return null
     }

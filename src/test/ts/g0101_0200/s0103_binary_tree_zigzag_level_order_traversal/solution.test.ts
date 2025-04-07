@@ -4,7 +4,7 @@ import { expect, test } from 'vitest'
 import { createTreeNode } from 'src/main/ts/com_github_leetcode/treenode'
 
 test('zigzagLevelOrder', () => {
-    expect(zigzagLevelOrder(createTreeNode([3, 9, 20, null, null, 15, 7]))).toEqual([[3],[20, 9],[15, 7]])
+    expect(zigzagLevelOrder(createTreeNode([3, 9, 20, null, null, 15, 7]))).toEqual([[3], [20, 9], [15, 7]])
 })
 
 test('zigzagLevelOrder2', () => {
