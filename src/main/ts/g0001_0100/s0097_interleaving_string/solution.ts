@@ -19,7 +19,7 @@ function isInterleaveHelper(
     cache: boolean[][]
 ): boolean {
     if (cache[i1][i2] !== null) {
-        return cache[i1][i2] as boolean
+        return cache[i1][i2]
     }
     if (i1 === s1.length && i2 === s2.length && i3 === s3.length) {
         return true
