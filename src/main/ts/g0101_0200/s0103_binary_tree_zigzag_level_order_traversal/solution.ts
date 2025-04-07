@@ -2,7 +2,7 @@
 // #Data_Structure_II_Day_15_Tree #Udemy_Tree_Stack_Queue #Top_Interview_150_Binary_Tree_BFS
 // #2025_04_05_Time_0_ms_(100.00%)_Space_58.00_MB_(52.61%)
 
-import { TreeNode } from 'src/main/ts/com_github_leetcode/treenode'
+import { TreeNode } from '../../com_github_leetcode/treenode'
 
 /**
  * Definition for a binary tree node.
@@ -17,7 +17,6 @@ import { TreeNode } from 'src/main/ts/com_github_leetcode/treenode'
  *     }
  * }
  */
-
 function zigzagLevelOrder(root: TreeNode | null): number[][] {
     const result: number[][] = []
     if (root === null) {
