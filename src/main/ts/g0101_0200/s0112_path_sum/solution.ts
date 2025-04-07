@@ -1,6 +1,8 @@
 // #Easy #Depth_First_Search #Breadth_First_Search #Tree #Binary_Tree #Data_Structure_I_Day_12_Tree
 // #Top_Interview_150_Binary_Tree_General #2025_04_05_Time_0_ms_(100.00%)_Space_59.81_MB_(41.32%)
 
+import { TreeNode } from '../../com_github_leetcode/treenode'
+
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -14,7 +16,6 @@
  *     }
  * }
  */
-
 function hasPathSum(root: TreeNode | null, targetSum: number): boolean {
     if (root === null) {
         return false
