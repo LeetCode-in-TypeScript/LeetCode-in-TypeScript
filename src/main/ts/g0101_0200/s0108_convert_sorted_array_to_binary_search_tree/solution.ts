@@ -2,7 +2,7 @@
 // #Data_Structure_II_Day_15_Tree #Level_2_Day_9_Binary_Search_Tree #Udemy_Tree_Stack_Queue
 // #Top_Interview_150_Divide_and_Conquer #2025_04_05_Time_0_ms_(100.00%)_Space_59.64_MB_(37.39%)
 
-import { TreeNode } from 'src/main/ts/com_github_leetcode/treenode'
+import { TreeNode } from '../../com_github_leetcode/treenode'
 
 /**
  * Definition for a binary tree node.
@@ -17,7 +17,6 @@ import { TreeNode } from 'src/main/ts/com_github_leetcode/treenode'
  *     }
  * }
  */
-
 function sortedArrayToBST(nums: number[]): TreeNode | null {
     return makeTree(nums, 0, nums.length - 1)
 }
