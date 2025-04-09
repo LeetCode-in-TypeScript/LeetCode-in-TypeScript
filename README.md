@@ -342,6 +342,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0191 |[Number of 1 Bits](src/main/ts/g0101_0200/s0191_number_of_1_bits/solution.ts)| Easy | Top_Interview_Questions, Bit_Manipulation | 0 | 100.00
 
 #### Day 3 Conditional Statements
 
@@ -489,6 +490,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0061 |[Rotate List](src/main/ts/g0001_0100/s0061_rotate_list/solution.ts)| Medium | Two_Pointers, Linked_List | 0 | 100.00
+| 0173 |[Binary Search Tree Iterator](src/main/ts/g0101_0200/s0173_binary_search_tree_iterator/solution.ts)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 6 | 98.16
 
 #### Day 17
 
@@ -784,6 +786,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0108 |[Convert Sorted Array to Binary Search Tree](src/main/ts/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree/solution.ts)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 0 | 100.00
 | 0230 |[Kth Smallest Element in a BST](src/main/ts/g0201_0300/s0230_kth_smallest_element_in_a_bst/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0173 |[Binary Search Tree Iterator](src/main/ts/g0101_0200/s0173_binary_search_tree_iterator/solution.ts)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 6 | 98.16
 
 #### Day 10 Graph/BFS/DFS
 
@@ -862,6 +865,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 1 | 78.27
 | 0007 |[Reverse Integer](src/main/ts/g0001_0100/s0007_reverse_integer/solution.ts)| Medium | Top_Interview_Questions, Math | 53 | 83.14
 | 0009 |[Palindrome Number](src/main/ts/g0001_0100/s0009_palindrome_number/solution.ts)| Easy | Math | 3 | 99.14
+| 0172 |[Factorial Trailing Zeroes](src/main/ts/g0101_0200/s0172_factorial_trailing_zeroes/solution.ts)| Medium | Top_Interview_Questions, Math | 0 | 100.00
 | 0050 |[Pow(x, n)](src/main/ts/g0001_0100/s0050_powx_n/solution.ts)| Medium | Top_Interview_Questions, Math, Recursion | 0 | 100.00
 
 #### Udemy Strings
@@ -1005,6 +1009,8 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0191 |[Number of 1 Bits](src/main/ts/g0101_0200/s0191_number_of_1_bits/solution.ts)| Easy | Top_Interview_Questions, Bit_Manipulation | 0 | 100.00
+| 0190 |[Reverse Bits](src/main/ts/g0101_0200/s0190_reverse_bits/solution.ts)| Easy | Top_Interview_Questions, Bit_Manipulation, Divide_and_Conquer | 34 | 99.74
 | 0338 |[Counting Bits](src/main/ts/g0301_0400/s0338_counting_bits/solution.ts)| Easy | Dynamic_Programming, Bit_Manipulation, Big_O_Time_O(num)_Space_O(num) | 1 | 89.22
 
 #### Udemy Design
@@ -1122,6 +1128,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0112 |[Path Sum](src/main/ts/g0101_0200/s0112_path_sum/solution.ts)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 0 | 100.00
 | 0129 |[Sum Root to Leaf Numbers](src/main/ts/g0101_0200/s0129_sum_root_to_leaf_numbers/solution.ts)| Medium | Depth_First_Search, Tree, Binary_Tree | 0 | 100.00
 | 0124 |[Binary Tree Maximum Path Sum](src/main/ts/g0101_0200/s0124_binary_tree_maximum_path_sum/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 2 | 71.11
+| 0173 |[Binary Search Tree Iterator](src/main/ts/g0101_0200/s0173_binary_search_tree_iterator/solution.ts)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 6 | 98.16
 | 0236 |[Lowest Common Ancestor of a Binary Tree](src/main/ts/g0201_0300/s0236_lowest_common_ancestor_of_a_binary_tree/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 61 | 75.97
 
 #### Top Interview 150 Binary Tree BFS
@@ -1207,6 +1214,8 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0067 |[Add Binary](src/main/ts/g0001_0100/s0067_add_binary/solution.ts)| Easy | String, Math, Bit_Manipulation, Simulation | 0 | 100.00
+| 0190 |[Reverse Bits](src/main/ts/g0101_0200/s0190_reverse_bits/solution.ts)| Easy | Top_Interview_Questions, Bit_Manipulation, Divide_and_Conquer | 34 | 99.74
+| 0191 |[Number of 1 Bits](src/main/ts/g0101_0200/s0191_number_of_1_bits/solution.ts)| Easy | Top_Interview_Questions, Bit_Manipulation | 0 | 100.00
 | 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 1 | 78.27
 | 0137 |[Single Number II](src/main/ts/g0101_0200/s0137_single_number_ii/solution.ts)| Medium | Array, Bit_Manipulation | 0 | 100.00
 
@@ -1216,6 +1225,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0009 |[Palindrome Number](src/main/ts/g0001_0100/s0009_palindrome_number/solution.ts)| Easy | Math | 3 | 99.14
 | 0066 |[Plus One](src/main/ts/g0001_0100/s0066_plus_one/solution.ts)| Easy | Top_Interview_Questions, Array, Math | 0 | 100.00
+| 0172 |[Factorial Trailing Zeroes](src/main/ts/g0101_0200/s0172_factorial_trailing_zeroes/solution.ts)| Medium | Top_Interview_Questions, Math | 0 | 100.00
 | 0069 |[Sqrt(x)](src/main/ts/g0001_0100/s0069_sqrtx/solution.ts)| Hard | Array, String, Simulation | 0 | 100.00
 | 0050 |[Pow(x, n)](src/main/ts/g0001_0100/s0050_powx_n/solution.ts)| Medium | Top_Interview_Questions, Math, Recursion | 0 | 100.00
 | 0149 |[Max Points on a Line](src/main/ts/g0101_0200/s0149_max_points_on_a_line/solution.ts)| Hard | Top_Interview_Questions, Array, Hash_Table, Math, Geometry | 9 | 97.18
@@ -1241,6 +1251,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0097 |[Interleaving String](src/main/ts/g0001_0100/s0097_interleaving_string/solution.ts)| Medium | String, Dynamic_Programming | 43 | 97.65
 | 0072 |[Edit Distance](src/main/ts/g0001_0100/s0072_edit_distance/solution.ts)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 6 | 93.83
 | 0123 |[Best Time to Buy and Sell Stock III](src/main/ts/g0101_0200/s0123_best_time_to_buy_and_sell_stock_iii/solution.ts)| Hard | Array, Dynamic_Programming | 5 | 85.07
+| 0188 |[Best Time to Buy and Sell Stock IV](src/main/ts/g0101_0200/s0188_best_time_to_buy_and_sell_stock_iv/solution.ts)| Hard | Array, Dynamic_Programming | 0 | 100.00
 | 0221 |[Maximal Square](src/main/ts/g0201_0300/s0221_maximal_square/solution.ts)| Medium | Array, Dynamic_Programming, Matrix, Big_O_Time_O(m\*n)_Space_O(m\*n) | 18 | 59.02
 
 ### Data Structure I
@@ -1441,6 +1452,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0230 |[Kth Smallest Element in a BST](src/main/ts/g0201_0300/s0230_kth_smallest_element_in_a_bst/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0173 |[Binary Search Tree Iterator](src/main/ts/g0101_0200/s0173_binary_search_tree_iterator/solution.ts)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 6 | 98.16
 
 #### Day 18 Tree
 
@@ -1544,11 +1556,13 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0191 |[Number of 1 Bits](src/main/ts/g0101_0200/s0191_number_of_1_bits/solution.ts)| Easy | Top_Interview_Questions, Bit_Manipulation | 0 | 100.00
 
 #### Day 14 Bit Manipulation
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0190 |[Reverse Bits](src/main/ts/g0101_0200/s0190_reverse_bits/solution.ts)| Easy | Top_Interview_Questions, Bit_Manipulation, Divide_and_Conquer | 34 | 99.74
 | 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 1 | 78.27
 
 ### Algorithm II
@@ -1720,7 +1734,12 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0206 |[Reverse Linked List](src/main/ts/g0201_0300/s0206_reverse_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Data_Structure_I_Day_8_Linked_List, Algorithm_I_Day_10_Recursion_Backtracking, Level_1_Day_3_Linked_List, Udemy_Linked_List, Big_O_Time_O(N)_Space_O(1) | 0 | 100.00
 | 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Algorithm_II_Day_6_Breadth_First_Search_Depth_First_Search, Graph_Theory_I_Day_1_Matrix_Related_Problems, Level_1_Day_9_Graph/BFS/DFS, Udemy_Graph, Top_Interview_150_Graph_General, Big_O_Time_O(M\*N)_Space_O(M\*N) | 57 | 93.94
 | 0198 |[House Robber](src/main/ts/g0101_0200/s0198_house_robber/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Algorithm_I_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_3, Level_2_Day_12_Dynamic_Programming, Udemy_Dynamic_Programming, Top_Interview_150_1D_DP, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0191 |[Number of 1 Bits](src/main/ts/g0101_0200/s0191_number_of_1_bits/solution.ts)| Easy | Top_Interview_Questions, Bit_Manipulation, Algorithm_I_Day_13_Bit_Manipulation, Programming_Skills_I_Day_2_Operator, Udemy_Bit_Manipulation, Top_Interview_150_Bit_Manipulation | 0 | 100.00
+| 0190 |[Reverse Bits](src/main/ts/g0101_0200/s0190_reverse_bits/solution.ts)| Easy | Top_Interview_Questions, Bit_Manipulation, Divide_and_Conquer, Algorithm_I_Day_14_Bit_Manipulation, Udemy_Bit_Manipulation, Top_Interview_150_Bit_Manipulation | 34 | 99.74
 | 0189 |[Rotate Array](src/main/ts/g0101_0200/s0189_rotate_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers, Algorithm_I_Day_2_Two_Pointers, Udemy_Arrays, Top_Interview_150_Array/String, Big_O_Time_O(n)_Space_O(1) | 1 | 86.17
+| 0188 |[Best Time to Buy and Sell Stock IV](src/main/ts/g0101_0200/s0188_best_time_to_buy_and_sell_stock_iv/solution.ts)| Hard | Array, Dynamic_Programming, Top_Interview_150_Multidimensional_DP | 0 | 100.00
+| 0173 |[Binary Search Tree Iterator](src/main/ts/g0101_0200/s0173_binary_search_tree_iterator/solution.ts)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator, Data_Structure_II_Day_17_Tree, Programming_Skills_II_Day_16, Level_2_Day_9_Binary_Search_Tree, Top_Interview_150_Binary_Tree_General | 6 | 98.16
+| 0172 |[Factorial Trailing Zeroes](src/main/ts/g0101_0200/s0172_factorial_trailing_zeroes/solution.ts)| Medium | Top_Interview_Questions, Math, Udemy_Integers, Top_Interview_150_Math | 0 | 100.00
 | 0169 |[Majority Element](src/main/ts/g0101_0200/s0169_majority_element/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Data_Structure_II_Day_1_Array, Udemy_Famous_Algorithm, Top_Interview_150_Array/String, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
 | 0167 |[Two Sum II - Input Array Is Sorted](src/main/ts/g0101_0200/s0167_two_sum_ii_input_array_is_sorted/solution.ts)| Medium | Array, Binary_Search, Two_Pointers, Algorithm_I_Day_3_Two_Pointers, Binary_Search_I_Day_7, Top_Interview_150_Two_Pointers | 0 | 100.00
 | 0162 |[Find Peak Element](src/main/ts/g0101_0200/s0162_find_peak_element/solution.ts)| Medium | Top_Interview_Questions, Array, Binary_Search, Algorithm_II_Day_2_Binary_Search, Binary_Search_II_Day_12, Top_Interview_150_Binary_Search | 0 | 100.00
