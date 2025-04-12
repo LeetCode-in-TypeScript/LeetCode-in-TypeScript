@@ -152,6 +152,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0222 |[Count Complete Tree Nodes](src/main/ts/g0201_0300/s0222_count_complete_tree_nodes/solution.ts)| Easy | Depth_First_Search, Tree, Binary_Search, Binary_Tree | 0 | 100.00
 
 #### Day 11
 
@@ -801,6 +802,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0210 |[Course Schedule II](src/main/ts/g0201_0300/s0210_course_schedule_ii/solution.ts)| Medium | Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort | 2 | 99.76
 
 #### Day 12 Dynamic Programming
 
@@ -1088,6 +1090,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0049 |[Group Anagrams](src/main/ts/g0001_0100/s0049_group_anagrams/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, String, Hash_Table, Sorting, Big_O_Time_O(n\*k_log_k)_Space_O(n) | 27 | 78.99
 | 0001 |[Two Sum](src/main/ts/g0001_0100/s0001_two_sum/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Big_O_Time_O(n)_Space_O(n), AI_can_be_used_to_solve_the_task | 1 | 89.70
 | 0202 |[Happy Number](src/main/ts/g0201_0300/s0202_happy_number/solution.ts)| Easy | Top_Interview_Questions, Hash_Table, Math, Two_Pointers | 0 | 100.00
+| 0219 |[Contains Duplicate II](src/main/ts/g0201_0300/s0219_contains_duplicate_ii/solution.ts)| Easy | Array, Hash_Table, Sliding_Window | 17 | 79.29
 | 0128 |[Longest Consecutive Sequence](src/main/ts/g0101_0200/s0128_longest_consecutive_sequence/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Union_Find, Big_O_Time_O(N_log_N)_Space_O(1) | 34 | 90.07
 
 #### Top Interview 150 Intervals
@@ -1137,6 +1140,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0129 |[Sum Root to Leaf Numbers](src/main/ts/g0101_0200/s0129_sum_root_to_leaf_numbers/solution.ts)| Medium | Depth_First_Search, Tree, Binary_Tree | 0 | 100.00
 | 0124 |[Binary Tree Maximum Path Sum](src/main/ts/g0101_0200/s0124_binary_tree_maximum_path_sum/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 2 | 71.11
 | 0173 |[Binary Search Tree Iterator](src/main/ts/g0101_0200/s0173_binary_search_tree_iterator/solution.ts)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 6 | 98.16
+| 0222 |[Count Complete Tree Nodes](src/main/ts/g0201_0300/s0222_count_complete_tree_nodes/solution.ts)| Easy | Depth_First_Search, Tree, Binary_Search, Binary_Tree | 0 | 100.00
 | 0236 |[Lowest Common Ancestor of a Binary Tree](src/main/ts/g0201_0300/s0236_lowest_common_ancestor_of_a_binary_tree/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 61 | 75.97
 
 #### Top Interview 150 Binary Tree BFS
@@ -1160,6 +1164,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 57 | 93.94
 | 0207 |[Course Schedule](src/main/ts/g0201_0300/s0207_course_schedule/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Big_O_Time_O(N)_Space_O(N) | 11 | 81.08
+| 0210 |[Course Schedule II](src/main/ts/g0201_0300/s0210_course_schedule_ii/solution.ts)| Medium | Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort | 2 | 99.76
 
 #### Top Interview 150 Graph BFS
 
@@ -1172,6 +1177,8 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0208 |[Implement Trie (Prefix Tree)](src/main/ts/g0201_0300/s0208_implement_trie_prefix_tree/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Design, Trie, Big_O_Time_O(word.length())_or_O(prefix.length())_Space_O(N) | 48 | 63.95
+| 0211 |[Design Add and Search Words Data Structure](src/main/ts/g0201_0300/s0211_design_add_and_search_words_data_structure/solution.ts)| Medium | String, Depth_First_Search, Design, Trie | 450 | 92.88
+| 0212 |[Word Search II](src/main/ts/g0201_0300/s0212_word_search_ii/solution.ts)| Hard | Top_Interview_Questions, Array, String, Matrix, Backtracking, Trie | ew 150 | ew 150 Trie
 
 #### Top Interview 150 Backtracking
 
@@ -1741,8 +1748,13 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0234 |[Palindrome Linked List](src/main/ts/g0201_0300/s0234_palindrome_linked_list/solution.ts)| Easy | Top_100_Liked_Questions, Two_Pointers, Stack, Linked_List, Recursion, Level_2_Day_3_Linked_List, Udemy_Linked_List, Big_O_Time_O(n)_Space_O(1) | 3 | 92.85
 | 0230 |[Kth Smallest Element in a BST](src/main/ts/g0201_0300/s0230_kth_smallest_element_in_a_bst/solution.ts)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Data_Structure_II_Day_17_Tree, Level_2_Day_9_Binary_Search_Tree, Top_Interview_150_Binary_Search_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0226 |[Invert Binary Tree](src/main/ts/g0201_0300/s0226_invert_binary_tree/solution.ts)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_12_Tree, Level_2_Day_6_Tree, Udemy_Tree_Stack_Queue, Top_Interview_150_Binary_Tree_General, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0222 |[Count Complete Tree Nodes](src/main/ts/g0201_0300/s0222_count_complete_tree_nodes/solution.ts)| Easy | Depth_First_Search, Tree, Binary_Search, Binary_Tree, Binary_Search_II_Day_10, Top_Interview_150_Binary_Tree_General | 0 | 100.00
 | 0221 |[Maximal Square](src/main/ts/g0201_0300/s0221_maximal_square/solution.ts)| Medium | Array, Dynamic_Programming, Matrix, Dynamic_Programming_I_Day_16, Top_Interview_150_Multidimensional_DP, Big_O_Time_O(m\*n)_Space_O(m\*n) | 18 | 59.02
+| 0219 |[Contains Duplicate II](src/main/ts/g0201_0300/s0219_contains_duplicate_ii/solution.ts)| Easy | Array, Hash_Table, Sliding_Window, Top_Interview_150_Hashmap | 17 | 79.29
 | 0215 |[Kth Largest Element in an Array](src/main/ts/g0201_0300/s0215_kth_largest_element_in_an_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Quickselect, Data_Structure_II_Day_20_Heap_Priority_Queue, Top_Interview_150_Heap, Big_O_Time_O(n\*log(n))_Space_O(log(n)) | 4 | 99.64
+| 0212 |[Word Search II](src/main/ts/g0201_0300/s0212_word_search_ii/solution.ts)| Hard | Top_Interview_Questions, Array, String, Matrix, Backtracking, Trie | ew 150 | ew 150 Trie
+| 0211 |[Design Add and Search Words Data Structure](src/main/ts/g0201_0300/s0211_design_add_and_search_words_data_structure/solution.ts)| Medium | String, Depth_First_Search, Design, Trie, Top_Interview_150_Trie | 450 | 92.88
+| 0210 |[Course Schedule II](src/main/ts/g0201_0300/s0210_course_schedule_ii/solution.ts)| Medium | Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Level_2_Day_11_Graph/BFS/DFS, Top_Interview_150_Graph_General | 2 | 99.76
 | 0209 |[Minimum Size Subarray Sum](src/main/ts/g0201_0300/s0209_minimum_size_subarray_sum/solution.ts)| Medium | Array, Binary_Search, Prefix_Sum, Sliding_Window, Algorithm_II_Day_5_Sliding_Window, Binary_Search_II_Day_1, Top_Interview_150_Sliding_Window | 2 | 88.11
 | 0208 |[Implement Trie (Prefix Tree)](src/main/ts/g0201_0300/s0208_implement_trie_prefix_tree/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Design, Trie, Level_2_Day_16_Design, Udemy_Trie_and_Heap, Top_Interview_150_Trie, Big_O_Time_O(word.length())_or_O(prefix.length())_Space_O(N) | 48 | 63.95
 | 0207 |[Course Schedule](src/main/ts/g0201_0300/s0207_course_schedule/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Top_Interview_150_Graph_General, Big_O_Time_O(N)_Space_O(N) | 11 | 81.08
