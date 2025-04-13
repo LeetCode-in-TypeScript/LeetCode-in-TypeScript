@@ -13,3 +13,15 @@ test('wordPattern2', () => {
 test('wordPattern3', () => {
     expect(wordPattern('aaaa', 'dog cat cat dog')).toEqual(false)
 })
+
+test('wordPattern4', () => {
+    expect(wordPattern('a', 'dog cat')).toEqual(false)
+})
+
+test('wordPattern5', () => {
+    expect(wordPattern('a', 'dog')).toEqual(true)
+})
+
+test('wordPattern6', () => {
+    expect(wordPattern('ab', 'dog dog')).toEqual(false)
+})
