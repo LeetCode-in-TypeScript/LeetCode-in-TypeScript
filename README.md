@@ -319,6 +319,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0392 |[Is Subsequence](src/main/ts/g0301_0400/s0392_is_subsequence/solution.ts)| Easy | String, Dynamic_Programming, Two_Pointers | 0 | 100.00
 | 1143 |[Longest Common Subsequence](src/main/ts/g1101_1200/s1143_longest_common_subsequence/solution.ts)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n\*m)_Space_O(n\*m) | 50 | 69.40
 | 0072 |[Edit Distance](src/main/ts/g0001_0100/s0072_edit_distance/solution.ts)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 6 | 93.83
 
@@ -579,6 +580,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0433 |[Minimum Genetic Mutation](src/main/ts/g0401_0500/s0433_minimum_genetic_mutation/solution.ts)| Medium | String, Hash_Table, Breadth_First_Search | 0 | 100.00
 | 0127 |[Word Ladder](src/main/ts/g0101_0200/s0127_word_ladder/solution.ts)| Hard | Top_Interview_Questions, String, Hash_Table, Breadth_First_Search | 41 | 95.63
 
 #### Day 13 Graph Theory
@@ -655,6 +657,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0205 |[Isomorphic Strings](src/main/ts/g0201_0300/s0205_isomorphic_strings/solution.ts)| Easy | String, Hash_Table | 3 | 96.02
+| 0392 |[Is Subsequence](src/main/ts/g0301_0400/s0392_is_subsequence/solution.ts)| Easy | String, Dynamic_Programming, Two_Pointers | 0 | 100.00
 
 #### Day 3 Linked List
 
@@ -918,6 +921,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0392 |[Is Subsequence](src/main/ts/g0301_0400/s0392_is_subsequence/solution.ts)| Easy | String, Dynamic_Programming, Two_Pointers | 0 | 100.00
 | 0125 |[Valid Palindrome](src/main/ts/g0101_0200/s0125_valid_palindrome/solution.ts)| Easy | Top_Interview_Questions, String, Two_Pointers | 0 | 100.00
 | 0026 |[Remove Duplicates from Sorted Array](src/main/ts/g0001_0100/s0026_remove_duplicates_from_sorted_array/solution.ts)| Easy | Top_Interview_Questions, Array, Two_Pointers | 0 | 100.00
 | 0042 |[Trapping Rain Water](src/main/ts/g0001_0100/s0042_trapping_rain_water/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Two_Pointers, Stack, Monotonic_Stack, Big_O_Time_O(n)_Space_O(1) | 0 | 100.00
@@ -1062,6 +1066,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0125 |[Valid Palindrome](src/main/ts/g0101_0200/s0125_valid_palindrome/solution.ts)| Easy | Top_Interview_Questions, String, Two_Pointers | 0 | 100.00
+| 0392 |[Is Subsequence](src/main/ts/g0301_0400/s0392_is_subsequence/solution.ts)| Easy | String, Dynamic_Programming, Two_Pointers | 0 | 100.00
 | 0167 |[Two Sum II - Input Array Is Sorted](src/main/ts/g0101_0200/s0167_two_sum_ii_input_array_is_sorted/solution.ts)| Medium | Array, Binary_Search, Two_Pointers | 0 | 100.00
 | 0011 |[Container With Most Water](src/main/ts/g0001_0100/s0011_container_with_most_water/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Greedy, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 2 | 80.13
 | 0015 |[3Sum](src/main/ts/g0001_0100/s0015_3sum/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 30 | 91.56
@@ -1089,6 +1094,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0383 |[Ransom Note](src/main/ts/g0301_0400/s0383_ransom_note/solution.ts)| Easy | String, Hash_Table, Counting | 4 | 97.40
 | 0205 |[Isomorphic Strings](src/main/ts/g0201_0300/s0205_isomorphic_strings/solution.ts)| Easy | String, Hash_Table | 3 | 96.02
 | 0290 |[Word Pattern](src/main/ts/g0201_0300/s0290_word_pattern/solution.ts)| Easy | String, Hash_Table | 0 | 100.00
 | 0242 |[Valid Anagram](src/main/ts/g0201_0300/s0242_valid_anagram/solution.ts)| Easy | String, Hash_Table, Sorting | 4 | 97.99
@@ -1177,6 +1183,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0433 |[Minimum Genetic Mutation](src/main/ts/g0401_0500/s0433_minimum_genetic_mutation/solution.ts)| Medium | String, Hash_Table, Breadth_First_Search | 0 | 100.00
 | 0127 |[Word Ladder](src/main/ts/g0101_0200/s0127_word_ladder/solution.ts)| Hard | Top_Interview_Questions, String, Hash_Table, Breadth_First_Search | 41 | 95.63
 
 #### Top Interview 150 Trie
@@ -1205,6 +1212,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0108 |[Convert Sorted Array to Binary Search Tree](src/main/ts/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree/solution.ts)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 0 | 100.00
 | 0148 |[Sort List](src/main/ts/g0101_0200/s0148_sort_list/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(log(N))_Space_O(log(N)) | 36 | 44.94
+| 0427 |[Construct Quad Tree](src/main/ts/g0401_0500/s0427_construct_quad_tree/solution.ts)| Medium | Array, Tree, Matrix, Divide_and_Conquer | ew 150 | ew 150 Divide and Conquer
 | 0023 |[Merge k Sorted Lists](src/main/ts/g0001_0100/s0023_merge_k_sorted_lists/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Heap_Priority_Queue, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(k\*n\*log(k))_Space_O(log(k)) | 4 | 97.65
 
 #### Top Interview 150 Kadane's Algorithm
@@ -1230,6 +1238,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0215 |[Kth Largest Element in an Array](src/main/ts/g0201_0300/s0215_kth_largest_element_in_an_array/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Quickselect, Big_O_Time_O(n\*log(n))_Space_O(log(n)) | 4 | 99.64
+| 0373 |[Find K Pairs with Smallest Sums](src/main/ts/g0301_0400/s0373_find_k_pairs_with_smallest_sums/solution.ts)| Medium | Array, Heap_Priority_Queue | 42 | 85.15
 | 0295 |[Find Median from Data Stream](src/main/ts/g0201_0300/s0295_find_median_from_data_stream/solution.ts)| Hard | Top_100_Liked_Questions, Sorting, Two_Pointers, Design, Heap_Priority_Queue, Data_Stream, Big_O_Time_O(n\*log_n)_Space_O(n) | 106 | 92.31
 
 #### Top Interview 150 Bit Manipulation
@@ -1315,6 +1324,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0383 |[Ransom Note](src/main/ts/g0301_0400/s0383_ransom_note/solution.ts)| Easy | String, Hash_Table, Counting | 4 | 97.40
 | 0242 |[Valid Anagram](src/main/ts/g0201_0300/s0242_valid_anagram/solution.ts)| Easy | String, Hash_Table, Sorting | 4 | 97.99
 
 #### Day 7 Linked List
@@ -1741,8 +1751,13 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0494 |[Target Sum](src/main/ts/g0401_0500/s0494_target_sum/solution.ts)| Medium | Array, Dynamic_Programming, Backtracking, Big_O_Time_O(n\*(sum+s))_Space_O(n\*(sum+s)) | 24 | 83.43
 | 0438 |[Find All Anagrams in a String](src/main/ts/g0401_0500/s0438_find_all_anagrams_in_a_string/solution.ts)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Algorithm_II_Day_5_Sliding_Window, Programming_Skills_II_Day_12, Level_1_Day_12_Sliding_Window/Two_Pointer, Big_O_Time_O(n+m)_Space_O(1) | 8 | 97.80
 | 0437 |[Path Sum III](src/main/ts/g0401_0500/s0437_path_sum_iii/solution.ts)| Medium | Depth_First_Search, Tree, Binary_Tree, Level_2_Day_7_Tree, Big_O_Time_O(n)_Space_O(n) | 3 | 86.41
+| 0433 |[Minimum Genetic Mutation](src/main/ts/g0401_0500/s0433_minimum_genetic_mutation/solution.ts)| Medium | String, Hash_Table, Breadth_First_Search, Graph_Theory_I_Day_12_Breadth_First_Search, Top_Interview_150_Graph_BFS | 0 | 100.00
+| 0427 |[Construct Quad Tree](src/main/ts/g0401_0500/s0427_construct_quad_tree/solution.ts)| Medium | Array, Tree, Matrix, Divide_and_Conquer | ew 150 | ew 150 Divide and Conquer
 | 0416 |[Partition Equal Subset Sum](src/main/ts/g0401_0500/s0416_partition_equal_subset_sum/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Level_2_Day_13_Dynamic_Programming, Big_O_Time_O(n\*sums)_Space_O(n\*sums) | 33 | 93.24
 | 0394 |[Decode String](src/main/ts/g0301_0400/s0394_decode_string/solution.ts)| Medium | Top_100_Liked_Questions, String, Stack, Recursion, Level_1_Day_14_Stack, Udemy_Strings, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0392 |[Is Subsequence](src/main/ts/g0301_0400/s0392_is_subsequence/solution.ts)| Easy | String, Dynamic_Programming, Two_Pointers, Dynamic_Programming_I_Day_19, Level_1_Day_2_String, Udemy_Two_Pointers, Top_Interview_150_Two_Pointers | 0 | 100.00
+| 0383 |[Ransom Note](src/main/ts/g0301_0400/s0383_ransom_note/solution.ts)| Easy | String, Hash_Table, Counting, Data_Structure_I_Day_6_String, Top_Interview_150_Hashmap | 4 | 97.40
+| 0373 |[Find K Pairs with Smallest Sums](src/main/ts/g0301_0400/s0373_find_k_pairs_with_smallest_sums/solution.ts)| Medium | Array, Heap_Priority_Queue, Top_Interview_150_Heap | 42 | 85.15
 | 0347 |[Top K Frequent Elements](src/main/ts/g0301_0400/s0347_top_k_frequent_elements/solution.ts)| Medium | Top_100_Liked_Questions, Array, Hash_Table, Sorting, Heap_Priority_Queue, Counting, Divide_and_Conquer, Quickselect, Bucket_Sort, Data_Structure_II_Day_20_Heap_Priority_Queue, Big_O_Time_O(n\*log(n))_Space_O(k) | 7 | 87.13
 | 0338 |[Counting Bits](src/main/ts/g0301_0400/s0338_counting_bits/solution.ts)| Easy | Dynamic_Programming, Bit_Manipulation, Udemy_Bit_Manipulation, Big_O_Time_O(num)_Space_O(num) | 1 | 89.22
 | 0322 |[Coin Change](src/main/ts/g0301_0400/s0322_coin_change/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Breadth_First_Search, Algorithm_II_Day_18_Dynamic_Programming, Dynamic_Programming_I_Day_20, Level_2_Day_12_Dynamic_Programming, Top_Interview_150_1D_DP, Big_O_Time_O(m\*n)_Space_O(amount) | 27 | 89.42
