@@ -50,7 +50,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0069 |[Sqrt(x)](src/main/ts/g0001_0100/s0069_sqrtx/solution.ts)| Easy | Top_Interview_Questions, Math, Binary_Search | 0 | 100.00
+| 0069 |[Sqrt(x)](src/main/ts/g0001_0100/s0069_sqrtx/solution.ts)| Easy | Top_Interview_Questions, Math, Binary_Search | 1 | 74.84
 
 #### Day 5
 
@@ -1276,7 +1276,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0009 |[Palindrome Number](src/main/ts/g0001_0100/s0009_palindrome_number/solution.ts)| Easy | Math | 3 | 99.14
 | 0066 |[Plus One](src/main/ts/g0001_0100/s0066_plus_one/solution.ts)| Easy | Top_Interview_Questions, Array, Math | 0 | 100.00
 | 0172 |[Factorial Trailing Zeroes](src/main/ts/g0101_0200/s0172_factorial_trailing_zeroes/solution.ts)| Medium | Top_Interview_Questions, Math | 0 | 100.00
-| 0069 |[Sqrt(x)](src/main/ts/g0001_0100/s0069_sqrtx/solution.ts)| Easy | Top_Interview_Questions, Math, Binary_Search | 0 | 100.00
+| 0069 |[Sqrt(x)](src/main/ts/g0001_0100/s0069_sqrtx/solution.ts)| Easy | Top_Interview_Questions, Math, Binary_Search | 1 | 74.84
 | 0050 |[Pow(x, n)](src/main/ts/g0001_0100/s0050_powx_n/solution.ts)| Medium | Top_Interview_Questions, Math, Recursion | 0 | 100.00
 | 0149 |[Max Points on a Line](src/main/ts/g0101_0200/s0149_max_points_on_a_line/solution.ts)| Hard | Top_Interview_Questions, Array, Hash_Table, Math, Geometry | 9 | 97.18
 
@@ -1890,7 +1890,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0072 |[Edit Distance](src/main/ts/g0001_0100/s0072_edit_distance/solution.ts)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, LeetCode_75_DP/Multidimensional, Algorithm_II_Day_18_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming, Top_Interview_150_Multidimensional_DP, Big_O_Time_O(n^2)_Space_O(n2) | 6 | 93.83
 | 0071 |[Simplify Path](src/main/ts/g0001_0100/s0071_simplify_path/solution.ts)| Medium | String, Stack, Top_Interview_150_Stack | 0 | 100.00
 | 0070 |[Climbing Stairs](src/main/ts/g0001_0100/s0070_climbing_stairs/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Algorithm_I_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_2, Level_1_Day_10_Dynamic_Programming, Udemy_Dynamic_Programming, Top_Interview_150_1D_DP, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
-| 0069 |[Sqrt(x)](src/main/ts/g0001_0100/s0069_sqrtx/solution.ts)| Easy | Top_Interview_Questions, Math, Binary_Search, Binary_Search_I_Day_4, Top_Interview_150_Math | 0 | 100.00
+| 0069 |[Sqrt(x)](src/main/ts/g0001_0100/s0069_sqrtx/solution.ts)| Easy | Top_Interview_Questions, Math, Binary_Search, Binary_Search_I_Day_4, Top_Interview_150_Math | 1 | 74.84
 | 0068 |[Text Justification](src/main/ts/g0001_0100/s0068_text_justification/solution.ts)| Hard | Array, String, Simulation, Top_Interview_150_Array/String | 0 | 100.00
 | 0067 |[Add Binary](src/main/ts/g0001_0100/s0067_add_binary/solution.ts)| Easy | String, Math, Bit_Manipulation, Simulation, Programming_Skills_II_Day_5, Top_Interview_150_Bit_Manipulation | 0 | 100.00
 | 0066 |[Plus One](src/main/ts/g0001_0100/s0066_plus_one/solution.ts)| Easy | Top_Interview_Questions, Array, Math, Programming_Skills_II_Day_3, Udemy_Arrays, Top_Interview_150_Math | 0 | 100.00
