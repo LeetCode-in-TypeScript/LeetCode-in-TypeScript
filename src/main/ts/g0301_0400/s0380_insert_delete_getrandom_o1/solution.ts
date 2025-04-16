@@ -1,7 +1,7 @@
 // #Medium #Array #Hash_Table #Math #Design #Randomized #Programming_Skills_II_Day_20
 // #Top_Interview_150_Array/String #2025_04_16_Time_73_ms_(82.52%)_Space_106.13_MB_(72.14%)
 
-class RandomizedSet {
+class RandomizedSet { // NOSONAR
     private rand: () => number;
     private list: number[];
     private map: Map<number, number>;
