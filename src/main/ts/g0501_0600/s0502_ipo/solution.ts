@@ -54,7 +54,9 @@ class MaxHeap {
             if (right < this.heap.length && this.heap[right] > this.heap[largest]) {
                 largest = right
             }
-            if (largest === index) break
+            if (largest === index) {
+                break
+            }
             ;[this.heap[index], this.heap[largest]] = [this.heap[largest], this.heap[index]]
             index = largest
         }
