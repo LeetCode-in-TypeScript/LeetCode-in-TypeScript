@@ -4,11 +4,7 @@
 type MapType = Map<string, string>
 type RateType = Map<string, number>
 
-function calcEquation(
-    equations: [string, string][],
-    values: number[],
-    queries: [string, string][]
-): number[] {
+function calcEquation(equations: [string, string][], values: number[], queries: [string, string][]): number[] {
     const root: MapType = new Map()
     const rate: RateType = new Map()
     for (const [x, y] of equations) {
@@ -50,23 +46,17 @@ function union(x: string, y: string, value: number, root: MapType, rate: RateTyp
         root.set(rootX, rootY)
         const rateX = rate.get(x)!
         const rateY = rate.get(y)!
-        rate.set(rootX, value * rateY / rateX)
+        rate.set(rootX, (value * rateY) / rateX)
     }
 }
 
-function findRoot(
-    originalX: string,
-    x: string,
-    rateSoFar: number,
-    root: MapType,
-    rate: RateType
-): string {
+function findRoot(originalX: string, x: string, rateSoFar: number, root: MapType, rate: RateType): string {
     if (root.get(x) === x) {
         root.set(originalX, x)
         rate.set(originalX, rateSoFar * rate.get(x)!)
-        return x;
+        return x
     }
-    return findRoot(originalX, root.get(x)!, rateSoFar * rate.get(x)!, root, rate);
+    return findRoot(originalX, root.get(x)!, rateSoFar * rate.get(x)!, root, rate)
 }
 
 export { calcEquation }
