@@ -1,5 +1,5 @@
-// #Medium #Depth_First_Search #Tree #Binary_Tree #Level_2_Day_7_Tree #Big_O_Time_O(n)_Space_O(n)
-// #2025_03_28_Time_3_ms_(86.41%)_Space_61.43_MB_(43.21%)
+// #Medium #Depth_First_Search #Tree #Binary_Tree #LeetCode_75_Binary_Tree/DFS #Level_2_Day_7_Tree
+// #Big_O_Time_O(n)_Space_O(n) #2025_03_28_Time_3_ms_(86.41%)_Space_61.43_MB_(43.21%)
 
 function pathSum(root: TreeNode | null, targetSum: number): number {
     let count = 0

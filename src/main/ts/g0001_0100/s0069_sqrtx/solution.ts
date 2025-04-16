@@ -1,5 +1,5 @@
-// #Hard #Array #String #Simulation #Top_Interview_150_Array/String
-// #2025_04_05_Time_0_ms_(100.00%)_Space_55.70_MB_(38.14%)
+// #Easy #Top_Interview_Questions #Math #Binary_Search #Binary_Search_I_Day_4
+// #Top_Interview_150_Math #2025_04_16_Time_1_ms_(74.84%)_Space_57.85_MB_(56.21%)
 
 function mySqrt(x: number): number {
     let low = 1

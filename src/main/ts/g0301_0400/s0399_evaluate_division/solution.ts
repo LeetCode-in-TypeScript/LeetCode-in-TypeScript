@@ -1,5 +1,6 @@
 // #Medium #Array #Depth_First_Search #Breadth_First_Search #Graph #Union_Find #Shortest_Path
-// #Top_Interview_150_Graph_General #2025_04_16_Time_0_ms_(100.00%)_Space_54.98_MB_(77.31%)
+// #LeetCode_75_Graphs/DFS #Top_Interview_150_Graph_General
+// #2025_04_16_Time_0_ms_(100.00%)_Space_54.98_MB_(77.31%)
 
 type MapType = Map<string, string>
 type RateType = Map<string, number>
