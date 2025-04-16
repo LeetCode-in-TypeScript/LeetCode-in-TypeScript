@@ -1,5 +1,5 @@
-// #Medium #Two_Pointers #Linked_List #Top_Interview_150_Linked_List
-// #2025_04_05_Time_0_ms_(100.00%)_Space_58.16_MB_(62.07%)
+// #Easy #Top_Interview_Questions #Array #Sorting #Two_Pointers #Data_Structure_I_Day_2_Array
+// #Top_Interview_150_Array/String #2025_04_05_Time_0_ms_(100.00%)_Space_58.16_MB_(62.07%)
 
 /**
  * Do not return anything, modify nums1 in-place instead.

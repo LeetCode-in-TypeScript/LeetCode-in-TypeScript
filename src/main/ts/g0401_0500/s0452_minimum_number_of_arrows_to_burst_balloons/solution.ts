@@ -1,4 +1,4 @@
-// #Medium #Array #Sorting #Greedy #Top_Interview_150_Intervals
+// #Medium #Array #Sorting #Greedy #LeetCode_75_Intervals #Top_Interview_150_Intervals
 // #2025_04_15_Time_75_ms_(98.54%)_Space_79.44_MB_(62.20%)
 
 function findMinArrowShots(points: number[][]): number {
