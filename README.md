@@ -996,6 +996,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 57 | 93.94
+| 0133 |[Clone Graph](src/main/ts/g0101_0200/s0133_clone_graph/solution.ts)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Graph | 48 | 82.94
 
 #### Udemy Dynamic Programming
 
@@ -1186,6 +1187,8 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0200 |[Number of Islands](src/main/ts/g0101_0200/s0200_number_of_islands/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Big_O_Time_O(M\*N)_Space_O(M\*N) | 57 | 93.94
+| 0130 |[Surrounded Regions](src/main/ts/g0101_0200/s0130_surrounded_regions/solution.ts)| Medium | Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 1 | 99.18
+| 0133 |[Clone Graph](src/main/ts/g0101_0200/s0133_clone_graph/solution.ts)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Graph | 48 | 82.94
 | 0399 |[Evaluate Division](src/main/ts/g0301_0400/s0399_evaluate_division/solution.ts)| Medium | Array, Depth_First_Search, Breadth_First_Search, Graph, Union_Find, Shortest_Path | 0 | 100.00
 | 0207 |[Course Schedule](src/main/ts/g0201_0300/s0207_course_schedule/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Big_O_Time_O(N)_Space_O(N) | 11 | 81.08
 | 0210 |[Course Schedule II](src/main/ts/g0201_0300/s0210_course_schedule_ii/solution.ts)| Medium | Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort | 2 | 99.76
@@ -1669,6 +1672,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0130 |[Surrounded Regions](src/main/ts/g0101_0200/s0130_surrounded_regions/solution.ts)| Medium | Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 1 | 99.18
 
 #### Day 9 Recursion Backtracking
 
@@ -1843,7 +1847,9 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0136 |[Single Number](src/main/ts/g0101_0200/s0136_single_number/solution.ts)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Data_Structure_II_Day_1_Array, Algorithm_I_Day_14_Bit_Manipulation, Udemy_Integers, Top_Interview_150_Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 1 | 78.27
 | 0135 |[Candy](src/main/ts/g0101_0200/s0135_candy/solution.ts)| Hard | Array, Greedy, Top_Interview_150_Array/String | 2 | 96.15
 | 0134 |[Gas Station](src/main/ts/g0101_0200/s0134_gas_station/solution.ts)| Medium | Top_Interview_Questions, Array, Greedy, Top_Interview_150_Array/String | 0 | 100.00
+| 0133 |[Clone Graph](src/main/ts/g0101_0200/s0133_clone_graph/solution.ts)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Graph, Udemy_Graph, Top_Interview_150_Graph_General | 48 | 82.94
 | 0131 |[Palindrome Partitioning](src/main/ts/g0101_0200/s0131_palindrome_partitioning/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Backtracking, Big_O_Time_O(N\*2^N)_Space_O(2^N\*N) | 13 | 94.96
+| 0130 |[Surrounded Regions](src/main/ts/g0101_0200/s0130_surrounded_regions/solution.ts)| Medium | Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Algorithm_II_Day_8_Breadth_First_Search_Depth_First_Search, Top_Interview_150_Graph_General | 1 | 99.18
 | 0129 |[Sum Root to Leaf Numbers](src/main/ts/g0101_0200/s0129_sum_root_to_leaf_numbers/solution.ts)| Medium | Depth_First_Search, Tree, Binary_Tree, Top_Interview_150_Binary_Tree_General | 0 | 100.00
 | 0128 |[Longest Consecutive Sequence](src/main/ts/g0101_0200/s0128_longest_consecutive_sequence/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Union_Find, Top_Interview_150_Hashmap, Big_O_Time_O(N_log_N)_Space_O(1) | 34 | 90.07
 | 0127 |[Word Ladder](src/main/ts/g0101_0200/s0127_word_ladder/solution.ts)| Hard | Top_Interview_Questions, String, Hash_Table, Breadth_First_Search, Graph_Theory_I_Day_12_Breadth_First_Search, Top_Interview_150_Graph_BFS | 41 | 95.63
