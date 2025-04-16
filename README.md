@@ -1217,7 +1217,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0108 |[Convert Sorted Array to Binary Search Tree](src/main/ts/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree/solution.ts)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 0 | 100.00
 | 0148 |[Sort List](src/main/ts/g0101_0200/s0148_sort_list/solution.ts)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(log(N))_Space_O(log(N)) | 36 | 44.94
-| 0427 |[Construct Quad Tree](src/main/ts/g0401_0500/s0427_construct_quad_tree/solution.ts)| Medium | Array, Tree, Matrix, Divide_and_Conquer | ew 150 | ew 150 Divide and Conquer
+| 0427 |[Construct Quad Tree](src/main/ts/g0401_0500/s0427_construct_quad_tree/solution.ts)| Medium | Array, Tree, Matrix, Divide_and_Conquer | 51 | 96.23
 | 0023 |[Merge k Sorted Lists](src/main/ts/g0001_0100/s0023_merge_k_sorted_lists/solution.ts)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Heap_Priority_Queue, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(k\*n\*log(k))_Space_O(log(k)) | 4 | 97.65
 
 #### Top Interview 150 Kadane's Algorithm
@@ -1765,7 +1765,7 @@ TypeScript-based LeetCode algorithm problem solutions, regularly updated.
 | 0438 |[Find All Anagrams in a String](src/main/ts/g0401_0500/s0438_find_all_anagrams_in_a_string/solution.ts)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Algorithm_II_Day_5_Sliding_Window, Programming_Skills_II_Day_12, Level_1_Day_12_Sliding_Window/Two_Pointer, Big_O_Time_O(n+m)_Space_O(1) | 8 | 97.80
 | 0437 |[Path Sum III](src/main/ts/g0401_0500/s0437_path_sum_iii/solution.ts)| Medium | Depth_First_Search, Tree, Binary_Tree, Level_2_Day_7_Tree, Big_O_Time_O(n)_Space_O(n) | 3 | 86.41
 | 0433 |[Minimum Genetic Mutation](src/main/ts/g0401_0500/s0433_minimum_genetic_mutation/solution.ts)| Medium | String, Hash_Table, Breadth_First_Search, Graph_Theory_I_Day_12_Breadth_First_Search, Top_Interview_150_Graph_BFS | 0 | 100.00
-| 0427 |[Construct Quad Tree](src/main/ts/g0401_0500/s0427_construct_quad_tree/solution.ts)| Medium | Array, Tree, Matrix, Divide_and_Conquer | ew 150 | ew 150 Divide and Conquer
+| 0427 |[Construct Quad Tree](src/main/ts/g0401_0500/s0427_construct_quad_tree/solution.ts)| Medium | Array, Tree, Matrix, Divide_and_Conquer, Top_Interview_150_Divide_and_Conquer | 51 | 96.23
 | 0416 |[Partition Equal Subset Sum](src/main/ts/g0401_0500/s0416_partition_equal_subset_sum/solution.ts)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Level_2_Day_13_Dynamic_Programming, Big_O_Time_O(n\*sums)_Space_O(n\*sums) | 33 | 93.24
 | 0394 |[Decode String](src/main/ts/g0301_0400/s0394_decode_string/solution.ts)| Medium | Top_100_Liked_Questions, String, Stack, Recursion, Level_1_Day_14_Stack, Udemy_Strings, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0392 |[Is Subsequence](src/main/ts/g0301_0400/s0392_is_subsequence/solution.ts)| Easy | String, Dynamic_Programming, Two_Pointers, Dynamic_Programming_I_Day_19, Level_1_Day_2_String, Udemy_Two_Pointers, Top_Interview_150_Two_Pointers | 0 | 100.00
