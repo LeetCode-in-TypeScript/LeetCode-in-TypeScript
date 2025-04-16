@@ -12,13 +12,7 @@ function solve(board: string[][]): void {
     const rows = board.length
     const cols = board[0].length
     const dfs = (board: string[][], row: number, col: number): void => {
-        if (
-            row < 0 || 
-            row >= rows || 
-            col < 0 || 
-            col >= cols || 
-            board[row][col] !== 'O'
-        ) {
+        if (row < 0 || row >= rows || col < 0 || col >= cols || board[row][col] !== 'O') {
             return
         }
         board[row][col] = '#'
@@ -26,7 +20,7 @@ function solve(board: string[][]): void {
         dfs(board, row - 1, col)
         dfs(board, row, col + 1)
         dfs(board, row, col - 1)
-    };
+    }
     for (let i = 0; i < cols; i++) {
         if (board[0][i] === 'O') {
             dfs(board, 0, i)

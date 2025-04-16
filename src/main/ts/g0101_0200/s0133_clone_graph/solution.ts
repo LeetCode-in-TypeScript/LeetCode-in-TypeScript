@@ -20,21 +20,21 @@ class Node {
                 for (const nodeItem of node.neighbors) {
                     result2.push(nodeItem.val.toString())
                 }
-                result.push(`[${result2.join(",")}]`)
+                result.push(`[${result2.join(',')}]`)
             }
         }
-        return `[${result.join(",")}]`
+        return `[${result.join(',')}]`
     }
 }
 
 function cloneGraph(node: Node | null): Node | null {
-  const processedNodes = new Map<Node, Node>()
-  return cloneGraphHelper(node, processedNodes)
+    const processedNodes = new Map<Node, Node>()
+    return cloneGraphHelper(node, processedNodes)
 }
 
 function cloneGraphHelper(node: Node | null, processedNodes: Map<Node, Node>): Node | null {
     if (node === null) {
-        return null;
+        return null
     }
     if (processedNodes.has(node)) {
         return processedNodes.get(node)!
@@ -46,7 +46,7 @@ function cloneGraphHelper(node: Node | null, processedNodes: Map<Node, Node>): N
         if (clonedNeighbor !== null) {
             newNode.neighbors.push(clonedNeighbor)
         }
-    }  
+    }
     return newNode
 }
 

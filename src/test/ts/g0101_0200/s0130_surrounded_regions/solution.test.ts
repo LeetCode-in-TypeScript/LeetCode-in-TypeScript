@@ -7,19 +7,19 @@ test('solve', () => {
         ['X', 'X', 'X', 'X'],
         ['X', 'O', 'O', 'X'],
         ['X', 'X', 'O', 'X'],
-        ['X', 'O', 'X', 'X']
+        ['X', 'O', 'X', 'X'],
     ]
     solve(board)
     expect(board).toEqual([
         ['X', 'X', 'X', 'X'],
         ['X', 'X', 'X', 'X'],
         ['X', 'X', 'X', 'X'],
-        ['X', 'O', 'X', 'X']
+        ['X', 'O', 'X', 'X'],
     ])
 })
 
 test('solve', () => {
-        const board: string[][] = [['X']]
-        solve(board)
-        expect(board).toEqual([['X']])
+    const board: string[][] = [['X']]
+    solve(board)
+    expect(board).toEqual([['X']])
 })
