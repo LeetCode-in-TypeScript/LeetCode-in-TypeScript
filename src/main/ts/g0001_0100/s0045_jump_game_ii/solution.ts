@@ -13,8 +13,9 @@ function jump(nums: number[]): number {
         if (i === currentEnd) {
             minJump++
             currentEnd = farthest
-
-            if (currentEnd >= nums.length - 1) break
+            if (currentEnd >= nums.length - 1) {
+                break
+            }
         }
     }
     return minJump
