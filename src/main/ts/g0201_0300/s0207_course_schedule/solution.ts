@@ -26,7 +26,6 @@ function hasCycle(adj: number[][], node: number, colors: number[]): boolean {
         if (colors[nei] === GRAY) {
             return true
         }
-
         if (colors[nei] === WHITE && hasCycle(adj, nei, colors)) {
             return true
         }

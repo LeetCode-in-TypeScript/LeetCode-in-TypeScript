@@ -8,7 +8,9 @@ function minDistance(word1: string, word2: string): number {
     const l1 = word1.length
     const l2 = word2.length
     const dfs = (w1: number, w2: number): number => {
-        if (memo[w1][w2] != undefined) return memo[w1][w2]
+        if (memo[w1][w2] != undefined) {
+            return memo[w1][w2]
+        }
         if (w1 == l1 && w2 == l2) {
             memo[w1][w2] = 0
             return 0

@@ -19,9 +19,15 @@ import { TreeNode } from '../../com_github_leetcode/treenode'
  * }
  */
 function dfs(node: TreeNode | null, lowerBound: number, upperBound: number): boolean {
-    if (!node) return true
-    if (node.val <= lowerBound) return false
-    if (node.val >= upperBound) return false
+    if (!node) {
+        return true
+    }
+    if (node.val <= lowerBound) {
+        return false
+    }
+    if (node.val >= upperBound) {
+        return false
+    }
     return dfs(node.left, lowerBound, node.val) && dfs(node.right, node.val, upperBound)
 }
 

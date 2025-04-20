@@ -4,7 +4,7 @@
 
 import { TreeNode } from '../../com_github_leetcode/treenode'
 
-/*
+/**
  * Definition for a binary tree node.
  * class TreeNode {
  *     val: number
@@ -18,8 +18,12 @@ import { TreeNode } from '../../com_github_leetcode/treenode'
  * }
  */
 function inorderTraversal(root: TreeNode | null): number[] {
-    if (!root) return []
-    if (!root.val) return []
+    if (!root) {
+        return []
+    }
+    if (!root.val) {
+        return []
+    }
     const result: number[] = []
     function traverse(node: TreeNode, arr: number[]) {
         if (node.left) {

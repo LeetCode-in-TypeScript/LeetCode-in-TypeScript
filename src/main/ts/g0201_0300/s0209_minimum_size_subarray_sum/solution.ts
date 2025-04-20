@@ -20,7 +20,6 @@ function minSubArrayLen(target: number, nums: number[]): number {
             }
             min = Math.min(min, j - i + 1)
         }
-
         j++
     }
     return min === Number.MAX_SAFE_INTEGER ? 0 : min

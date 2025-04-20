@@ -5,14 +5,18 @@
 
 function wordBreak(s: string, wordDict: string[]): boolean {
     const dp: boolean[] = []
-    for (let i = 0; i <= s.length; i++) dp.push(false)
+    for (let i = 0; i <= s.length; i++) {
+        dp.push(false)
+    }
     dp[s.length] = true
     for (let j = s.length - 1; j >= 0; j--) {
         for (const word of wordDict) {
             if (s.slice(j, j + word.length) === word && j + word.length <= s.length) {
                 dp[j] = dp[j + word.length]
             }
-            if (dp[j]) break
+            if (dp[j]) {
+                break
+            }
         }
     }
     return dp[0]

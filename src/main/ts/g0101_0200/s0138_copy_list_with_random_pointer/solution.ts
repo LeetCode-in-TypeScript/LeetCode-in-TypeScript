@@ -4,7 +4,7 @@
 
 import { Node } from '../../com_github_leetcode/node'
 
-/*
+/**
  * Definition for Node.
  * class Node {
  *     val: number

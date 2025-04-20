@@ -4,7 +4,7 @@
 
 import { ListNode } from '../../com_github_leetcode/listnode'
 
-/*
+/**
  * Definition for singly-linked list.
  * class ListNode {
  *     val: number
@@ -20,7 +20,9 @@ function hasCycle(head: ListNode | null): boolean {
     while (fast?.next) {
         head = head.next
         fast = fast.next.next
-        if (head === fast) return true
+        if (head === fast) {
+            return true
+        }
     }
     return false
 }

@@ -8,29 +8,24 @@ function spiralOrder(matrix: number[][]): number[] {
         c = 0
     let bigR = matrix.length - 1
     let bigC = matrix[0].length - 1
-
     while (r <= bigR && c <= bigC) {
         for (let i = c; i <= bigC; i++) {
             result.push(matrix[r][i])
         }
         r++
-
         for (let i = r; i <= bigR; i++) {
             result.push(matrix[i][bigC])
         }
         bigC--
-
         for (let i = bigC; i >= c && r <= bigR; i--) {
             result.push(matrix[bigR][i])
         }
         bigR--
-
         for (let i = bigR; i >= r && c <= bigC; i--) {
             result.push(matrix[i][c])
         }
         c++
     }
-
     return result
 }
 

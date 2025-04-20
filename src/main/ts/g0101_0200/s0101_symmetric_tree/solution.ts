@@ -5,7 +5,7 @@
 
 import { TreeNode } from '../../com_github_leetcode/treenode'
 
-/*
+/**
  * Definition for a binary tree node.
  * class TreeNode {
  *     val: number
@@ -19,14 +19,20 @@ import { TreeNode } from '../../com_github_leetcode/treenode'
  * }
  */
 function isSymmetric(root: TreeNode | null): boolean {
-    if (!root.left && !root.right) return true
+    if (!root.left && !root.right) {
+        return true
+    }
     const queue: [TreeNode, TreeNode][] = [[root.left, root.right]]
     while (queue.length > 0) {
         let qLen: number = queue.length
         while (qLen-- > 0) {
             const [leftNode, rightNode] = queue.shift()
-            if (!leftNode && !rightNode) continue
-            if (!leftNode || !rightNode || leftNode.val != rightNode.val) return false
+            if (!leftNode && !rightNode) {
+                continue
+            }
+            if (!leftNode || !rightNode || leftNode.val != rightNode.val) {
+                return false
+            }
             queue.push([leftNode.left, rightNode.right])
             queue.push([leftNode.right, rightNode.left])
         }

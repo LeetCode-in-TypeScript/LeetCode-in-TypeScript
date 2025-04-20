@@ -4,7 +4,9 @@
 
 function findOrder(numCourses: number, prerequisites: number[][]): number[] {
     let sortedOrder: number[] = []
-    if (numCourses < 0) return sortedOrder
+    if (numCourses < 0) {
+        return sortedOrder
+    }
     let inDegree = new Array(numCourses).fill(0),
         graph = new Array(numCourses).fill(0).map(() => new Array()),
         source = new Array<number>()

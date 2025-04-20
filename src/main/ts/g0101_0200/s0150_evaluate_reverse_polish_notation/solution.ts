@@ -8,11 +8,13 @@ function evalRPN(tokens: string[]): number {
         if (isOperator(token)) {
             const right = numberStack.pop() as number
             const left = numberStack.pop() as number
-
-            if (token === '+') numberStack.push(left + right)
-            else if (token === '-') numberStack.push(left - right)
-            else if (token === '*') numberStack.push(left * right)
-            else if (token === '/') {
+            if (token === '+') {
+                numberStack.push(left + right)
+            } else if (token === '-') {
+                numberStack.push(left - right)
+            } else if (token === '*') {
+                numberStack.push(left * right)
+            } else if (token === '/') {
                 const result = left / right
                 numberStack.push(result < 0 ? Math.ceil(result) : Math.floor(result))
             }
