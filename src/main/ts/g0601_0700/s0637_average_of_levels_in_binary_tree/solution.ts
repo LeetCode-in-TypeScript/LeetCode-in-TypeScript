@@ -16,7 +16,6 @@ import { TreeNode } from '../../com_github_leetcode/treenode'
  *     }
  * }
  */
-
 function averageOfLevels(root: TreeNode | null): number[] {
     if (!root) {
         return []

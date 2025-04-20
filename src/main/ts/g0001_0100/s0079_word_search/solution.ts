@@ -12,7 +12,6 @@ function exist(board: string[][], word: string): boolean {
             if (loop(marks, board, i, j, word, 0)) return true
         }
     }
-
     return ret
 }
 
@@ -31,28 +30,29 @@ function loop(marks: boolean[][], board: string[][], i: number, j: number, word:
     if (i < 0 || j < 0 || i >= board.length || j >= board[i].length || marks[i][j]) {
         return false
     }
-
     if (board[i][j] !== word.charAt(index)) {
         return false
     } else if (index === word.length - 1) {
         return true
     }
-
     marks[i][j] = true
     index++
-
     let r = loop(marks, board, i - 1, j, word, index)
-    if (r) return true
-
+    if (r) {
+        return true
+    }
     r = loop(marks, board, i + 1, j, word, index)
-    if (r) return true
-
+    if (r) {
+        return true
+    }
     r = loop(marks, board, i, j - 1, word, index)
-    if (r) return true
-
+    if (r) {
+        return true
+    }
     r = loop(marks, board, i, j + 1, word, index)
-    if (r) return true
-
+    if (r) {
+        return true
+    }
     marks[i][j] = false
     return false
 }

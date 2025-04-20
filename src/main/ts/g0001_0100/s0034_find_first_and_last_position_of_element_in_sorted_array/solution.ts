@@ -9,7 +9,6 @@ function searchRange(nums: number[], target: number): number[] { //NOSONAR
     let left2 = left1
     let right1 = nums.length - 1
     let right2 = right1
-
     while (left1 <= right1 || left2 <= right2) {
         if (left1 <= right1) {
             let mid1 = Math.floor((left1 + right1) / 2)
@@ -22,7 +21,6 @@ function searchRange(nums: number[], target: number): number[] { //NOSONAR
                 right1 = mid1 - 1
             }
         }
-
         if (left2 <= right2) {
             let mid2 = Math.floor((left2 + right2) / 2)
             if (nums[mid2] == target) {

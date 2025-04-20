@@ -4,7 +4,7 @@
 
 import { ListNode } from '../../com_github_leetcode/listnode'
 
-/*
+/**
  * Definition for singly-linked list.
  * class ListNode {
  *     val: number

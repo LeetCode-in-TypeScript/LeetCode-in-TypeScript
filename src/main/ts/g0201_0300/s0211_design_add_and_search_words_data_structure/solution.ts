@@ -31,7 +31,6 @@ class WordDictionary {
             }
             const currentLetter = word[index]
             index += 1
-
             if (currentLetter === '.') {
                 return Object.keys(subtree).some((letter) => searchSubtree(word, index, subtree[letter] as TrieNode))
             } else {
@@ -42,7 +41,6 @@ class WordDictionary {
                 }
             }
         }
-
         return searchSubtree(word, 0, this.root)
     }
 }

@@ -5,7 +5,6 @@ function isValidSudoku(board: string[][]): boolean {
     let rowSet: number[] = new Array(9).fill(0)
     let colSet: number[] = new Array(9).fill(0)
     let boxSet: number[] = new Array(9).fill(0)
-
     for (let i = 0; i < 9; i++) {
         for (let j = 0; j < 9; j++) {
             if (board[i][j] === '.') {
@@ -13,11 +12,9 @@ function isValidSudoku(board: string[][]): boolean {
             }
             let val = board[i][j].charCodeAt(0) - '0'.charCodeAt(0)
             let boxIndex = Math.floor(i / 3) * 3 + Math.floor(j / 3)
-
             if (rowSet[i] & (1 << val) || colSet[j] & (1 << val) || boxSet[boxIndex] & (1 << val)) {
                 return false
             }
-
             rowSet[i] |= 1 << val
             colSet[j] |= 1 << val
             boxSet[boxIndex] |= 1 << val

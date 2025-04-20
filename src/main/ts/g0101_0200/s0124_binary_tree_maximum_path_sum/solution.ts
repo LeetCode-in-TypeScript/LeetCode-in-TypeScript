@@ -4,7 +4,7 @@
 
 import { TreeNode } from '../../com_github_leetcode/treenode'
 
-/*
+/**
  * Definition for a binary tree node.
  * class TreeNode {
  *     val: number
