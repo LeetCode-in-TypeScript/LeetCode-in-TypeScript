@@ -34,10 +34,10 @@ jobs:
           ls -al coverage
 
       - name: SonarCloud Scan
-        uses: sonarsource/sonarqube-scan-action@v4
+        uses: sonarsource/sonarqube-scan-action@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: 1ebdc4b127391a8acbc3420eb585961e4e0846de
+          SONAR_TOKEN: 9d2e151e2fed054830e4e7b19be16a2b2645680a
 
       - name: Upload coverage to codecov
         run: curl -s https://codecov.io/bash | bash
