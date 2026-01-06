@@ -16,9 +16,10 @@ import { ListNode } from '../../com_github_leetcode/listnode'
  * }
  */
 function deleteDuplicates(head: ListNode | null): ListNode | null {
-    if (!head || !head.next) {
+    if (!head?.next) {
         return head
     }
+
     const dummy = new ListNode(0)
     dummy.next = head
     let prev: ListNode = dummy

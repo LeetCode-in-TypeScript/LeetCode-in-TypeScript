@@ -2,41 +2,80 @@
 // #2025_04_01_Time_13_ms_(97.44%)_Space_63.70_MB_(46.03%)
 
 function findSubstring(s: string, words: string[]): number[] {
-    let ans: number[] = []
-    let n1 = words[0].length
-    let n2 = s.length
-    let map1 = new Map<string, number>()
-    for (let ch of words) {
-        map1.set(ch, (map1.get(ch) ?? 0) + 1)
+    if (words.length === 0) return []
+
+    const result: number[] = []
+    const wordLen = words[0].length
+    const totalLen = words.length * wordLen
+    const limit = s.length
+
+    const target = buildFreqMap(words)
+
+    for (let offset = 0; offset < wordLen; offset++) {
+        scanWindow(s, offset, wordLen, totalLen, limit, target, result)
     }
-    for (let i = 0; i < n1; i++) {
-        let left = i
-        let j = i
-        let c = 0
-        let map2 = new Map<string, number>()
-        while (j + n1 <= n2) {
-            let word1 = s.substring(j, j + n1)
-            j += n1
-            if (map1.has(word1)) {
-                map2.set(word1, (map2.get(word1) ?? 0) + 1)
-                c++
-                while ((map2.get(word1) ?? 0) > (map1.get(word1) ?? 0)) {
-                    let word2 = s.substring(left, left + n1)
-                    map2.set(word2, (map2.get(word2) ?? 0) - 1)
-                    left += n1
-                    c--
-                }
-                if (c === words.length) {
-                    ans.push(left)
-                }
-            } else {
-                map2.clear()
-                c = 0
-                left = j
-            }
+
+    return result
+}
+
+function buildFreqMap(words: string[]): Map<string, number> {
+    const map = new Map<string, number>()
+    for (const w of words) {
+        map.set(w, (map.get(w) ?? 0) + 1)
+    }
+    return map
+}
+
+function scanWindow(
+    s: string,
+    start: number,
+    wordLen: number,
+    totalLen: number,
+    limit: number,
+    target: Map<string, number>,
+    result: number[],
+): void {
+    let left = start
+    let count = 0
+    const window = new Map<string, number>()
+
+    for (let right = start; right + wordLen <= limit; right += wordLen) {
+        const word = s.substring(right, right + wordLen)
+
+        if (!target.has(word)) {
+            window.clear()
+            count = 0
+            left = right + wordLen
+            continue
+        }
+
+        window.set(word, (window.get(word) ?? 0) + 1)
+        count++
+
+        shrinkWindowIfNeeded(s, word, window, target, wordLen, () => {
+            const removed = s.substring(left, left + wordLen)
+            window.set(removed, (window.get(removed) ?? 0) - 1)
+            left += wordLen
+            count--
+        })
+
+        if (count * wordLen === totalLen) {
+            result.push(left)
         }
     }
-    return ans
+}
+
+function shrinkWindowIfNeeded(
+    _s: string,
+    word: string,
+    window: Map<string, number>,
+    target: Map<string, number>,
+    _wordLen: number,
+    shrink: () => void,
+): void {
+    while ((window.get(word) ?? 0) > (target.get(word) ?? 0)) {
+        shrink()
+    }
 }
 
 export { findSubstring }

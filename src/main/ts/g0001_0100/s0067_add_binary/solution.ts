@@ -9,8 +9,8 @@ function addBinary(a: string, b: string): string {
     let j = bArray.length - 1
     let carry = 0
     while (i >= 0 || j >= 0) {
-        const digitA = i >= 0 ? parseInt(aArray[i]) : 0
-        const digitB = j >= 0 ? parseInt(bArray[j]) : 0
+        const digitA = i >= 0 ? Number.parseInt(aArray[i]) : 0
+        const digitB = j >= 0 ? Number.parseInt(bArray[j]) : 0
         const sum = digitA + digitB + carry
         sb.push((sum % 2).toString())
         carry = Math.floor(sum / 2)
@@ -20,7 +20,8 @@ function addBinary(a: string, b: string): string {
     if (carry !== 0) {
         sb.push(carry.toString())
     }
-    return sb.reverse().join('')
+    sb.reverse()
+    return sb.join('')
 }
 
 export { addBinary }

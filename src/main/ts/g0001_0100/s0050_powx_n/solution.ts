@@ -3,7 +3,7 @@
 
 function myPow(x: number, n: number): number {
     let nn = BigInt(n)
-    let res = 1.0
+    let res = 1
     if (n < 0) {
         nn = -nn
     }
@@ -16,7 +16,7 @@ function myPow(x: number, n: number): number {
             nn /= 2n
         }
     }
-    return n < 0 ? 1.0 / res : res
+    return n < 0 ? 1 / res : res
 }
 
 export { myPow }

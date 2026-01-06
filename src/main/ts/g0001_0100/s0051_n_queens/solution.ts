@@ -4,7 +4,7 @@
 function solveNQueens(n: number): string[][] {
     const result: string[][] = []
     const board: number[] = []
-    const BOARD_ROW = Array(n).fill('.').join('')
+    const BOARD_ROW = new Array(n).fill('.').join('')
     const printBoard = () => board.map((col) => `${BOARD_ROW.slice(0, col)}Q${BOARD_ROW.slice(col + 1)}`)
     const isSafePlace = (c: number): boolean => {
         for (let row = 0; row < board.length; row++) {

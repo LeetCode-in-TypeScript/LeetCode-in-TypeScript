@@ -10,7 +10,7 @@ function isValidSudoku(board: string[][]): boolean {
             if (board[i][j] === '.') {
                 continue
             }
-            let val = board[i][j].charCodeAt(0) - '0'.charCodeAt(0)
+            let val = board[i][j].codePointAt(0)! - '0'.codePointAt(0)!
             let boxIndex = Math.floor(i / 3) * 3 + Math.floor(j / 3)
             if (rowSet[i] & (1 << val) || colSet[j] & (1 << val) || boxSet[boxIndex] & (1 << val)) {
                 return false

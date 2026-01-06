@@ -23,8 +23,8 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
     let curr: ListNode | null = dummyHead
     let carry: number = 0
     while (p !== null || q !== null) {
-        const x: number = p !== null ? p.val : 0
-        const y: number = q !== null ? q.val : 0
+        const x: number = p === null ? 0 : p.val
+        const y: number = q === null ? 0:  q.val
         const sum: number = carry + x + y
         carry = Math.floor(sum / 10)
         curr.next = new ListNode(sum % 10)
