@@ -20,7 +20,7 @@ function findCombinations(start: number, nums: string, letters: string[], curr: 
         return
     }
     for (let i = start; i < nums.length; i++) {
-        const n = parseInt(nums.charAt(i))
+        const n = Number.parseInt(nums.charAt(i))
         for (let j = 0; j < letters[n].length; j++) {
             const ch = letters[n].charAt(j)
             curr.push(ch)

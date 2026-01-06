@@ -17,10 +17,10 @@ function longestCommonPrefix(strs: string[]): string {
             temp = temp.substring(0, strs[i].length)
         }
         cur = strs[i].substring(0, temp.length)
-        if (cur !== temp) {
-            temp = temp.substring(0, temp.length - 1)
-        } else {
+        if (cur === temp) {
             i++
+        } else {
+            temp = temp.substring(0, temp.length - 1)
         }
     }
     return temp

@@ -10,7 +10,7 @@ class Node {
 
     toString(): string {
         const result: string[] = []
-        let curr: Node | null = this
+        let curr: Node | null = this //NOSONAR
         while (curr !== null) {
             const result2: string[] = []
             result2.push(String(curr.val))
@@ -18,7 +18,7 @@ class Node {
                 result2.push('null')
             } else {
                 let randomIndex = 0
-                let curr2: Node | null = this
+                let curr2: Node | null = this //NOSONAR
                 while (curr2?.next !== null && curr2 !== curr.random) {
                     randomIndex++
                     curr2 = curr2.next

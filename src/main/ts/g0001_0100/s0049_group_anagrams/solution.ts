@@ -7,9 +7,9 @@ function groupAnagrams(strs: string[]): string[][] {
     if (strs.length === 1) return [strs]
     const map = new Map()
     function getKey(str: string): string {
-        const charCount = Array(26).fill(0)
+        const charCount = new Array(26).fill(0)
         for (const char of str) {
-            charCount[char.charCodeAt(0) - 'a'.charCodeAt(0)]++
+            charCount[char.codePointAt(0)! - 'a'.codePointAt(0)!]++
         }
         return charCount.join('#')
     }

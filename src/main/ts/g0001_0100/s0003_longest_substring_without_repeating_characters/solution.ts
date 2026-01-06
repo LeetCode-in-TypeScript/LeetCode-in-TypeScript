@@ -10,7 +10,7 @@ function lengthOfLongestSubstring(s: string): number {
     let start: number = 0
     for (let i = 0; i < s.length; i++) {
         const cur: string = s.charAt(i)
-        const charCode: number = cur.charCodeAt(0)
+        const charCode: number = cur.codePointAt(0)!
         if (lastIndices[charCode] < start) {
             lastIndices[charCode] = i
             curLen++
