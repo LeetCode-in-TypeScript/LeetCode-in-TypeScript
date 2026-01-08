@@ -35,10 +35,10 @@ function reverseBetween(head: ListNode | null, left: number, right: number): Lis
         prev1 = tail
         tail = next
     }
-    if (prev !== null) {
-        prev.next = prev1
-    } else {
+    if (prev === null) {
         head = prev1
+    } else {
+        prev.next = prev1
     }
     if (start !== null) {
         start.next = tail

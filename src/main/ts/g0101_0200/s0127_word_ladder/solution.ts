@@ -3,41 +3,40 @@
 // #2025_04_07_Time_41_ms_(95.63%)_Space_63.50_MB_(82.78%)
 
 function ladderLength(beginWord: string, endWord: string, wordList: string[]): number {
-    const wordSet: Set<string> = new Set(wordList)
-    if (!wordSet.has(endWord)) {
-        return 0
-    }
-    let beginSet: Set<string> = new Set([beginWord])
-    let endSet: Set<string> = new Set([endWord])
-    const visited: Set<string> = new Set()
-    let len = 1
-    const wordLen = beginWord.length
-    while (beginSet.size > 0 && endSet.size > 0) {
-        if (beginSet.size > endSet.size) {
-            ;[beginSet, endSet] = [endSet, beginSet]
-        }
-        const tempSet: Set<string> = new Set()
-        for (const word of beginSet) {
-            const chars = word.split('')
-            for (let i = 0; i < wordLen; i++) {
-                const oldChar = chars[i]
-                for (let c = 97; c <= 122; c++) {
-                    chars[i] = String.fromCharCode(c)
-                    const nextWord = chars.join('')
-                    if (endSet.has(nextWord)) {
-                        return len + 1
-                    }
-                    if (!visited.has(nextWord) && wordSet.has(nextWord)) {
-                        tempSet.add(nextWord)
-                        visited.add(nextWord)
+    const wordSet = new Set(wordList)
+    if (!wordSet.has(endWord)) return 0
+
+    const queue = [beginWord]
+    let steps = 1
+
+    while (queue.length > 0) {
+        const levelSize = queue.length
+
+        for (let i = 0; i < levelSize; i++) {
+            const word = queue.shift()!
+
+            // Try changing each letter
+            for (let pos = 0; pos < word.length; pos++) {
+                for (let charCode = 97; charCode <= 122; charCode++) {
+                    // 'a' to 'z'
+                    const newChar = String.fromCodePoint(charCode)
+                    if (newChar === word[pos]) continue
+
+                    const newWord = word.slice(0, pos) + newChar + word.slice(pos + 1)
+
+                    if (newWord === endWord) return steps + 1
+
+                    if (wordSet.has(newWord)) {
+                        queue.push(newWord)
+                        wordSet.delete(newWord)
                     }
                 }
-                chars[i] = oldChar
             }
         }
-        beginSet = tempSet
-        len++
+
+        steps++
     }
+
     return 0
 }
 

@@ -26,10 +26,10 @@ function kthSmallest(root: TreeNode | null, k: number): number {
             while (rightmost.right !== null) rightmost = rightmost.right
             rightmost.right = cur
             cur = left
-        } else if (--k !== 0) {
-            cur = cur.right
-        } else {
+        } else if (--k === 0) {
             break
+        } else {
+            cur = cur.right
         }
     }
     return cur.val

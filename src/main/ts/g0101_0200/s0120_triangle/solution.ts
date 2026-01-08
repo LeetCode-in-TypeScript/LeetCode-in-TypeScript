@@ -8,7 +8,7 @@ function minimumTotal(triangle: number[][]): number {
     }
     const rows = triangle.length
     const cols = triangle[rows - 1].length
-    const dp: number[][] = Array.from({ length: rows }, () => Array(cols).fill(-10001))
+    const dp: number[][] = Array.from({ length: rows }, () => new Array(cols).fill(-10001))
     function dfs(row: number, col: number): number {
         if (row >= triangle.length) {
             return 0

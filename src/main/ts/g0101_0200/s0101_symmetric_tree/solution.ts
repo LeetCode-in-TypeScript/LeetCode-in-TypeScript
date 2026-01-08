@@ -33,8 +33,7 @@ function isSymmetric(root: TreeNode | null): boolean {
             if (!leftNode || !rightNode || leftNode.val != rightNode.val) {
                 return false
             }
-            queue.push([leftNode.left, rightNode.right])
-            queue.push([leftNode.right, rightNode.left])
+            queue.push([leftNode.left, rightNode.right], [leftNode.right, rightNode.left])
         }
     }
     return true

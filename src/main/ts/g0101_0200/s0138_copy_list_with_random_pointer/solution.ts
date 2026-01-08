@@ -38,7 +38,7 @@ const copyRandomList = (head: Node | null): Node | null => {
     while (cursor !== null && newCursor !== null) {
         if (cursor.random !== null) {
             const targetNode = map.get(cursor.random)
-            if (typeof targetNode !== 'undefined') {
+            if (targetNode !== undefined) {
                 newCursor.random = targetNode
             }
         }

@@ -69,7 +69,7 @@ class Trie {
     }
 
     private getCharIndex(char: string): number {
-        return char.charCodeAt(0) - 'a'.charCodeAt(0)
+        return char.codePointAt(0)! - 'a'.codePointAt(0)!
     }
 }
 

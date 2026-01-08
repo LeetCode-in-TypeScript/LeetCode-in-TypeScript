@@ -6,47 +6,42 @@
  Do not return anything, modify board in-place instead.
  */
 function solve(board: string[][]): void {
-    if (board.length === 0) {
-        return
-    }
+    if (!board.length) return
+
     const rows = board.length
     const cols = board[0].length
-    const dfs = (board: string[][], row: number, col: number): void => {
-        if (row < 0 || row >= rows || col < 0 || col >= cols || board[row][col] !== 'O') {
-            return
-        }
-        board[row][col] = '#'
-        dfs(board, row + 1, col)
-        dfs(board, row - 1, col)
-        dfs(board, row, col + 1)
-        dfs(board, row, col - 1)
-    }
-    for (let i = 0; i < cols; i++) {
-        if (board[0][i] === 'O') {
-            dfs(board, 0, i)
-        }
-        if (board[rows - 1][i] === 'O') {
-            dfs(board, rows - 1, i)
+    const dirs = [[1,0], [-1,0], [0,1], [0,-1]]
+
+    const dfs = (r: number, c: number): void => {
+        if (
+            r < 0 || r >= rows ||
+            c < 0 || c >= cols ||
+            board[r][c] !== 'O'
+        ) return
+
+        board[r][c] = '#'
+        for (const [dr, dc] of dirs) {
+            dfs(r + dr, c + dc)
         }
     }
+
+    // mark border-connected O's
     for (let i = 0; i < rows; i++) {
-        if (board[i][0] === 'O') {
-            dfs(board, i, 0)
-        }
-        if (board[i][cols - 1] === 'O') {
-            dfs(board, i, cols - 1)
-        }
+        dfs(i, 0)
+        dfs(i, cols - 1)
     }
+    for (let j = 0; j < cols; j++) {
+        dfs(0, j)
+        dfs(rows - 1, j)
+    }
+
+    // flip & restore
     for (let i = 0; i < rows; i++) {
         for (let j = 0; j < cols; j++) {
-            if (board[i][j] === 'O') {
-                board[i][j] = 'X'
-            }
-            if (board[i][j] === '#') {
-                board[i][j] = 'O'
-            }
+            board[i][j] = board[i][j] === '#' ? 'O' : 'X'
         }
     }
 }
+
 
 export { solve }

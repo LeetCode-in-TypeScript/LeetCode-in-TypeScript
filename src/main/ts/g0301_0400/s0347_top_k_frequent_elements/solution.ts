@@ -7,8 +7,11 @@ function topKFrequent(nums: number[], k: number): number[] {
     let hashMap = new Map<number, number>()
     let res: number[] = new Array()
     nums.forEach((num) => {
-        if (!hashMap.has(num)) hashMap.set(num, 1)
-        else hashMap.set(num, hashMap.get(num)! + 1)
+        if (hashMap.has(num)) {
+            hashMap.set(num, hashMap.get(num)! + 1)
+        } else {
+            hashMap.set(num, 1)
+        }
     })
     hashMap.forEach((value, key) => {
         if (elementCount[value] === undefined) elementCount[value] = [key]
