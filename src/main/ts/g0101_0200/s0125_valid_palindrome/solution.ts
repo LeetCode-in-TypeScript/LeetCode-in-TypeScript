@@ -5,7 +5,7 @@ function isPalindrome(s: string): boolean {
     if (s.length < 2) {
         return true
     }
-    let sFormated = s.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')
+    let sFormated = s.toLowerCase().replaceAll(/[^a-zA-Z0-9]/g, '')
     let reversed = sFormated.split('').reverse().join('').replace(',', '')
     return sFormated === reversed
 }

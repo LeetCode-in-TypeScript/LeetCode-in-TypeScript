@@ -27,7 +27,11 @@ class BSTIterator {
     next(): number {
         let res = -1
         while (this.node !== null) {
-            if (this.node.left !== null) {
+            if (this.node.left === null) {
+                res = this.node.val
+                this.node = this.node.right
+                return res
+            } else {
                 let rightMost = this.node.left
                 while (rightMost.right !== null && rightMost.right !== this.node) {
                     rightMost = rightMost.right
@@ -42,10 +46,6 @@ class BSTIterator {
                     this.node = this.node.right
                     return res
                 }
-            } else {
-                res = this.node.val
-                this.node = this.node.right
-                return res
             }
         }
         return res

@@ -8,8 +8,8 @@ function isAnagram(s: string, t: string): boolean {
     }
     let counts = new Array(26).fill(0)
     for (let i = 0; i < s.length; ++i) {
-        counts[s.charCodeAt(i) - 'a'.charCodeAt(0)]++
-        counts[t.charCodeAt(i) - 'a'.charCodeAt(0)]--
+        counts[s.codePointAt(i)! - 'a'.codePointAt(0)!]++
+        counts[t.codePointAt(i)! - 'a'.codePointAt(0)!]--
     }
     return counts.every((c) => c === 0)
 }

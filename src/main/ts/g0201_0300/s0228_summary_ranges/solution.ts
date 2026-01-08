@@ -10,7 +10,9 @@ function summaryRanges(nums: number[]): string[] {
     let b = a
     let strB = ''
     for (let i = 1; i < n; i++) {
-        if (nums[i] !== b + 1) {
+        if (nums[i] === b + 1) {
+            b++
+        } else {
             strB = a.toString()
             if (a !== b) {
                 strB += '->' + b.toString()
@@ -18,9 +20,6 @@ function summaryRanges(nums: number[]): string[] {
             ranges.push(strB)
             a = nums[i]
             b = a
-            strB = ''
-        } else {
-            b++
         }
     }
     strB = a.toString()

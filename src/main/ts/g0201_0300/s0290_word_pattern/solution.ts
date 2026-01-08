@@ -15,10 +15,8 @@ function wordPattern(pattern: string, s: string): boolean {
                 return false
             }
             map.set(char, word)
-        } else {
-            if (map.get(char) !== word) {
-                return false
-            }
+        } else if (map.get(char) !== word) {
+            return false
         }
     }
     return true

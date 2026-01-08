@@ -14,8 +14,7 @@ class WordDictionary {
 
     addWord(word: string): void {
         let current = this.root
-        for (let i = 0; i < word.length; i++) {
-            const letter = word[i]
+        for (const letter of word) {
             if (!current.hasOwnProperty(letter)) {
                 current[letter] = {}
             }
@@ -33,12 +32,10 @@ class WordDictionary {
             index += 1
             if (currentLetter === '.') {
                 return Object.keys(subtree).some((letter) => searchSubtree(word, index, subtree[letter] as TrieNode))
+            } else if (subtree.hasOwnProperty(currentLetter)) {
+                return searchSubtree(word, index, subtree[currentLetter] as TrieNode)
             } else {
-                if (subtree.hasOwnProperty(currentLetter)) {
-                    return searchSubtree(word, index, subtree[currentLetter] as TrieNode)
-                } else {
-                    return false
-                }
+                return false
             }
         }
         return searchSubtree(word, 0, this.root)

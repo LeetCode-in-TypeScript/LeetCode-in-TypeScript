@@ -18,37 +18,31 @@ import { TreeNode } from '../../com_github_leetcode/treenode'
  * }
  */
 function zigzagLevelOrder(root: TreeNode | null): number[][] {
+    if (!root) return []
+
     const result: number[][] = []
-    if (root === null) {
-        return result
-    }
-    const q: (TreeNode | null)[] = [root, null]
-    let zig = true
-    let level: number[] = []
-    while (q.length > 0) {
-        const node = q.shift()
-        if (node === null) {
-            result.push(level)
-            zig = !zig
-            level = []
-            if (q.length > 0) {
-                q.push(null)
-            }
-        } else {
-            if (zig) {
-                level.push(node.val)
-            } else {
-                level.unshift(node.val)
-            }
-            if (node.left !== null) {
-                q.push(node.left)
-            }
-            if (node.right !== null) {
-                q.push(node.right)
-            }
+    const queue: TreeNode[] = [root]
+    let leftToRight = true
+
+    while (queue.length) {
+        const size = queue.length
+        const level = new Array<number>(size)
+
+        for (let i = 0; i < size; i++) {
+            const node = queue.shift()!
+            const index = leftToRight ? i : size - 1 - i
+            level[index] = node.val
+
+            if (node.left) queue.push(node.left)
+            if (node.right) queue.push(node.right)
         }
+
+        result.push(level)
+        leftToRight = !leftToRight
     }
+
     return result
 }
+
 
 export { zigzagLevelOrder }
