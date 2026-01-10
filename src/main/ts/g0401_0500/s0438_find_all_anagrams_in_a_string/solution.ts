@@ -6,18 +6,18 @@
 function findAnagrams(s: string, p: string): number[] {
     const map: number[] = new Array(26).fill(0)
     for (let i = 0; i < p.length; ++i) {
-        map[p.charCodeAt(i) - 'a'.charCodeAt(0)]++
+        map[p.codePointAt(i)! - 'a'.codePointAt(0)!]++
     }
     const res: number[] = []
     let i: number = 0
     let j: number = 0
     while (i < s.length) {
-        const idx: number = s.charCodeAt(i) - 'a'.charCodeAt(0)
+        const idx: number = s.codePointAt(i)! - 'a'.codePointAt(0)!
         // Add the new character
         map[idx]--
         // If the length is greater than window's length, pop the left character in the window
         if (i >= p.length) {
-            map[s.charCodeAt(j++) - 'a'.charCodeAt(0)]++
+            map[s.codePointAt(j++)! - 'a'.codePointAt(0)!]++
         }
         let finish: boolean = true
         for (let k = 0; k < 26; k++) {
