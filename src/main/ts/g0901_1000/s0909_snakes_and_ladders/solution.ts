@@ -4,30 +4,51 @@
 function snakesAndLadders(board: number[][]): number {
     const size = board.length
     const target = size * size
-    const visited: boolean[] = new Array(target).fill(false)
-    const queue: number[] = []
-    queue.push(1)
+
+    const visited = new Array<boolean>(target).fill(false)
+    const queue: number[] = [1]
+
     visited[0] = true
     let steps = 0
+
     while (queue.length > 0) {
         const levelSize = queue.length
+
         for (let i = 0; i < levelSize; i++) {
             const current = queue.shift()!
+
             if (current === target) {
                 return steps
             }
-            for (let next = current + 1; next <= Math.min(current + 6, target); next++) {
-                if (visited[next - 1]) continue
-                visited[next - 1] = true
-                const [row, col] = indexToPosition(next, size)
-                const destination = board[row][col] === -1 ? next : board[row][col]
-                queue.push(destination)
-            }
+
+            enqueueNextMoves(current, target, size, board, visited, queue)
         }
+
         steps++
     }
 
     return -1
+}
+
+function enqueueNextMoves(
+    current: number,
+    target: number,
+    size: number,
+    board: number[][],
+    visited: boolean[],
+    queue: number[],
+): void {
+    for (let next = current + 1; next <= Math.min(current + 6, target); next++) {
+        if (visited[next - 1]) continue
+
+        visited[next - 1] = true
+        queue.push(resolveDestination(next, size, board))
+    }
+}
+
+function resolveDestination(index: number, size: number, board: number[][]): number {
+    const [row, col] = indexToPosition(index, size)
+    return board[row][col] === -1 ? index : board[row][col]
 }
 
 function indexToPosition(index: number, size: number): [number, number] {

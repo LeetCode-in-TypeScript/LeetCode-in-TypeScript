@@ -3,12 +3,12 @@
 
 function expand(a: string[], l: number, r: number, res: number[]): void {
     while (l >= 0 && r < a.length) {
-        if (a[l] !== a[r]) {
-            return
-        } else {
+        if (a[l] === a[r]) {
             res[0]++
             l--
             r++
+        } else {
+            return
         }
     }
 }

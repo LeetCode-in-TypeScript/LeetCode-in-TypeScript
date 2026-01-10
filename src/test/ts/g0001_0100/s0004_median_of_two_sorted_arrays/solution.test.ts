@@ -3,7 +3,7 @@ import { findMedianSortedArrays } from 'src/main/ts/g0001_0100/s0004_median_of_t
 import { expect, test } from 'vitest'
 
 test('findMedianSortedArrays', () => {
-    expect(findMedianSortedArrays([1, 3], [2])).toEqual(2.0)
+    expect(findMedianSortedArrays([1, 3], [2])).toEqual(2)
 })
 
 test('findMedianSortedArrays2', () => {

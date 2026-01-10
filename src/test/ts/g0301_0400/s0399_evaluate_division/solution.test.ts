@@ -7,7 +7,7 @@ test('calcEquation', () => {
         ['a', 'b'],
         ['b', 'c'],
     ] as [string, string][]
-    const values = [2.0, 3.0]
+    const values = [2, 3]
     const queries = [
         ['a', 'c'],
         ['b', 'a'],
@@ -15,7 +15,7 @@ test('calcEquation', () => {
         ['a', 'a'],
         ['x', 'x'],
     ] as [string, string][]
-    const expected = [6.0, 0.5, -1.0, 1.0, -1.0]
+    const expected = [6, 0.5, -1, 1, -1]
     expect(calcEquation(equations, values, queries)).toEqual(expected)
 })
 
@@ -25,14 +25,14 @@ test('calcEquation2', () => {
         ['b', 'c'],
         ['bc', 'cd'],
     ] as [string, string][]
-    const values = [1.5, 2.5, 5.0]
+    const values = [1.5, 2.5, 5]
     const queries = [
         ['a', 'c'],
         ['c', 'b'],
         ['bc', 'cd'],
         ['cd', 'bc'],
     ] as [string, string][]
-    const expected = [3.75, 0.4, 5.0, 0.2]
+    const expected = [3.75, 0.4, 5, 0.2]
     expect(calcEquation(equations, values, queries)).toEqual(expected)
 })
 
@@ -45,6 +45,6 @@ test('calcEquation3', () => {
         ['a', 'c'],
         ['x', 'y'],
     ] as [string, string][]
-    const expected = [0.5, 2.0, -1.0, -1.0]
+    const expected = [0.5, 2, -1, -1]
     expect(calcEquation(equations, values, queries)).toEqual(expected)
 })

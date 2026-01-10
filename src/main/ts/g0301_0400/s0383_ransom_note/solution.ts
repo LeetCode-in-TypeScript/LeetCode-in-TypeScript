@@ -5,10 +5,10 @@ function canConstruct(ransomNote: string, magazine: string): boolean {
     const freq: number[] = new Array(26).fill(0)
     let remaining = ransomNote.length
     for (let i = 0; i < remaining; i++) {
-        freq[ransomNote.charCodeAt(i) - 97]++
+        freq[ransomNote.codePointAt(i)! - 97]++
     }
     for (let i = 0; i < magazine.length && remaining > 0; i++) {
-        const index = magazine.charCodeAt(i) - 97
+        const index = magazine.codePointAt(i)! - 97
         if (freq[index] > 0) {
             freq[index]--
             remaining--

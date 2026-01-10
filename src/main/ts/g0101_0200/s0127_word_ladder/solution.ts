@@ -6,7 +6,7 @@ function ladderLength(beginWord: string, endWord: string, wordList: string[]): n
     const wordSet = new Set(wordList)
     if (!wordSet.has(endWord)) return 0
 
-    const queue = [beginWord]
+    const queue: string[] = [beginWord]
     let steps = 1
 
     while (queue.length > 0) {
@@ -15,22 +15,8 @@ function ladderLength(beginWord: string, endWord: string, wordList: string[]): n
         for (let i = 0; i < levelSize; i++) {
             const word = queue.shift()!
 
-            // Try changing each letter
-            for (let pos = 0; pos < word.length; pos++) {
-                for (let charCode = 97; charCode <= 122; charCode++) {
-                    // 'a' to 'z'
-                    const newChar = String.fromCodePoint(charCode)
-                    if (newChar === word[pos]) continue
-
-                    const newWord = word.slice(0, pos) + newChar + word.slice(pos + 1)
-
-                    if (newWord === endWord) return steps + 1
-
-                    if (wordSet.has(newWord)) {
-                        queue.push(newWord)
-                        wordSet.delete(newWord)
-                    }
-                }
+            if (processNextWords(word, endWord, wordSet, queue)) {
+                return steps + 1
             }
         }
 
@@ -38,6 +24,48 @@ function ladderLength(beginWord: string, endWord: string, wordList: string[]): n
     }
 
     return 0
+}
+
+function processNextWords(
+    word: string,
+    endWord: string,
+    wordSet: Set<string>,
+    queue: string[]
+): boolean {
+    for (let pos = 0; pos < word.length; pos++) {
+        if (tryAllReplacements(word, pos, endWord, wordSet, queue)) {
+            return true
+        }
+    }
+    return false
+}
+
+
+function tryAllReplacements(
+    word: string,
+    pos: number,
+    endWord: string,
+    wordSet: Set<string>,
+    queue: string[],
+): boolean {
+    for (let c = 97; c <= 122; c++) {
+        const char = String.fromCodePoint(c)
+        if (char === word[pos]) continue
+
+        const newWord = replaceChar(word, pos, char)
+
+        if (newWord === endWord) return true
+
+        if (wordSet.has(newWord)) {
+            queue.push(newWord)
+            wordSet.delete(newWord)
+        }
+    }
+    return false
+}
+
+function replaceChar(word: string, index: number, char: string): string {
+    return word.slice(0, index) + char + word.slice(index + 1)
 }
 
 export { ladderLength }

@@ -11,11 +11,11 @@ function calcEquation(equations: [string, string][], values: number[], queries: 
     for (const [x, y] of equations) {
         if (!root.has(x)) {
             root.set(x, x)
-            rate.set(x, 1.0)
+            rate.set(x, 1)
         }
         if (!root.has(y)) {
             root.set(y, y)
-            rate.set(y, 1.0)
+            rate.set(y, 1)
         }
     }
     for (let i = 0; i < equations.length; ++i) {
@@ -25,14 +25,14 @@ function calcEquation(equations: [string, string][], values: number[], queries: 
     const result: number[] = []
     for (const [x, y] of queries) {
         if (!root.has(x) || !root.has(y)) {
-            result.push(-1.0)
+            result.push(-1)
         } else {
-            const rootX = findRoot(x, x, 1.0, root, rate)
-            const rootY = findRoot(y, y, 1.0, root, rate)
+            const rootX = findRoot(x, x, 1, root, rate)
+            const rootY = findRoot(y, y, 1, root, rate)
             if (rootX === rootY) {
                 result.push(rate.get(x)! / rate.get(y)!)
             } else {
-                result.push(-1.0)
+                result.push(-1)
             }
         }
     }
@@ -40,8 +40,8 @@ function calcEquation(equations: [string, string][], values: number[], queries: 
 }
 
 function union(x: string, y: string, value: number, root: MapType, rate: RateType): void {
-    const rootX = findRoot(x, x, 1.0, root, rate)
-    const rootY = findRoot(y, y, 1.0, root, rate)
+    const rootX = findRoot(x, x, 1, root, rate)
+    const rootY = findRoot(y, y, 1, root, rate)
 
     if (rootX !== rootY) {
         root.set(rootX, rootY)

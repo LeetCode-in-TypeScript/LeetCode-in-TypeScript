@@ -10,9 +10,9 @@ test('threeSum', () => {
 })
 
 test('threeSum2', () => {
-    expect(threeSum([])).toEqual(Array())
+    expect(threeSum([])).toEqual(new Array())
 })
 
 test('threeSum3', () => {
-    expect(threeSum([0])).toEqual(Array())
+    expect(threeSum([0])).toEqual(new Array())
 })
