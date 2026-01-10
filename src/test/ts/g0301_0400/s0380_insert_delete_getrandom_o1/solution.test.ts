@@ -3,23 +3,24 @@ import { RandomizedSet } from 'src/main/ts/g0301_0400/s0380_insert_delete_getran
 import { expect, test } from 'vitest'
 
 test('randomizedSet', () => {
-    const result: string[] = []
-    let randomizedSet: RandomizedSet | null = null
-    result.push(randomizedSet + '')
-    randomizedSet = new RandomizedSet()
-    result.push(randomizedSet.insert(1) + '')
-    result.push(randomizedSet.remove(2) + '')
-    result.push(randomizedSet.insert(2) + '')
-    const random = randomizedSet.getRandom()
-    result.push(random + '')
-    result.push(randomizedSet.remove(1) + '')
-    result.push(randomizedSet.insert(2) + '')
-    result.push(randomizedSet.getRandom() + '')
-    const expected = ['null', 'true', 'false', 'true', '1', 'true', 'false', '2']
+    let randomizedSet: RandomizedSet = new RandomizedSet()
+
+    const result = [
+        null,
+        randomizedSet.insert(1),
+        randomizedSet.remove(2),
+        randomizedSet.insert(2),
+        randomizedSet.getRandom(),
+        randomizedSet.remove(1),
+        randomizedSet.insert(2),
+        randomizedSet.getRandom(),
+    ].map(String)
+
+    const random = Number(result[4])
+
+    const expected1 = ['null', 'true', 'false', 'true', '1', 'true', 'false', '2']
     const expected2 = ['null', 'true', 'false', 'true', '2', 'true', 'false', '2']
-    if (random === 1) {
-        expect(result).toEqual(expected)
-    } else {
-        expect(result).toEqual(expected2)
-    }
+
+    expect(result).toEqual(random === 1 ? expected1 : expected2)
 })
+

@@ -3,7 +3,7 @@ import { myPow } from 'src/main/ts/g0001_0100/s0050_powx_n/solution'
 import { expect, test } from 'vitest'
 
 test('myPow', () => {
-    expect(myPow(2.0, 10)).toEqual(1024.0)
+    expect(myPow(2, 10)).toEqual(1024)
 })
 
 test('myPow2', () => {
@@ -11,5 +11,5 @@ test('myPow2', () => {
 })
 
 test('myPow3', () => {
-    expect(myPow(2.0, -2)).toEqual(0.25)
+    expect(myPow(2, -2)).toEqual(0.25)
 })

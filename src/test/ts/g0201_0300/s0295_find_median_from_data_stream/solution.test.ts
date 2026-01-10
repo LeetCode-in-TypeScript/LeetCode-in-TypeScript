@@ -8,7 +8,7 @@ test('medianFinder', () => {
     medianFinder.addNum(2)
     expect(medianFinder.findMedian()).toEqual(1.5)
     medianFinder.addNum(3)
-    expect(medianFinder.findMedian()).toEqual(2.0)
+    expect(medianFinder.findMedian()).toEqual(2)
 })
 
 test('medianFinder2', () => {
@@ -16,7 +16,7 @@ test('medianFinder2', () => {
     medianFinder.addNum(1)
     medianFinder.addNum(3)
     medianFinder.addNum(-1)
-    expect(medianFinder.findMedian()).toEqual(1.0)
+    expect(medianFinder.findMedian()).toEqual(1)
 })
 
 test('medianFinder3', () => {
@@ -26,7 +26,7 @@ test('medianFinder3', () => {
     medianFinder.addNum(-3)
     medianFinder.addNum(-4)
     medianFinder.addNum(-5)
-    expect(medianFinder.findMedian()).toEqual(-3.0)
+    expect(medianFinder.findMedian()).toEqual(-3)
 })
 
 test('medianFinder4', () => {
