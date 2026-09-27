@@ -26,7 +26,7 @@ function deleteDuplicates(head: ListNode | null): ListNode | null {
     let curr: ListNode | null = head
     while (curr) {
         let hasDuplicate = false
-        while (curr.next && curr.val === curr.next.val) {
+        while (curr.val === curr.next?.val) {
             hasDuplicate = true
             curr = curr.next
         }
