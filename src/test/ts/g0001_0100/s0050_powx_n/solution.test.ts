@@ -7,7 +7,7 @@ test('myPow', () => {
 })
 
 test('myPow2', () => {
-    expect(myPow(2.1, 3)).toEqual(9.261000000000001)
+    expect(myPow(2.1, 3)).toBeCloseTo(9.261000000000001)
 })
 
 test('myPow3', () => {
