@@ -47,7 +47,7 @@
     "typescript": "^5.1.6"
   },
   "devDependencies": {
-    "@vitest/coverage-istanbul": "^0.34.5",
+    "@vitest/coverage-istanbul": ">=3.2.6",
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.1",
