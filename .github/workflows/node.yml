@@ -37,7 +37,7 @@ jobs:
         uses: sonarsource/sonarqube-scan-action@v6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: 9d2e151e2fed054830e4e7b19be16a2b2645680a
+          SONAR_TOKEN: 8a74507607b1d83c39e5bf1c9d8418bf4010582d
 
       - name: Upload coverage to codecov
         run: curl -s https://codecov.io/bash | bash
